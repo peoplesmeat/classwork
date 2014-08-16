@@ -1,0 +1,2556 @@
+Beginning Sample 1535 examples, 60 attributes
+Using 5-fold validation
+Using Test/Training Set #0
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.434522319617885
+Exploring attribute value A
+DTL...29 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...41 examples, 59 attributes
+Selecting Maximum Attribute 27 with Gain 0.165427033996267
+Exploring attribute value A
+DTL...1 examples, 58 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...5 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...35 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...210 examples, 59 attributes
+Selecting Maximum Attribute 30 with Gain 0.440191255164856
+Exploring attribute value A
+DTL...18 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...175 examples, 58 attributes
+Selecting Maximum Attribute 34 with Gain 0.152892997070566
+Exploring attribute value A
+DTL...5 examples, 57 attributes
+Selecting Maximum Attribute 6 with Gain 0.970950594454669
+Exploring attribute value A
+DTL...3 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...141 examples, 57 attributes
+Selecting Maximum Attribute 32 with Gain 0.0562031959630407
+Exploring attribute value A
+DTL...69 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...62 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...5 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.721928094887362
+Exploring attribute value A
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...3 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...5 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.721928094887362
+Exploring attribute value A
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...3 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...10 examples, 57 attributes
+Selecting Maximum Attribute 33 with Gain 0.8
+Exploring attribute value A
+DTL...4 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...2 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...2 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 1
+Exploring attribute value A
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...2 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...19 examples, 57 attributes
+Selecting Maximum Attribute 44 with Gain 0.609755600575792
+Exploring attribute value A
+DTL...2 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...5 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...6 examples, 56 attributes
+Selecting Maximum Attribute 7 with Gain 0.91829583405449
+Exploring attribute value A
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...4 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...6 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...4 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...13 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...27 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=False) in -22 milliseconds containing 97 nodes
+Classified 1228 examples, using an average of 6.87133550488599 examined nodes
+Acheived 0.914495114006515 Accurracy in -1 Milliseconds
+
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.434522319617885
+Node has Chi Squared 150.342621494915
+Exploring attribute value A
+DTL...29 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...41 examples, 59 attributes
+Selecting Maximum Attribute 27 with Gain 0.165427033996267
+Node has Chi Squared 41
+Exploring attribute value A
+DTL...1 examples, 58 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...5 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...35 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...210 examples, 59 attributes
+Selecting Maximum Attribute 30 with Gain 0.440191255164856
+Node has Chi Squared 134.4
+Exploring attribute value A
+DTL...18 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...175 examples, 58 attributes
+Selecting Maximum Attribute 34 with Gain 0.152892997070566
+Node has Chi Squared 50.2427542148812
+Exploring attribute value A
+DTL...5 examples, 57 attributes
+Selecting Maximum Attribute 6 with Gain 0.970950594454669
+Node has Chi Squared 5
+Pruning Attribute, returning EI
+Exploring attribute value G
+DTL...141 examples, 57 attributes
+Selecting Maximum Attribute 32 with Gain 0.0562031959630407
+Node has Chi Squared 26.5769784172662
+Exploring attribute value A
+DTL...69 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...62 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...5 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.721928094887362
+Node has Chi Squared 5
+Pruning Attribute, returning EI
+Exploring attribute value C
+DTL...5 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.721928094887362
+Node has Chi Squared 5
+Pruning Attribute, returning EI
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...10 examples, 57 attributes
+Selecting Maximum Attribute 33 with Gain 0.8
+Node has Chi Squared 8
+Pruning Attribute, returning IE
+Exploring attribute value C
+DTL...19 examples, 57 attributes
+Selecting Maximum Attribute 44 with Gain 0.609755600575792
+Node has Chi Squared 12.8290598290598
+Pruning Attribute, returning EI
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...4 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...13 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...27 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=True) in -22 milliseconds containing 41 nodes
+Classified 1228 examples, using an average of 6.4470684039088 examined nodes
+Acheived 0.907166123778502 Accurracy in -1 Milliseconds
+
+
+Using Test/Training Set #1
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.438258605415709
+Exploring attribute value A
+DTL...37 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...41 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...196 examples, 59 attributes
+Selecting Maximum Attribute 30 with Gain 0.368391885289963
+Exploring attribute value A
+DTL...10 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...163 examples, 58 attributes
+Selecting Maximum Attribute 32 with Gain 0.145424958317483
+Exploring attribute value A
+DTL...72 examples, 57 attributes
+Selecting Maximum Attribute 51 with Gain 0.0928692886008738
+Exploring attribute value A
+DTL...14 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...24 examples, 56 attributes
+Selecting Maximum Attribute 47 with Gain 0.297339361368764
+Exploring attribute value A
+DTL...5 examples, 55 attributes
+Selecting Maximum Attribute 0 with Gain 0.970950594454669
+Exploring attribute value A
+DTL...1 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...3 examples, 54 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...1 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...8 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...6 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...5 examples, 55 attributes
+Selecting Maximum Attribute 3 with Gain 0.721928094887362
+Exploring attribute value A
+DTL...1 examples, 54 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...3 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...1 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...14 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...20 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...77 examples, 57 attributes
+Selecting Maximum Attribute 34 with Gain 0.233468911267782
+Exploring attribute value A
+DTL...2 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...67 examples, 56 attributes
+Selecting Maximum Attribute 14 with Gain 0.13224148158508
+Exploring attribute value A
+DTL...18 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...14 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...10 examples, 55 attributes
+Selecting Maximum Attribute 46 with Gain 0.881290899230693
+Exploring attribute value A
+DTL...2 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...3 examples, 54 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...3 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...2 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...25 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...4 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.811278124459133
+Exploring attribute value A
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...2 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...4 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 1
+Exploring attribute value A
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...2 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...5 examples, 57 attributes
+Selecting Maximum Attribute 2 with Gain 0.970950594454669
+Exploring attribute value A
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...2 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...2 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...9 examples, 57 attributes
+Selecting Maximum Attribute 0 with Gain 0.503258334775646
+Exploring attribute value A
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...2 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...6 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...11 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...12 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...33 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=False) in -23 milliseconds containing 113 nodes
+Classified 1228 examples, using an average of 7.44299674267101 examined nodes
+Acheived 0.923452768729642 Accurracy in -1 Milliseconds
+
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.438258605415709
+Node has Chi Squared 143.850309766764
+Exploring attribute value A
+DTL...37 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...41 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...196 examples, 59 attributes
+Selecting Maximum Attribute 30 with Gain 0.368391885289963
+Node has Chi Squared 96.765902486277
+Exploring attribute value A
+DTL...10 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...163 examples, 58 attributes
+Selecting Maximum Attribute 32 with Gain 0.145424958317483
+Node has Chi Squared 46.9759376914053
+Exploring attribute value A
+DTL...72 examples, 57 attributes
+Selecting Maximum Attribute 51 with Gain 0.0928692886008738
+Node has Chi Squared 8.47058823529412
+Pruning Attribute, returning EI
+Exploring attribute value G
+DTL...77 examples, 57 attributes
+Selecting Maximum Attribute 34 with Gain 0.233468911267782
+Node has Chi Squared 36.1547505012252
+Exploring attribute value A
+DTL...2 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...67 examples, 56 attributes
+Selecting Maximum Attribute 14 with Gain 0.13224148158508
+Node has Chi Squared 17.9015625
+Exploring attribute value A
+DTL...18 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...14 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...10 examples, 55 attributes
+Selecting Maximum Attribute 46 with Gain 0.881290899230693
+Node has Chi Squared 10
+Pruning Attribute, returning EI
+Exploring attribute value C
+DTL...25 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...4 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.811278124459133
+Node has Chi Squared 4
+Pruning Attribute, returning IE
+Exploring attribute value C
+DTL...4 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 1
+Node has Chi Squared 4
+Pruning Attribute, returning EI
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...5 examples, 57 attributes
+Selecting Maximum Attribute 2 with Gain 0.970950594454669
+Node has Chi Squared 5
+Pruning Attribute, returning EI
+Exploring attribute value C
+DTL...9 examples, 57 attributes
+Selecting Maximum Attribute 0 with Gain 0.503258334775646
+Node has Chi Squared 9
+Pruning Attribute, returning IE
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...11 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...12 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...33 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=True) in -21 milliseconds containing 41 nodes
+Classified 1228 examples, using an average of 6.21009771986971 examined nodes
+Acheived 0.935667752442997 Accurracy in -1 Milliseconds
+
+
+Using Test/Training Set #2
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.498235194043904
+Exploring attribute value A
+DTL...50 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...27 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...188 examples, 59 attributes
+Selecting Maximum Attribute 30 with Gain 0.373142182940814
+Exploring attribute value A
+DTL...10 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...162 examples, 58 attributes
+Selecting Maximum Attribute 34 with Gain 0.198327129981456
+Exploring attribute value A
+DTL...12 examples, 57 attributes
+Selecting Maximum Attribute 25 with Gain 0.709442715164775
+Exploring attribute value A
+DTL...4 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...3 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...4 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.811278124459133
+Exploring attribute value A
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...2 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...125 examples, 57 attributes
+Selecting Maximum Attribute 32 with Gain 0.0451824447409991
+Exploring attribute value A
+DTL...48 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...72 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...3 examples, 56 attributes
+Selecting Maximum Attribute 2 with Gain 0.91829583405449
+Exploring attribute value A
+DTL...2 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...13 examples, 57 attributes
+Selecting Maximum Attribute 38 with Gain 0.46553604083261
+Exploring attribute value A
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...6 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...2 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 1
+Exploring attribute value A
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...4 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...12 examples, 57 attributes
+Selecting Maximum Attribute 54 with Gain 0.709442715164775
+Exploring attribute value A
+DTL...4 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.811278124459133
+Exploring attribute value A
+DTL...2 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...4 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...3 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...5 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...11 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...42 examples, 59 attributes
+Selecting Maximum Attribute 18 with Gain 0.145010308497298
+Exploring attribute value A
+DTL...6 examples, 58 attributes
+Selecting Maximum Attribute 9 with Gain 0.91829583405449
+Exploring attribute value A
+DTL...1 examples, 57 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...1 examples, 57 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...4 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...21 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...11 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=False) in -21 milliseconds containing 105 nodes
+Classified 1228 examples, using an average of 6.87947882736156 examined nodes
+Acheived 0.912866449511401 Accurracy in -1 Milliseconds
+
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.498235194043904
+Node has Chi Squared 171.030053780017
+Exploring attribute value A
+DTL...50 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...27 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...188 examples, 59 attributes
+Selecting Maximum Attribute 30 with Gain 0.373142182940814
+Node has Chi Squared 108.180668473351
+Exploring attribute value A
+DTL...10 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...162 examples, 58 attributes
+Selecting Maximum Attribute 34 with Gain 0.198327129981456
+Node has Chi Squared 60.6226888540031
+Exploring attribute value A
+DTL...12 examples, 57 attributes
+Selecting Maximum Attribute 25 with Gain 0.709442715164775
+Node has Chi Squared 8.91428571428571
+Pruning Attribute, returning EI
+Exploring attribute value G
+DTL...125 examples, 57 attributes
+Selecting Maximum Attribute 32 with Gain 0.0451824447409991
+Node has Chi Squared 40.994623655914
+Exploring attribute value A
+DTL...48 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...72 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...3 examples, 56 attributes
+Selecting Maximum Attribute 2 with Gain 0.91829583405449
+Node has Chi Squared 3
+Pruning Attribute, returning EI
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...13 examples, 57 attributes
+Selecting Maximum Attribute 38 with Gain 0.46553604083261
+Node has Chi Squared 9.15909090909091
+Pruning Attribute, returning EI
+Exploring attribute value C
+DTL...12 examples, 57 attributes
+Selecting Maximum Attribute 54 with Gain 0.709442715164775
+Node has Chi Squared 8.91428571428571
+Pruning Attribute, returning IE
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...5 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...11 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...42 examples, 59 attributes
+Selecting Maximum Attribute 18 with Gain 0.145010308497298
+Node has Chi Squared 12.6
+Pruning Attribute, returning IE
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=True) in -20 milliseconds containing 33 nodes
+Classified 1228 examples, using an average of 6.12540716612378 examined nodes
+Acheived 0.917752442996743 Accurracy in -1 Milliseconds
+
+
+Using Test/Training Set #3
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.437896614326198
+Exploring attribute value A
+DTL...36 examples, 59 attributes
+Selecting Maximum Attribute 28 with Gain 0.183122068301373
+Exploring attribute value A
+DTL...35 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...1 examples, 58 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...33 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...205 examples, 59 attributes
+Selecting Maximum Attribute 34 with Gain 0.275823980520115
+Exploring attribute value A
+DTL...19 examples, 58 attributes
+Selecting Maximum Attribute 23 with Gain 0.488668462642503
+Exploring attribute value A
+DTL...4 examples, 57 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...4 examples, 57 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...6 examples, 57 attributes
+Selecting Maximum Attribute 3 with Gain 0.650022421648354
+Exploring attribute value A
+DTL...3 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...5 examples, 57 attributes
+Selecting Maximum Attribute 11 with Gain 0.970950594454669
+Exploring attribute value A
+DTL...2 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...142 examples, 58 attributes
+Selecting Maximum Attribute 30 with Gain 0.111869384392046
+Exploring attribute value A
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...138 examples, 57 attributes
+Selecting Maximum Attribute 33 with Gain 0.0678060285145079
+Exploring attribute value A
+DTL...101 examples, 56 attributes
+Selecting Maximum Attribute 52 with Gain 0.058313222474231
+Exploring attribute value A
+DTL...14 examples, 55 attributes
+Selecting Maximum Attribute 3 with Gain 0.591672778582327
+Exploring attribute value A
+DTL...4 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...5 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...3 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...2 examples, 54 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...30 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...28 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...29 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...16 examples, 56 attributes
+Selecting Maximum Attribute 36 with Gain 0.337290066617014
+Exploring attribute value A
+DTL...3 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...8 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...4 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...12 examples, 56 attributes
+Selecting Maximum Attribute 25 with Gain 0.688721875540867
+Exploring attribute value A
+DTL...3 examples, 55 attributes
+Selecting Maximum Attribute 1 with Gain 0.91829583405449
+Exploring attribute value A
+DTL...1 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...1 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...1 examples, 54 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...6 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...2 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...9 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...21 examples, 58 attributes
+Selecting Maximum Attribute 17 with Gain 0.485260166960472
+Exploring attribute value A
+DTL...4 examples, 57 attributes
+Selecting Maximum Attribute 4 with Gain 0.811278124459133
+Exploring attribute value A
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...2 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...2 examples, 57 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...10 examples, 57 attributes
+Selecting Maximum Attribute 4 with Gain 0.468995593589281
+Exploring attribute value A
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...2 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...3 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...4 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...5 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...23 examples, 58 attributes
+Selecting Maximum Attribute 19 with Gain 0.585804346044467
+Exploring attribute value A
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...6 examples, 57 attributes
+Selecting Maximum Attribute 2 with Gain 0.650022421648354
+Exploring attribute value A
+DTL...4 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...1 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...13 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...32 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...1 examples, 59 attributes
+  All Examples Have EI classification
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=False) in -28 milliseconds containing 145 nodes
+Classified 1228 examples, using an average of 7.93485342019544 examined nodes
+Acheived 0.866449511400652 Accurracy in -1 Milliseconds
+
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.437896614326198
+Node has Chi Squared 149.820638042494
+Exploring attribute value A
+DTL...36 examples, 59 attributes
+Selecting Maximum Attribute 28 with Gain 0.183122068301373
+Node has Chi Squared 36
+Exploring attribute value A
+DTL...35 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...1 examples, 58 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...33 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...205 examples, 59 attributes
+Selecting Maximum Attribute 34 with Gain 0.275823980520115
+Node has Chi Squared 83.1751341148595
+Exploring attribute value A
+DTL...19 examples, 58 attributes
+Selecting Maximum Attribute 23 with Gain 0.488668462642503
+Node has Chi Squared 10.2615079365079
+Pruning Attribute, returning EI
+Exploring attribute value G
+DTL...142 examples, 58 attributes
+Selecting Maximum Attribute 30 with Gain 0.111869384392046
+Node has Chi Squared 49.0171277997365
+Exploring attribute value A
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...138 examples, 57 attributes
+Selecting Maximum Attribute 33 with Gain 0.0678060285145079
+Node has Chi Squared 22.4367151818781
+Exploring attribute value A
+DTL...101 examples, 56 attributes
+Selecting Maximum Attribute 52 with Gain 0.058313222474231
+Node has Chi Squared 12.6796536796537
+Pruning Attribute, returning EI
+Exploring attribute value G
+DTL...16 examples, 56 attributes
+Selecting Maximum Attribute 36 with Gain 0.337290066617014
+Node has Chi Squared 16
+Exploring attribute value A
+DTL...3 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...8 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...4 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...12 examples, 56 attributes
+Selecting Maximum Attribute 25 with Gain 0.688721875540867
+Node has Chi Squared 9
+Pruning Attribute, returning EI
+Exploring attribute value C
+DTL...9 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...21 examples, 58 attributes
+Selecting Maximum Attribute 17 with Gain 0.485260166960472
+Node has Chi Squared 12.915
+Pruning Attribute, returning IE
+Exploring attribute value C
+DTL...23 examples, 58 attributes
+Selecting Maximum Attribute 19 with Gain 0.585804346044467
+Node has Chi Squared 18.1018518518519
+Exploring attribute value A
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...6 examples, 57 attributes
+Selecting Maximum Attribute 2 with Gain 0.650022421648354
+Node has Chi Squared 6
+Pruning Attribute, returning EI
+Exploring attribute value T
+DTL...13 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...2 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...32 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...1 examples, 59 attributes
+  All Examples Have EI classification
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=True) in -26 milliseconds containing 57 nodes
+Classified 1228 examples, using an average of 6.27524429967427 examined nodes
+Acheived 0.88029315960912 Accurracy in -1 Milliseconds
+
+
+Using Test/Training Set #4
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.401057766029795
+Exploring attribute value A
+DTL...30 examples, 59 attributes
+Selecting Maximum Attribute 27 with Gain 0.210842300318532
+Exploring attribute value A
+DTL...1 examples, 58 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...9 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...20 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...34 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...209 examples, 59 attributes
+Selecting Maximum Attribute 30 with Gain 0.275364170298177
+Exploring attribute value A
+DTL...11 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...185 examples, 58 attributes
+Selecting Maximum Attribute 34 with Gain 0.201552416358293
+Exploring attribute value A
+DTL...13 examples, 57 attributes
+Selecting Maximum Attribute 35 with Gain 0.783813028841582
+Exploring attribute value A
+DTL...5 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...3 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.91829583405449
+Exploring attribute value A
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...1 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...4 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...140 examples, 57 attributes
+Selecting Maximum Attribute 33 with Gain 0.0653729289092417
+Exploring attribute value A
+DTL...102 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...21 examples, 56 attributes
+Selecting Maximum Attribute 17 with Gain 0.322531220036303
+Exploring attribute value A
+DTL...6 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...4 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...3 examples, 55 attributes
+Selecting Maximum Attribute 0 with Gain 0.91829583405449
+Exploring attribute value A
+DTL...1 examples, 54 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...1 examples, 54 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...1 examples, 54 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 54 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...8 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...11 examples, 56 attributes
+Selecting Maximum Attribute 40 with Gain 0.684038435639042
+Exploring attribute value A
+DTL...3 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...3 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...2 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...3 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...6 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...15 examples, 57 attributes
+Selecting Maximum Attribute 57 with Gain 0.629473298359841
+Exploring attribute value A
+DTL...4 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...1 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...4 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...6 examples, 56 attributes
+Selecting Maximum Attribute 35 with Gain 0.91829583405449
+Exploring attribute value A
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...4 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...2 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...17 examples, 57 attributes
+Selecting Maximum Attribute 24 with Gain 0.785170753755185
+Exploring attribute value A
+DTL...2 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...3 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value T
+DTL...7 examples, 56 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...5 examples, 56 attributes
+Selecting Maximum Attribute 0 with Gain 0.721928094887362
+Exploring attribute value A
+DTL...2 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...1 examples, 55 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...2 examples, 55 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 55 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...4 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...9 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...34 examples, 59 attributes
+Selecting Maximum Attribute 12 with Gain 0.24173085589259
+Exploring attribute value A
+DTL...3 examples, 58 attributes
+Selecting Maximum Attribute 0 with Gain 0.91829583405449
+Exploring attribute value A
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...2 examples, 57 attributes
+  All Examples Have EI classification
+Exploring attribute value C
+DTL...1 examples, 57 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...4 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...17 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...10 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=False) in -25 milliseconds containing 129 nodes
+Classified 1228 examples, using an average of 7.35179153094463 examined nodes
+Acheived 0.903908794788274 Accurracy in -1 Milliseconds
+
+DTL...307 examples, 60 attributes
+Selecting Maximum Attribute 31 with Gain 0.401057766029795
+Node has Chi Squared 142.947770700533
+Exploring attribute value A
+DTL...30 examples, 59 attributes
+Selecting Maximum Attribute 27 with Gain 0.210842300318532
+Node has Chi Squared 30
+Exploring attribute value A
+DTL...1 examples, 58 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...9 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...20 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value G
+DTL...34 examples, 59 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...209 examples, 59 attributes
+Selecting Maximum Attribute 30 with Gain 0.275364170298177
+Node has Chi Squared 86.220972972973
+Exploring attribute value A
+DTL...11 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value G
+DTL...185 examples, 58 attributes
+Selecting Maximum Attribute 34 with Gain 0.201552416358293
+Node has Chi Squared 60.1117748279022
+Exploring attribute value A
+DTL...13 examples, 57 attributes
+Selecting Maximum Attribute 35 with Gain 0.783813028841582
+Node has Chi Squared 10.3174603174603
+Pruning Attribute, returning IE
+Exploring attribute value G
+DTL...140 examples, 57 attributes
+Selecting Maximum Attribute 33 with Gain 0.0653729289092417
+Node has Chi Squared 15.8467023172905
+Exploring attribute value A
+DTL...102 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value G
+DTL...21 examples, 56 attributes
+Selecting Maximum Attribute 17 with Gain 0.322531220036303
+Node has Chi Squared 13.2631578947368
+Pruning Attribute, returning EI
+Exploring attribute value T
+DTL...11 examples, 56 attributes
+Selecting Maximum Attribute 40 with Gain 0.684038435639042
+Node has Chi Squared 11
+Pruning Attribute, returning EI
+Exploring attribute value C
+DTL...6 examples, 56 attributes
+  All Examples Have EI classification
+Exploring attribute value D
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 56 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...15 examples, 57 attributes
+Selecting Maximum Attribute 57 with Gain 0.629473298359841
+Node has Chi Squared 9.64285714285714
+Pruning Attribute, returning EI
+Exploring attribute value C
+DTL...17 examples, 57 attributes
+Selecting Maximum Attribute 24 with Gain 0.785170753755185
+Node has Chi Squared 13.7888888888889
+Pruning Attribute, returning EI
+Exploring attribute value D
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 57 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value T
+DTL...4 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...9 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value C
+DTL...34 examples, 59 attributes
+Selecting Maximum Attribute 12 with Gain 0.24173085589259
+Node has Chi Squared 21.9583333333333
+Exploring attribute value A
+DTL...3 examples, 58 attributes
+Selecting Maximum Attribute 0 with Gain 0.91829583405449
+Node has Chi Squared 3
+Pruning Attribute, returning EI
+Exploring attribute value G
+DTL...4 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value T
+DTL...17 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value C
+DTL...10 examples, 58 attributes
+  All Examples Have IE classification
+Exploring attribute value D
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 58 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value D
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value N
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value S
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value R
+DTL...0 examples, 59 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=True) in -24 milliseconds containing 49 nodes
+Classified 1228 examples, using an average of 6.70846905537459 examined nodes
+Acheived 0.91042345276873 Accurracy in -1 Milliseconds
+
+
+Avg Nodes Pruned: 44.2, Unpruned: 117.8
+Avg Accuracy Pruned: 0.910260586319218, Unpruned: 0.904234527687296
+Avg Nodes Compared Pruned: 6.35325732899023, Unpruned: 7.29609120521173

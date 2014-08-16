@@ -1,0 +1,121 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent September 24th 2009 
+
+\noindent Homework 3
+
+\begin{enumerate} 
+
+\item[3.4.1]
+If $f_{Y}(y) = 4y^3$ then 
+\[
+P(0 \leq Y \leq \frac{1}{2}) = \int_0^{\frac{1}{2}}4y^3 \,dy = \frac{1}{2}-0 =
+\frac{1}{2}
+\]
+
+\item[3.4.3]
+
+If $f_{Y}(y) = \frac{3}{2}y^2$, then 
+\[
+P(| Y-\frac{1}{2} | < \frac{1}{4}) = \int_{\frac{1}{4}}^{\frac{3}{4}}
+\frac{3}{2}y^2  \,dy = \frac{1}{2}(\frac{3}{4})^3-\frac{1}{2}(\frac{1}{4})^3 =
+\frac{26}{128}
+\]
+
+\item[3.4.8]
+If $f_Y(y)=\lambda e^{-\lambda y}$ then
+\[
+F_{Y}(y) = -e^{-\lambda y}
+\]
+
+\item[3.5.1]
+
+\begin{tabular}{c c c | c}
+\hline
+Number of Guess & Payoff & Probabality & $E(X)$ \\
+\hline
+$<$ 5 & -1\$ & 0.935 & -0.935\\
+5 & 2 & 0.0514 & 0.1028 \\
+6 & 18 & 0.0115 & 0.207 \\
+7 & 180 & 0.0016 & 0.288 \\
+8 & 1,300 & 0.000135 & 0.1755 \\
+9 & 2,600 & 0.00000612 & 0.015912 \\
+10 & 10,000 & 0.000000112 & 0.00112 \\
+\hline 
+ & & E(X) = & -0.144668 \\
+
+\end{tabular}
+
+\item[3.5.9]
+The Expected value is 
+\[
+\int_0^3 y\frac{1}{9}y^2 \,dy = \frac{1}{36}y^4 = \frac{81}{36} = 2.25
+\]
+\item[3.5.12]
+$f_{Y}(y)$ is a valid pdf for $y \geq 1$ because 
+\[
+\int_1^\infty \frac{1}{y^2} \,dy = \lim_{y\to\infty}-\frac{1}{y} - -\frac{1}{1}
+= 1
+\]
+
+However the expected value is infinite because 
+\[
+\int_1^\infty y\frac{1}{y^2} \,dy = \int_1^\infty \frac{1}{y} \,dy = ln(\infty)
+- ln(0) = \infty-1 = \infty
+\]
+\item[3.5.27]
+The expected value is 
+\[
+\sum_{n=0}^{10}{10 \choose
+n}\left(\frac{2}{5}\right)^n\left(\frac{3}{5}\right)^{10-n}(3n-4)  
+\]
+\[
+= -0.0241
+-0.0403 + 0.241 + 1.074 + 2.0065 +2.207+1.56+0.721+0.212 +0.0361 +0.0027 
+\]
+\[
+=8
+\]
+\item[3.6.11]
+$f_Y(y) = \lambda e^{-\lambda y}$ then 
+\[
+E(Y) = \int_0^\infty y \cdot \lambda e^{-\lambda y} \,dy 
+\]
+Then using integration by parts 
+\[
+E(Y) = \frac{y}{e^{\lambda y}} - \int \frac{-e^-\lambda y}{\lambda} = 
+-\frac{y}{e^{\lambda y}} - \frac{e^{-\lambda y}}{\lambda^2}
+\]
+this equals $ \frac{1}{\lambda^2}$ when evaluated from $0$ to $\infty$
+
+\[
+E(Y^2) = \int_0^\infty y^2 \cdot \lambda e^{-\lambda y} \,dy
+\] 
+
+using integration by parts twice on this function yields 
+
+\[
+\frac{y^2}{e^{\lambda y}} - \left[ \frac{-2y}{\lambda e^{\lambda y}} - 
+\frac{2}{\lambda^2 e^{\lambda y}} \right]
+\]
+
+this equals $ \frac{2}{\lambda^2}$ when evaluated from $0$ to $\infty$
+
+The variance is then $ \frac{2}{\lambda^2} -  \frac{1}{\lambda^2} = 
+\frac{1}{\lambda^2}$.
+\end{enumerate}
+
+\end{document}

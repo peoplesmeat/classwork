@@ -1,0 +1,113 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent October 8th 2009 
+
+\noindent Homework 5
+
+\begin{enumerate}
+  \item[4.3.6]
+  \[
+  z_{.25} - z_{0.75} = 0.67449 - (-0.67449) = 1.34898
+ \]
+
+  \item[4.3.7]
+  In order for the city to produce its monthly budget at least
+  $\frac{306000}{50}=6120$ people must pay in the month of October. The
+  probabality of this is 
+  \[
+  1- Z(\frac{6120 - \frac{74806}{12}}{\sqrt{\frac{74806\cdot 11}{12 \cdot
+  12}}}) = 1- Z(-1.50587)
+  \]
+  \[
+	1-0.0660503 = 0.93395  
+  \]
+  Then the probabality of a budget shortfall is 0.06605. 
+  \item[4.3.10]
+  \begin{enumerate}
+      \item 
+      	\[
+\sum_{n=75}^{80} {100 \choose n}\left(\frac{7}{10}\right)^n
+\left(\frac{3}{10}\right)^{100-n} = 0.154243
+      	\]
+      \item
+      	To approximate 
+      	\[
+      	\frac{75-(100)(0.7)}{\sqrt{100(0.7)(0.3)}} \leq X \leq
+      	\frac{80-(100)(0.7)}{\sqrt{100(0.7)(0.3)}}
+      	\]
+      	\[
+      	P(75<X<80) = Z(2.18218) - Z(1.09109)  = 0.985452 -0.862383 = 0.123069
+      	\]
+  \end{enumerate}
+  \item[4.3.16]
+  The probabality that the sum of the faces is greater then 170 can be
+  approximated by 
+  \[
+  1 - Z(\frac{370-3.5 \cdot 100}{1.70783\sqrt{100}}) = 1-Z(1.17108) = 
+  1-0.879216 = 0.120784
+  \]
+  Where 3.5 = E(Sum of Dice) and 1.70783 = $\sigma$. 
+  \item[4.3.17]
+  The E(loss) = 
+  \[
+  100 \frac{18}{38}(5) + 100\frac{20}{38}(-5) = -26.3158
+  \]
+  Where the variance is 
+  \[
+  50(\frac{(5+0.2631)^2 + (-5+0.2631)^2}{2}) = 50 \cdot \frac{50.13}{2} =
+  1253.25
+  \]
+  Then the $\sigma = \sqrt{1253.25} = 35.4$
+  \[
+  Z(\frac{-50 - -26.3158}{35.4 \sqrt{100}}) = Z(-0.0669) = 0.473331
+  \] 
+  
+  \item[4.3.23]
+  Probabality that the donations exceed \$30000 is 
+  \[
+  1-Z(\frac{30000-20000}{5000}) = 1-Z(2) = 1-0.97725=0.0227501 
+  \]
+  \item[4.3.26]
+  Probabality that the tube will not fit = 
+  \[
+  ( Z(\frac{12-12.5}{0.2}) + 1-Z(\frac{13-12.5}{0.2}) = Z(-2.5) + 1-Z(2.5) )
+  \]
+  Where this is equivalent to $2Z(-2.5) = 2*(0.00620967) = 0.0124193	$
+  
+  Then, out of 1000 tubes, approximately 12 of them will be the wrong-size. 
+  \item[4.3.27]
+ The normalized score is
+  \[
+  \frac{660-565}{75} = 1.266
+  \]
+  Where Z(1.266) = 0.897243. Then the number of students that scored higher is 
+  \[
+  (1-0.897243)4250 = 436
+  \]
+  \item[4.3.32]
+  
+  Laura's normed score is 
+  \[
+  \frac{92-76.3}{10.8} = 1.4537
+  \]
+  Michael's normed score is
+  \[
+  \frac{75-62}{7.6} = 1.7105
+  \]
+  The company should hire Michael. 
+\end{enumerate}
+
+\end{document}

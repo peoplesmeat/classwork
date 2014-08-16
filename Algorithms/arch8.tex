@@ -1,0 +1,64 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+
+\noindent Bill Davis \\
+\noindent 605.411 Problem Set 8
+\begin{enumerate}
+\item %Problem 1
+\begin{tabular}{|r|r|r|r|r|}
+  \hline
+Instruction & Max Cache  & Max Cache  & Max Page Faults & Max Page Faults\\
+ & With Align & No Align & With Align &  No Align \\ 
+\hline
+lw \$t8,4,(\$t0) & 32 & 64 & 1  & 2 \\
+lb \$t8,4,(\$t0) & 32 & 32 & 1  & 1 \\
+\hline
+\end{tabular} 
+%.\\*[90pt]
+
+\item %Problem 2
+ \begin{enumerate}
+ \item See attached diagram.
+ \item Since there are 64,000 bits per second, with an interupt happening every 10 bits, there are 6,400 interrupts per second. $\frac{2 Ghz}{6400} = 312500$ clock ticks between interrupts. Since the CPI is 4, this means that 78125 instructions could execute between interrupts. 
+ 
+ \end{enumerate}
+\item %Problem 3
+    Since this machine needs 16 bytes every clock cycle to avoid a stall, it requires a 32,000 million bytes per second bus. 
+\item %Problem 4
+\begin{enumerate}
+\item There are $ \frac{2^{32}}{16384} = 262144$ page table entry each containing 8 bits plus a 30 bit frame id, rounding up to a 40 bit page table entry for a total of $262144 \times 40 = 10485760$ bytes in the page table.
+\item There are $ \frac{1.5 \times 2^{29}}{16384} = 49152$ entries in the inverted page table. Each entry contains 8 bits plus a 32 bit page id, rounding up to a 40 bit page table entry for a total of 1966080 bytes in the inverted page table. 
+\end{enumerate}
+\item %Problem 5
+\begin{enumerate}
+\item
+\begin{tabular}{|r|r|r|}
+  \hline
+	 & RAID 3 & RAID 5 \\ 
+\hline
+  I & Possible & Possible \\
+ II & Possible & Possible \\
+ III & Possible & Possible \\ 
+IV & Not Possible & Not Possible \\
+V & Not Possible & Possible \\
+\hline
+\end{tabular}
+\item 
+You could successfully update stipe 23 as follows.  \\
+1. Read strips 20,21,23, P5. This can all happen at the same time. \\
+2. XOR the strips together to recreate strip 22.\\
+3. XOR that result with strips 20, 21, and the updated 23 to create an updated P5\\
+4. Write P5 back to the disk. \\
+5. Write updated strip 23. These two writes can happen at the same time. \\
+\end{enumerate}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{skak} 
+\usetikzlibrary{arrows,automata}
+\usetikzlibrary{positioning}
+
+\pagestyle{empty}
+
+\begin{document}
+Bill Davis\\
+Homework 3
+
+\begin{enumerate}
+  
+  \item[3]  c is planar. 
+   f is not, a $k_{3,3}$ can be formed from adh, cfi. 
+   h are not.  
+  
+  \item[15]
+  \begin{enumerate}
+      	\item
+      		Euler's formula for a planar graph with connected subgraphs =
+      		e-v+1+Total number of unconnected components. 
+      	
+      		
+  \end{enumerate}
+  \item[18]
+  \begin{enumerate}
+      \item 
+      Assume we have a connected planar graph with the degree of every vertex
+      at least 6. Then $\sum$degrees $\geq 6v$, in which case since
+      $\sum$degrees = 2e, then $2e \geq 6v $, in which case $e \geq 3v $, but
+      since the graph is planar $e \leq 3v-6$. Since e cannot be both greater
+      then 3v and less then 3v-6 there is a contradiction. 
+      \item
+      By 15b, since eulers formula extends to unconnected planar graphs, (a)
+      immediately generalizes to unconnected planar graphs. 
+  \end{enumerate}
+  \item[20]
+  Since all degree of a region is at most k, the sum of the degrees of the all
+  regions must be less then kr. But since the sum of the degrees of all the
+  regions must equal 2e, then $2e<kr$, and by Eulers formula $2e<k(e-v+2)$
+  Then $0<e(k-2)-vk+2k$ and $k(v-2) < e(k-2) $, then $e>\frac{k(v-2)}{(k-2)}$
+  \item[2]
+  Fort he base case, $1^2 = \frac{(1)(2)(3)}{6}$. For the inductive step
+  \[
+  \sum_{1}^{n+1} n^2 = (\sum_{1}^{n} n^2) + (n+1)^2
+  \]
+  By the inductive hypothesis 
+  \[
+  (\sum_{1}^{n} n^2) + (n+1)^2 = \frac{n(n+1)(2n+1)}{6} + (n+1)^2 
+  \]
+  By factoring $(n+1)$
+  \[
+  \frac{n(n+1)(2n+1)}{6} + (n+1)^2 = \frac{(n+1)(2n^2+n+6n+6)}{6} =
+  \frac{(n+1)(2n^2+7n+6)}{6}
+  \]
+  which, when factored 
+  \[
+  \frac{(n+1)(2n^2+7n+6)}{6} = \frac{(n+1)(n+2)(2n+3)}{6}
+  \]
+  Which proves the inductive hypothesis. 
+  
+  \item[16]
+  For the base case we can see that $2^5=32 > 25 = 5^2$. For the inductive step
+  assume that $2^n>n^2$ for some $n>5$, then $2^{n+1} = 2(2^n)$, where $(n+1)^2
+  = n^2+2n+1$. Therefore if $2n+1>2^n$ then $2^{n+1}>(n+1)^2$. And since it is
+  the case that $2n+1>2^n$ for all $n\geq 5$ the inductive step is proven. 
+  \item[\#A]
+  For the base case we can see that $0^3-4(0)+6 = 2(3)$. For the inductive step 
+  \begin{eqnarray}
+  (n+1)^3-4(n+1)+6 &=& n^3+3n^2+3n+1 - 4n - 4 + 6 \\
+  &=& (n^3-4n+6) + 3n^2+3n-3 \\
+  &=& 3k + 3(n^2+n-1) \\
+  &=& 3(k+n^2+n-1)  
+  \end{eqnarray}
+  Where 3 uses the inductive hypothesis that $(n^3-4n+6) = 3k$ for some k.
+  Therefore the inductive step is proven. 
+  \item[4]
+  The total number of books that must be chosen is $10+8+11+12=41$
+  \item[5]
+  This can be modeled by a graph of 20 vertices with 48 edges. If every person
+  knew at least 5 people, then the sum of the degrees would be 100, and since
+  this does not equal 98, at least one person must know 4 or fewer people. 
+  \item[10]
+  If we add pairs of days (1,2),(3,4),(5,6),(7,8),(9,10),(11,12), there are 6
+  such pairs. If each pair has a sum less then 17, then the total is 6(17) = 96.
+  Since the computer was used for 99 hours, at least one pair must have a total
+  greater then or equal to 17. 
+  \item[18]
+  After fixing the bottom disk, there are 20 possible rotations for the disks to
+  match. We'll try to count the total number of matches over all rotations. 
+  Each 1 or 0 on the top disk will match a total of 10 times over the 20
+  rotations,  therefore the total number of matches is 200. If we assume that 
+  each rotation has 9 or fewer matches then there will only be a maximum number
+  of 180 total matches, which is a contradiction. Therefore at least one
+  rotation  must match at least 10 items.
+  \item[20]
+  I didn't come up with this solution, but it seems very simple once you see
+  it. For any $k_6$, at least 3 edges at any vertex must be of the same color,
+  say red. Consider a vertex v and 3 edges connected to vertices, a,b,c. If one
+  of the edges connecting these is red then there is a red triangle, otherwise
+  there must be blue edges connecting a,b,c. Either way there is a triangle. 
+\end{enumerate}
+
+\end{document}

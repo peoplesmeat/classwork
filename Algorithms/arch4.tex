@@ -1,0 +1,72 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+
+\noindent Bill Davis \\
+\noindent 605.411 Problem Set 5
+
+\begin{enumerate}
+\item %Problem 1
+  \begin{enumerate}
+  \item Yes, this eliminates 1 bubble, since an instruction can, in the same clock cycle read a register in stage 2 that is being written too by another instruction in stage 5.
+  \item The branch history table (BHT) is consulted during the instruction fetch stage.
+  \item The decode history table (DHT) is consulted during the instruction decode, and only when the instruction is a branch instruction. 
+  \item The BHT is consulted for every instruction. 
+  \item The DHT is only consulted for branch instructions.
+  
+  \end{enumerate}
+\item %Problem 2
+  \begin{enumerate}
+  \item This takes 20 clock cycles to complete
+  \item See the attached spreadsheet 
+  \item Since this would eliminate the bubbles it was take 12 clock cycles to complete
+  
+  \end{enumerate}
+
+\item %Problem 3
+lui \$4, 0x00EB \\
+addi \$5, \$0, 8 \\
+NOP \\
+ori \$4, \$4, 64 \\
+NOP \\
+NOP \\
+sw \$5, 0(\$4) \\	
+sll \$5,\$5, 3 \\
+lw \$6, 0(\$4) \\
+NOP \\ 
+NOP \\
+slt \$7, \$6, \$5 \\
+NOP \\
+sw \$7 , 4(\$5) \\
+
+
+
+\item %Problem 4
+	\begin{enumerate}
+	\item Without data forwarding there would be 2 bubbles
+	\item With data forwarding there are 0 bubbles
+	
+	\end{enumerate}
+
+\item %Problem 5
+There are no data dependencies in this sequence. Even though the first and second instruction both use register \$5,  sw merely reads the value and does not alter it. 
+\item %Problem 6
+\begin{enumerate}
+\item 24 Clock Cycles
+\item 11 Clock Cycles 
+\item 34 Clock Cycles (Since this operates like a pipeline with 15 stages)
+\item 21 Clock Cycles 
+
+\end{enumerate}
+\end{enumerate}
+
+
+
+\end{document}

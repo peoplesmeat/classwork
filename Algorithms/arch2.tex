@@ -1,0 +1,61 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+
+\noindent Bill Davis \\
+\noindent 605.411 Problem Set 3
+
+\begin{enumerate}
+\item 
+  \begin{tabbing}
+  \underline{Decimal Value}  \=\underline{IEEE F.P.Pattern}  \=\underline{Type} \\
+   $2^{125}$  \> 0x7E000000 \> Normalized  \\
+ 	$2^{-126}$ \> 0x00800000 \> Normalized  \\
+	$2^{227}$  \> 0x7F800000 \> Infinity    \\
+   $2^{-132}$ \> 0x00020000 \> Denormalized \\
+  \end{tabbing}
+
+\item 
+  \begin{enumerate}
+  \item The mathematically correct answer $(y \times 2000) + x = 1572871.8125$
+  \item 
+		sum=0.0\\
+		for(i=0;i$<$2000;i++)sum=sum+y // \\
+		sum=sum+x // sum = 1572867.8 (49C0001E in F.P.Pattern)\\
+     
+  \item 
+		sum = y*z // \\
+		sum = sum +x // sum = 1572867.8 \\
+
+  \item
+		sum = x; \\
+		for (i=0; i$<$2000; i++)sum = sum+y; // sum = 1572864.0
+  
+  \end{enumerate}
+\item 
+	\begin{enumerate}
+	\item addi \$7, \$7, 15
+	\item $134217728 + 15 = 134217743$
+	\item addi \$t0, \$0, 15\\
+         mtc1 \$t0, \$f1 \\
+         add.s \$f4, \$f4, \$f1 \\
+	\item 
+			The result of this would be 134217776. 
+					
+	\end{enumerate}
+\item 
+	\begin{enumerate}
+	\item With the dividend rule $\frac{-89}{6} = -14$ with remainder -5
+	\item With the divisor rule $\frac{-89}{6}= -15$ with remainder 1
+
+	
+	\end{enumerate}
+\end{enumerate}
+\end{document}

@@ -1,0 +1,176 @@
+% This template was created by Ben Mitchell
+% for Dr. Sheppard's AI class, CS 335/435, spring 08.
+
+% For those who want to learn LaTeX, this is a decent place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+% Note that the proper pronunciation is "la tek", not "lay teks".
+%
+% There are lots of latex tutorials and primers online; just be careful with
+% google images.
+
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage{amsmath, amsthm, graphicx, multicol}
+
+\title{Classifiers: \\ Evaluating the Performance of Genetic and Entropy Based Classifiers}
+\author{Bill Davis \\ Johns Hopkins University}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper discusses the application of both genetic and entropy based classification schemes to several data sets obtained from the UC Irvine Machine Learning Repository. Overall entropy based decision trees were able to outperform trees generated from genetic programming.  
+\end{abstract}
+
+\section{Introduction}
+Decision Trees are graphical models which aid computers in making "intelligent" decisions \cite{aima}. The basic question a decision tree can answer is, given an example containing one or more variable attributes, classify the example as belonging to an item in the classification set. In this sense decision trees are functions $ f(X) \rightarrow c $ where X is a vector of input variables and c $\in$ C is a classification. The relative simplicity of decision trees makes them attractive. In addition effective methods of learning decision trees from sample data have been developed which increase the number of situations where they can be used. This includes situations where the number of input variables and classifications prohibits humans from generating a decision tree. 
+
+This paper examines in particular two means, with several modes, of learning and training a decision tree. The first method examined is based on entropy. This method was first introduced by Quinlan in the ID3 algorithm \cite{Quinlan}. It recursively builds classification trees by determining attributes to branch on based on the idea of maximizing entropy gain. 
+
+The second method is based on genetic programming \cite{genp}. There have been countless applications of genetic programming ideas and idioms. Decision trees lend themselves toward these kinds of approaches because of their tree based structure. This allows random classification trees to be implemented along with mutation and crossover operations which make sense, and can improve the accuracy of a given tree. 
+
+My hypothesis is that genetic programming will be able to create trees as effective in classification as traditional methods. 
+
+\section{Learning Decision Trees}
+Several mechanisms introduced which are capable of generating decision trees, this paper examines two of them. 
+
+\subsection{Traditional Methods}
+The traditional mechanism for building a decision tree given a number of input examples is described in Russel and Norvig \cite{aima}, along with pseudo code for implementing the algorithm. The basics of the algorithm involve beginning with an empty tree, selecting the best attribute to branch on and then recursively repeating this for all the instances of that variable selected. These trees are called entropy decision trees for the purpose of this evaluation. The only decision available with this algorithm is how to effectively choose the "best" attribute" In order to make this selection we can compute the amount of information provided by each attribute. In general attributes will each present a different influence on the final classification. By maximizing the information gained at each step of the algorithm we can generate trees of minimum depth. 
+
+This examination used as its selection criteria the entropy of each attribute. The entropy can be computed as 
+\[
+I(Attribute) = \sum_{i=1}^{n}-P(v_{i}log P(v_{i})
+\]
+\begin{quote}
+
+"The heuristic used in the CHOOSE-ATTRIBUTE function is just to choose the attribute with the largest gain"
+\end{quote}
+
+Two modifications to the entropy calculation were also tested. The first is $\chi^{2}$ pruning. This addition describes a calculation at each recursive step. The statistical importance of the selected attribute is evaluated using a $\chi^{2}$ test. The result is a statistical test of $v$-1 degrees of freedom where $v$ is the number of values a specific attribute can take on. If a attribute is chosen based on the entropy calculation, but is determined not to be of statistical consequence, the recursion is terminated at the current depth. This modification is designed to help in noisy situations where additional nodes could be added to the decision tree, but they may not be necessary to make accurate classifications. 
+
+The second adjustment to the entropy classification is the introduction of a gain ratio. This adjusts the entropy calculation to account for the total number of values that a variable can take on. This prevents the algorithm from always selecting attributes which take on the most number of values. 
+
+\subsection{Genetic Programming}
+
+The second approach taken to implement decision tree learning was to use genetic programming \cite{gentut}. In this approach each decision tree is represented as variable length encoding, each encoding represents an individual. Multiple individuals are grouped together into a population. The population is then evolved using two operations, mutations and cross-over. Cross-over introduces random variations into the population. This is to help bump the population out of any steady-stead it may have evolved into. Cross-over takes two individuals from the populations and combines them into two new individuals. There are a number of ways to implement these functions. This evaluation considers only 1-point cross-over and a single mutation function. 
+
+For the variable length encoding each individual is represented as a tree. Mutation involves selecting a random node from the tree and then constructing a new random tree in place of one of the nodes existing children. Cross-over involves selecting a random node from two trees and then swapping all of their respective children. 
+
+\subsubsection*{Fitness and Selection}
+
+There are multiple methods of selecting which individuals will be recombined into new populations. For this a purpose a fitness function is developed which scores each individual. For decision trees the fitness function implemented involves scoring the accuracy of a particular decision tree on a particular data set. There were then two methods implemented to select from the population given this fitness function, these methods are Fitness proportionate and Tournament selection. In Fitness proportionate the probability an individual is selected for cross-over is directly correlated to the relative fitness of that individual. In tournament selection some number of random individuals are selected, and the best individual from that group is selected from cross-over. 
+
+\section{Algorithms and Experimental Methods}
+This examination used 5-point cross to validate the experimental results. For this approach each data set was broken up into 5 random sets. Each algorithm was then run 5 times, each time using a different set for training data. The resulting decision trees where then tested against the other 4 data sets. 
+
+For the genetic algorithms there are a 3 tunable parameters that had to be set experimentally. These are the mutation rate, the termination parameter, and the tournament size, this last parameter is used only for tournament selection. 
+
+\section{Data Set}
+There were four data sets used in this evaluation. All of them came from the  UC Irvine Machine Learning Repository. The data sets include congressional voting, MONKS, mushroom analysis, and gene splice analysis. All data sets were complete and contained no missing values. All the data analyzed was discrete, although there were data sets where certain attributes took on more values then others. No preprocessing was done on any of the data sets. 
+
+\section{Results}
+The following figures (Tables 1-4)  display three values for each data set and each classification algorithm. Accuracy is the average accuracy using 5-fold validation for the data set. Also the number of nodes in the created decision tree, averaged over all test/training sets. The final number is the average number of comparisons used in classification for the test sets. 
+\begin{table}[h]
+\begin{tabular}{ |c|c|c|c| }
+\hline
+Classifier  &   Accuracy & Nodes In Tree  & Nodes Compared\\
+\hline
+Entropy & 0.926 & 17.2 & 3.556 \\
+Entropy (With Pruning) & 0.935 & 8.8 & 3.25 \\
+Entropy (Gain Ratio) & 0.936 & 17.8 & 3.52 \\
+Entropy (Gain Ratio) (With Pruning) & 0.947 & 7 & 2.9 \\
+\hline
+Genetic (Tournament Selection) & 0.875 & 108.4 & 3.88 \\
+Genetic (Fitness Proportionate) & 0.781 & 28 & 2.93 \\
+\hline
+\end{tabular}
+\caption{Results for House Votes Data Set }
+
+\end{table}
+
+The genetic algorithms were all used using the same parameters, in particular population size of 75, mutation rate of 0.05, and using 25 iterations. 
+
+\begin{table}[h]
+\begin{tabular}{ |c|c|c|c| }
+\hline
+Classifier  &   Accuracy & Nodes In Tree  & Nodes Compared\\
+\hline
+Entropy & 0.63 & 22.2 &4.4 \\
+Entropy (With Pruning) &0.59 & 2.4 & 0.78 \\
+Entropy (Gain Ratio) & 0.646 & 22.1 & 4.31 \\
+Entropy (Gain Ratio) (With Pruning) & 0.63 & 3.26 & 1.37 \\
+\hline
+Genetic (Tournament Selection) & 0.56 &44.6 &4.56\\
+Genetic (Fitness Proportionate) & 0.527 & 51 & 3.01 \\
+\hline
+\end{tabular}
+\caption{Results for Monks Data Set }
+\end{table}
+
+Although all tables contain entropy results with and without gain ratio, gain ratio will only make a difference for the mushroom and monks data set. In the other data sets the number of values that the variables can take on is that same for all attributes. 
+
+\begin{table}[h]
+\begin{tabular}{ |c|c|c|c| }
+\hline
+Classifier  &   Accuracy & Nodes In Tree  & Nodes Compared\\
+\hline
+Entropy & 0.999 & 35.6 &5.97 \\
+Entropy (With Pruning) &0.996 & 27.6 & 5.9 \\
+Entropy (Gain Ratio) & 0.999 & 40.4 &  5.43 \\
+Entropy (Gain Ratio) (With Pruning) & 0.999 & 40.4 & 5.43 \\
+\hline
+Genetic (Tournament Selection) &0.909 &521 &5.2672\\
+Genetic (Fitness Proportionate) & 0.809 & 899.4 & 5.65 \\
+\hline
+\end{tabular}
+\caption{Results for Mushroom }
+\end{table}
+
+\begin{table}[h]
+\begin{tabular}{ |c|c|c|c| }
+\hline
+Classifier  &   Accuracy & Nodes In Tree  & Nodes Compared\\
+\hline
+Entropy & 0.904 & 117.8 &  7.29 \\
+Entropy (With Pruning) &  0.910 & 44.2 & 6.35 \\
+Entropy (Gain Ratio)  & .906 & 121 & 7.387 \\
+Entropy (Gain Ratio) (With Pruning) &0.918 & 41 & 5.79 \\
+\hline
+Genetic (Tournament Selection) & 0.594 &36170.6 & 6.607\\
+Genetic (Fitness Proportionate) &0.666 & 23373.8 & 4.16 \\
+\hline
+\end{tabular}
+\caption{Results for Gene Splice }
+\end{table}
+
+
+\section{Discussion}
+
+The performance of the algorithms differed greatly from one data set to another. In all cases the entropy based classifier performed better than its genetic counterparts. 
+\subsubsection*{Entropy Gain Decision Trees}
+Decision trees built using entropy gain ratio were effective in classifying the data examined. For all the datasets, except the Monk's set, the entropy based tree was able to achieve 90\% performance. The Monk's dataset seems to be the most difficult to classify. In the extreme case pruning created trees with a single node to classify the Monk's dataset. 
+
+\subsubsection*{Pruning}
+Pruning of decision trees when built using the gain calculation appears to be a very effective mechanism of reducing the number of nodes in the decision tree. In particular is appears that pruning can often times reduce the number of nodes in a tree y 40\% to 50\% while acheiving the same accurracy as the non-pruned counterpart. In the monks data set, for example the average number of nodes in the tree was reduced from 22 to 2 while the classifier accuracy only moved from .63 to .59. 
+
+\subsubsection*{Genetic Algorithms}
+In general the genetic algorithms performed poorly in this evaluation. The were unable to achieve the same levels of accuracy as the entropy based calculations. It is quite possible, however, that with different parameters and if the genetic algorithms were tuned more effectively they would be able to compete with the entropy calculations. What is interesting about these trees is that there were significantly more nodes per tree when using a genetic algorithm; however the number of nodes compared when performing the classification was on the order of the traditional methods. This implies that the genetic trees have significant sections which are useless and could be amenable to pruning techniques to reduce the number of nodes in the tree. 
+
+In some instances their performance was vastly worse than entropy decision trees. In the gene splicing data set, the average number of nodes created in the genetic tree was over 20,000 nodes, compared to 100 for the entropy algorithm. In addition the performance was only 0.666 compared to 0.9 for entropy trees. The average number of nodes used in classification, however, still remains low. This indicates that there are large portions of the tree which are unused. 
+
+The difference between the two selection algorithms, tournament and fitness proportionate, was seen to be negligible. Ancetdotal evidence pointed to the population size as being the most important parameter to set. Using multiple population sizes pointed to 75 as the optimal population size. The other values were set somewhat arbitarily. 
+
+
+
+\section{Conclusion}
+In this survey the hypothesis that genetic programming could equal the performance of entropy based methods was not validated. Instead genetic programming created trees that did not match the performance of traditional methods, while taking significantly longer to train. 
+
+Building decision trees using the entropy maximization heuristic is an effect means of classifying information. Trees generated through these technique are can be improved by $\chi^{2}$ pruning without sacrificing accuracy. Decision trees generated using genetic programming while capable are not as accurate as entropy based trees and can contain orders of magnitude more nodes. They can also be difficult to tune due to a number of correlated parameters that need to be adjusted. 
+
+
+\bibliography{writeup}
+\bibliographystyle{is-alpha}
+
+\end{document}

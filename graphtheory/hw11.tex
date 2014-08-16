@@ -1,0 +1,156 @@
+ \documentclass{article}
+\usepackage{tikz}
+\usepackage{skak} 
+\usetikzlibrary{arrows,automata}
+\usetikzlibrary{positioning}
+
+\pagestyle{empty}
+
+\begin{document}
+Bill Davis\\
+Homework 11
+
+\begin{enumerate}
+
+\item[3]
+\begin{enumerate}
+ \item %a
+    Solving $a_n=3a_{n-1} + 4a_{n-2}$ where $a_0=a_1=1$. 
+\begin{eqnarray}
+\alpha^n &=& 3\alpha^{n-1} + 4\alpha^{n-2} \\
+ 0 &=& \alpha^2 - 3\alpha^{n} - 4 \\
+0 &=& (\alpha-4)(\alpha+1) 
+\end{eqnarray}
+So the solutions are $\alpha=4$ and $\alpha=-1$. In which case, using the initial conditions
+\begin{eqnarray}
+1 &=& a_0 = A_1+A_2 \\
+1 &=& a_1 = 4A_1 - A_2 \\
+1 &=& 4A_1 - (1-A_2) \\
+\frac{2}{5} &=& A_1 \\
+\frac{3}{5} &=& A_2 
+\end{eqnarray}
+The solution is $a_0 = \frac{2}{5}4^n+\frac{3}{5}(-1)^n. $
+ \item %c
+Solving $a_n = 2a_{n-1} -a_{n-2} $ where $a_0=a_1=2$. 
+\begin{eqnarray}
+\alpha^n &=& 2\alpha^{n-1} - \alpha^{n-2} \\
+0 &=& \alpha^2-2\alpha=1) \\
+0 &=& (\alpha-1)^2
+\end{eqnarray}
+Since 1 is a repeated root, the solution is $a_n = A_1(1)^n + A_2n(1)^n$, which using the initial conditions reduces to $2=A_1$ and $2=A_1+2A_2$ where $A_2=0$. 
+
+The solution is $a_n=2(1)^n$
+ \item %d
+Solving $a_n = 3a_{n-1} - 3a_{n-2} +a_{n-3}$. 
+\begin{eqnarray} 
+\alpha^n &=& 3\alpha^{n-1} + 3\alpha^{n-2} + \alpha^{n-3} \\
+0 &=& \alpha^3 - 3\alpha^2 + 3\alpha + 1 \\
+0 &=& (\alpha-1)^3
+\end{eqnarray}
+Again, because this is a repeated root the solution is $a_n = A_1(1)^n + A_2n(1)^n + A_3n^2(1)^n$. 
+Using the initial conditions $a_0 = 1 = A_1 + 0 + 0$, and $a_1 = 1 = 1 + A_2 + A_3$, and $a_2 = 2 = 1+2A_1 + 4(-A_1)$. Therefore the solution is $a_n = (1)^n + \frac{-1}{2}n(1)^n + \frac{1}{2}n^2(1)^n$.
+\end{enumerate}
+
+\item[6]
+The recurrence relation which describes this is $a_n=3a_{n-1} - n_{n-2}$, which is 3 times the number of piles with 1 less chip - the number of piles with n-2 chips, assuming that the last chip is red. 
+
+To solve this we need to set $\alpha^2-3\alpha+1=0$ which, by the quadratic equation has solutions $\frac{3+\sqrt{5}}{2}$ and $\frac{3-\sqrt{5}}{2}$. The general solution is then $a_n=A_1(\frac{3+\sqrt{5}}{2})^n + A_2(\frac{3-\sqrt{5}}{2})^2$. Using the initial conditions $a_0 = 1$ and $a_1=3$ we solve for $A_1 = \frac{3-\sqrt{5}}{3}$ and $A_2 = \frac{\sqrt{5}}{3}$. 
+\item[10]
+If $\phi = \frac{1+\sqrt{5}}{2}$ then we can rewrite the closed form solution of
+ \[
+\frac{F_{n+1}}{F_{n}} = \frac{A_1\phi^{n+1}A_2(1-phi)^{n+1}}{A_1\phi^n-(1-\phi)^n}
+\] 
+and multiplying by $\frac{\frac{1}{\phi^n}}{\frac{1}{\phi^n}}$ gives us 
+\[
+\frac{A_1\phi-A_2(1-\phi)(\frac{1-phi}{\phi})^n}{A_1+(\frac{1-phi}{\phi})^2}
+\]
+And because $(\frac{1-\phi}{\phi})^n = 0$ as n goes to infinity this reduces to 
+$\frac{A_1\phi}{A_1}$ and therefor the limit is $\phi = \frac{1+\sqrt{5}}{2}$
+\item[11]
+This implies that there are solutions 3 and 6, which expressed in the equation would mean that $0=(\alpha-3)(\alpha-6) = a^2+9\alpha+18$. Converting this to a recurrence relation means that $a_n=9a_{n-1} + 18a_{n-12}$, Where 9 = $c_1$ and 18=$c_2$. 
+
+\item[7.4.1]
+\begin{enumerate}
+\item
+The homogeneous solution to this problem is $a_n=A_1(1)^n$, and the inhomengeneous solution can be obtained by setting $a^*= B_1n^2+B_2n$ 
+\begin{eqnarray}
+B_1n^2+B_2n &=& B_1(n-1)^2+B_2(n-1) + 3n -3 \\
+0 &=& -2B_0n + 3_n \\
+0 &=& B_0-B_1-3 
+\end{eqnarray}
+so $B_0=\frac{3}{2}$ and $B_1=\frac{-3}{2}$. Then including both equations $\frac{3}{2}(n^2-n)+A_0$ and setting the initial condition $a_0=1$ means that $A_0=1$, so the solution is $\frac{3}{2}(n^2-n)+1$. 
+
+\item
+The homogeneous solution to this is $a_n=1^n$ and the inhomogenous solution can be found by setting $a^*=B_2x^3+B_1x^2 + B_0^x = b_0(n-1)+b_2*n^3+(-3*b_2+b_1+3)*n^2+(3*b_2-2*b_1)*n-b_2+b_1$. In which case $B_2=1$, $B_1= \frac{3}{2}$ and $B_0 = 0$. With the initial conditions $A_1 = 1$, then the solution is $a_n = n^2 + \frac{3}{2}n + 1$. 
+
+\end{enumerate}
+
+\item[7.4.9]
+$a_n = 2a_{n-1} +(-1) ^ n$. Solving for the homogeneous, $\alpha^n = 2\alpha^{n-1}$, $\alpha = 2$. Therefore the solution is $a_n = A_12^n$. Solving the inhomegeneous part by setting
+\[
+ a^* = B(d)^n = B(-1)n = 2(B(-1)^n-1) + 1 
+\]
+Then $B(-1) = 2B + 1$ and $B=\frac{1}{3}$. We can then set $a_n = A_12^n + \frac{1}{3}(-1)^n$, and using the initial condition of $a_0 = 2$ 
+\[
+a_0 = 2 = A_12^0 + \frac{1}{3}(-1)^0 = A_1+\frac{1}{3}
+\]
+in which case $A_1 = \frac{5}{3}$. The solution is then $a_n = \frac{5}{3}2^n + \frac{1}{3}(-1)^n$. 
+\item[7.4.11]
+We can break this into 2 parts. 
+\begin{eqnarray}
+\alpha^n &=& 3\alpha^{n-1} - 2\alpha^{n-2} \\
+0 &=& \alpha^2 - 3\alpha + 2 \\
+0 = (\alpha-3)(\alpha-1) 
+\end{eqnarray}
+
+The solution to the homogeneous part is $A_12^n+A_21^n$. For the inhomogeneous part we can set t$a^*=B_0n$, where we need the n term because we already have a constant term in the homogeneous part. 
+\[
+a^* = Bn = 3B(n-1) - 2B(n-2) + 3
+\]
+and $3B-2B+3=B$ and $B=3$. 
+
+The combined solution is $a_n = A_12^n+A_2+3n$ and since $a_0 = a_1 = 1$ then $A_1+A_2 = 2A_1 +A_2$ and $A_1 = 1$ and $A_2=2$. The solution is $a_0 = A_12^n + 3n + 2$. 
+
+\item[7.4.17]
+We can solve the homogeneous portion easily since $\alpha^2-5\alpha_{n-1}+6\alpha_{n-2} = (\alpha-3)(\alpha-2)$, then the homogeneous solutions is $A_12^n+A_23^n$. For the other portion we can set $a^*=B_1n+B_0$, in which case 
+\[
+B_1n+B_0 = 5(B_1(n-1)+B_2)-6(B_1(n-2) + B_2) + 3n - 2
+\] 
+And seperating out the different portions gives us
+\begin{eqnarray}
+5B_1n-6B_1n+3n &=& B_1n \\
+5B_2-6B_2-5+12+2 = B_2
+\end{eqnarray}
+In which case $B_1 = \frac{3}{2}$ and $B_2=\frac{25}{4}$. 
+
+Then the general solution is $A_12^n+A_23^n+\frac{3}{2}n + \frac{25}{4}$, which could be turned into a specific solution with the addition of initial conditions. 
+
+\item[7.4.19]
+\begin{enumerate}
+\item Since we can substitude $b_n=a^2_n$, and we can easily solve $b_n = 2b_n+1$ as a homogenus $\beta = 2$ and an inhomogeneous $B=a^*=2B+1$ where $B=-1$. Then $b_n = 2^n-1$. Therefore by the substitution $a_n=\sqrt{2^n-1}$. 
+
+\item
+Since $a_n=na_{n-1} = n!$ we can rewrite this as $a_n=-n! + n!$ where $a_{n-1}$ is not equal to 0, which is when n is odd and $a_n=n!$ where n is even. 
+\end{enumerate}
+
+\item[extra sheet]
+We can make a recurrence relation out of this by setting $a_n = a_{n-1} + (2n-1)^3$, which has the homogeneous solution $\alpha=1$, and $a_n=A_1+a^*$. Setting $a^*=(B_3n^3+B_2n^2+B_1n+B_0)n = b_3*(n-1)^4+b_2*(n-1)^3+b_1*(n-1)^2+b_0*n+(2*n-1)^3$ simplifes to 
+\[
+b_3n^4+(-4b_3+b_2+8)n^3+(6b_3-3b_2+b_1-12)n^2+(-4b_3+3b_2-2b_1+b_0+6)n+b_3-b_2+b_1-b_0-1
+\]
+
+In which case $B_3 = 2$, $B_2=0$, $B_1=-1$, and $B_0=0$. So the general solution is $a_n=A_1+2n^4-n^2$, where using the initial condition that $a_1 = 1$ then $A_1 = 0$, the solution is then $a_n=2n^4-n^2$. 
+
+\item[extra sheet part b]
+We notice that $(2^4+4^3+6^3 + +  2n*3) = 2(1^3+2^3+3^3 + + n/2^3$, and where the difference between $(1^3+2^3+3^3+ +n^3) - (2^3+4^3+ + n^3)$ is the sum of the odd numbers cubed, what we are looking for. Since we are given 
+\[
+(1^3+2^3+3^4 + + n^3) = \frac{n^2+n}{2}
+\]
+the sum of the odds must be $\frac{n/2^2+n/2}{4}$ and 
+\[
+\frac{n^2+n}{2} - \frac{n/2^2+n/2}{4} = n^4-n^2
+\]
+which is what we showed in part a. 
+\end{enumerate}
+
+\end{document}

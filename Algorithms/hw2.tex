@@ -1,0 +1,84 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm, amssymb}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+
+\noindent Bill Davis \\
+605.421 
+
+\begin{enumerate}
+\item 
+6.5-8 Give an $\O(n\lg(k))$-time algorithm to merge $k$ sorted lists with $n$ total elements \\
+\\
+This can be done by creating a min-heap containing $k$ elements, one from 
+each list. We can then merge the lists by taking one min element from the 
+heap, replacing it with another from the one of the $k$ lists and repeating. \\
+\\
+This requires $\O(2n\lg(k))$ since for each element we need to first add it
+to the min-heap requiring $\O(\lg(k))$-time, then we need to perform 
+HEAP-EXTRACT-MAX, again requiring $\O(\lg(k))$-time. \\
+\\
+We also need to add another member to the heap nodes indicating which 
+list the element originated from, in order to replace it with an element 
+from the same list. \\
+
+\item
+6-2 Analysis of D-ary heaps \\
+\begin{enumerate}
+\item 
+How to represent a d-ary heap as an array. \\
+\\
+The root of the tree is A[1], its children are in A[2] through A[d+1]. Given the index $i$ of a node we can compute its PARENT, and $k^{th}$ child by by \\
+PARENT(i) = $\lfloor \frac{i-2}{d+1}\rfloor$ \\
+To find the $k$-th child of a node i = $ di-d + k + 1 $     \\
+
+\item
+Since each level $n$ has $n^{d}$ nodes for a d-ary tree, the height of the tree equals $\lg_{d}(n)$.
+
+\item
+EXTRACT-MAX does not need to be altered for d-ary heaps. The only operation that needs to change is MAX-HEAPIFY. Therefor the runtime of EXTRACT-MAX = runtime of MAX-HEAPIFY. This equals $\O(\lg_{d}(n)$ for a d-ary tree of size n
+
+\item
+The HEAP-INSERT does not need to be altered for d-ary heaps. Since only parent nodes are examined in HEAP-INCREASE-KEY, each $\lg_{d}(n)$ parent could be compared to the new node resulting in a runtime of  $\O(\lg_{d}(n))$. 
+
+\item
+HEAP-INCREASE-KEY can be altered as follows \\
+\begin{tabbing}
+	If \= key < A[i]  \\
+	\> then \= error \\
+	A[i] = key \\
+	while $i>1$ and A[Parent[i] $<$ A [i]\\
+	\> do exchange A[i] and A[Parent[i]\\
+	\> \>i = Parent[i]\\
+\end{tabbing}
+We may need to traverse the whole height of the tree for each call to this function, which as we mentioned before can be done in $\lg_{d}(n)$ time. 
+
+
+\end{enumerate}
+
+\item 
+24.3-2 An example where Dijkstras algorithm fails to produce correct results \\
+\xymatrix{
+A \ar[dr]^9 \\
+& B \ar[r]^5 
+& C \ar[ld]^5 \\
+& D \ar[r] \ar[u]^{-15} 
+& E 
+} \\
+The proof for Dijkstras fails because equation 24.2 does not hold. In particular
+\[
+d[y] = \delta(s,y) 
+\nRightarrow d[y] 
+\leq \delta(s,u) 
+\]
+If edge lengths can be negative then $\delta(s,u)$ may be less then $\delta(s,y)$.
+
+
+\end{enumerate}
+\end{document}

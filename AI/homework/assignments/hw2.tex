@@ -1,0 +1,246 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+
+\noindent Bill Davis \\
+Homework 2
+
+\begin{enumerate}
+\item % Problem 1
+When the min player plays sub-optimally a game will be driven to nodes with higher scores for the max player. \\
+
+To say that a min player is playing suboptimally is to say that at a given depth, the min player selects some move $m$, where theres exists a node $n$ where $h(m) < h(n)$, which means that the heuristic is saying that node n is a better move then node m. Since at each min-level minimax assumes that the min player chooses the best strategy for them, there can be no situation where a suboptimal move by the min-player will result in the game reaching a better outcome for them. If there was a better outcome, then the minimax algorithm would assume that the min player is going to choose it. 
+
+\item % Problem 2
+Nodes are pruned with Alpha-Beta pruning only in relationship to the neighbor nodes. Just because we have arrived a node that has previously been pruned, does not neccessarily mean we can automatically prune that node again. 
+
+\item % Problem 3
+\begin{enumerate}
+\item 
+For Player 1, Strategy Z Weakly Dominates Strategy Y, and Strategy X Weakly Dominates Strategy Y \\
+For Player 2, Strategy C Weakly Dominates Strategy A
+\item 
+1. Remove Strategy Y \\
+2. Strategy B now weakly dominates strategies A and C. Remove Strategy C
+3. Strategy Z weakly dominates strategy X. Remove strategy X.
+4. Strategy B dominates strategy A. Remove Strategy A. 
+5. (B, Z) remains with payoff (3,3)
+\item 
+1. Remote Strategy A
+2. X Dominates Y and Z, remove Z
+3. C Dominates B, Remove B
+4. X Dominates Y, Remove Y
+5. (X, C) remains with payoff (1,1)
+
+\item
+The Nash Equilibria are (X,B) and (Y,B)
+\end{enumerate}
+
+\item % Problem 4
+
+\begin{enumerate}
+\item %4a
+Not all Damsels are in distress
+\item %4b
+All knights have a horse
+\item %4c
+There exists a horse owned by all knights
+\item %4d
+There is a knight who owns one and only one strong horse
+\item %4e
+There does not exist a knight who has saved all damsels
+
+\end{enumerate}
+
+\item % Problem 5
+
+\begin{enumerate}
+\item %5a
+$\lnot \exists x Damsel(x) \land (\exists y Knight(y) \Rightarrow HasSaved(x,y))$
+\item %5b
+$\exists x,y Knight(x) \land Horse(y) \land Owns(x,y) \land HasSaved(y,x)$
+\item %5c
+$\forall x,y  Damsel(x) \land Knight(y) \land HasSaved(x,y) \Rightarrow (Strong(x) )$
+\item %5d
+$\exists x,y \forall z,w Knight(x) \land Horse(y) \land HasSaved(x,y) \land Knight(z) \land  Horse(w) \land HasSaved(z,w) \Rightarrow (x=z \land y=w)$
+\item %5e
+$ (\forall x Damsel(x) \land InDistress(x) \Rightarrow \lnot \exists y HasSaved(y,x)) \land (\forall z Damsel(z) \land \lnot InDistress(z) \Rightarrow \exists w HasSaved(w,z))$
+\end{enumerate}
+\item % Problem 6
+From the statement of the problem we can establish some first-order clauses \\
+1. $\forall x,y,z UnregisteredGun(y) \land Sells(x,y,z) \Rightarrow Criminal(x) $ \\
+2. $ \exists x Owns(Reese, x) \land UnregisteredGun(x)$ \\ 
+3. $ \forall x UnregisterGun(x) \land Owns(Reese, x) \Rightarrow Sells(Laslo, x, Reese) $ \\
+
+We can use existential elimination to turn  $ \exists x Owns(Reese, x) \land UnregisteredGun(x)$ into $Owns(Reese, UG_{1})$ and $UnregisteredGun(UG_{1})$
+
+Then we can use Generalized Modus Ponens to replace statement 3 X/$UG_{1}$
+$UnregisterGun(UG_{1}) \land Owns(Reese, UG_{1}) \Rightarrow Sells(Laslo, UG_{1}, Reese) $
+
+Again we can use Generalized Modus Ponent to replace x,y and z in 1 to yield
+$UnregisteredGun( UG_{1}) \land Sells(Laslo, UG_{1},Reese) \Rightarrow Criminal(Laslo) $
+
+Therefor Laslo is a criminal. 
+
+\item % Problem 7
+
+$Unify[Parent(x,y) \land CPA(x1) \land Senator(y1), Senator(Jim)] = (y1/Jim)$
+
+$Unify[Parent(x,y) \land CPA(x1) , CPA(Amy) \land Senator(Jim) ] = (x1/Amy)$
+
+$Unify[Parent(x,y) , Parent(amy,jim) \land CPA(Amy) \land Senator(Jim)] = (x/amy), jim/y)$
+
+$Unify[Answer(x,y) , Parent(amy,jim) \land CPA(Amy) \land Senator(Jim)] = (x/amy), jim/y)$
+
+Answer = (Amy, Jim) 
+
+
+\item % Problem 8 
+Note: These calculations were done in base 10, not in base 2. 
+\begin{enumerate}
+\item 
+$I(p,n) = -\frac{4}{9}lg(\frac{4}{9}) - \frac{5}{9}lg(\frac{5}{9})$ = 0.157 - (-0.142) = .299 
+\item 
+$I_{a_{1}=T} = -\frac{3}{4}lg(\frac{3}{4}) - \frac{1}{4}lg(\frac{1}{4}) = 0.094 - (-.151) = 0.245$
+
+$I_{a_{1}=F} = -\frac{1}{5}lg(\frac{1}{5}) - \frac{4}{5}lg(\frac{4}{5}) = 0.134 - (-.078) = .212$
+
+$E(a_{1}) = \frac{4}{9}0.245 + \frac{5}{9}0.212 = .128$
+
+$gain(a_{1}) = .299 - .128 = .171$
+\\
+ 
+$I_{a_{2}=T} = -\frac{2}{5}lg(\frac{2}{5}) - \frac{3}{5}lg(\frac{3}{5}) = 0.159 - (-.133) = 0.289$
+
+$I_{a_{2}=F} = -\frac{2}{4}lg(\frac{2}{4}) - \frac{3}{4}lg(\frac{2}{4}) = 0.151 - (-.151) = 0.301$
+
+$E(a_{2}) = \frac{5}{9}0.289 + \frac{4}{9}0.301 = .294$
+
+$gain(a_{2}) = .299 - .294 = .005$
+\item 
+This table contains the expected values for all possible splits\\
+% Table generated by Excel2LaTeX from sheet 'Sheet1'
+\begin{table}[h]
+\begin{tabular}{rrrrrrr}
+
+     Split & Total Values & Values in Split &   Positive &   negative &   I(split) &   E(Split) \\
+
+       $<$=1 &          9 &          1 &          1 &          0 &          0 &    0.25539 \\
+
+        $>$1 &          9 &          8 &          3 &          5 &   0.287313 &            \\
+
+      $<$=3  &          9 &          2 &          1 &          1 &    0.30103 &   0.297571 \\
+
+        $>$3 &          9 &          7 &          3 &          4 &   0.296583 &            \\
+
+       $<$=4 &          9 &          3 &          2 &          1 &   0.276435 &   0.276435 \\
+
+        $>$4 &          9 &          6 &          2 &          4 &   0.276435 &            \\
+
+       $<$=5 &          9 &          5 &          2 &          3 &   0.292285 &   0.296172 \\
+
+        $>$5 &          9 &          4 &          2 &          2 &    0.30103 &            \\
+
+       $<$=6 &          9 &          6 &          3 &          3 &    0.30103 &   0.292832 \\
+
+        $>$6 &          9 &          3 &          1 &          2 &   0.276435 &            \\
+
+       $<$=7 &          9 &          8 &          4 &          4 &    0.30103 &   0.267582 \\
+
+        $>$7 &          9 &          1 &          0 &          1 &          0 &            \\
+
+\end{tabular}  
+\end{table}
+\\
+The best split then occurs at 1, which has the lowest E value, splitting between $<$=1 and $>$1. \\
+\end{enumerate}
+
+\item % Problem 9
+
+This problem I'm a little unsure about but I'll take a stab. When considering entropy at a given node we arrive an equation that has the form 
+\[
+-\frac{Success}{total}lg\frac{Success}{total} - \frac{Failure}{total}lg\frac{Failure}{total}
+\]
+Where $\frac{Success}{total} + \frac{Failure}{total} = 1$
+So if we then split a node into smaller successor nodes, the number of successes and failures remains the same, but we break them up in different ways. 
+\[
+\frac{Success_{1}}{Total_{1}}I(1) + \frac{Failure_{1}}{Failure_{1}}I(1)
+\]  
+And since I is of the form $\sum_{k=1}^{d} log z_{k}$, which means that we can then use the hint to say that the sum entropy for the split children node will always be less then the entropy of the parent node.  
+
+\item % Problem 10
+B is better then A at Labor, Cleve \\
+A is better then B at Vehicle, Anneal, Tic-Tac-Toe, Auto, Australia, Credit, Glass, Ionosphere, Horse, and Sonar
+
+C is better then A at Tic-Tac-Toe and Cleve, Wine, Labor, Lymphography, and Diabetes \\
+A is better then C at Auto and Anneal
+
+C is better then B at Tic-Tac-Toe, Vehicle, Anneal, Australia, Credit, Auto, Ionosphere, Glass, and Sonar. \\
+B is not better then C at anything. 
+
+B appears to be inferior when compared to A and C in the majority of tests. For example the average Z value over all tests for AB is 1.6 and for CB is 2.55. 
+C appears to be the best classifier when compared to A and B. The average Z value for CA is .96. 
+
+% Table generated by Excel2LaTeX from sheet 'Sheet1'
+\begin{tabular}{rrrrrrrr}
+
+           &          n &     acc(a) &     acc(b) &       acc(c) &        Zab &        Zac &        Abc \\
+
+    Anneal &        898 &      92.09 &      79.62 &      87.19 &   7.582377 &   3.407128 &   -4.31156 \\
+
+ Australia &        690 &      85.51 &      76.81 &      84.78 &   4.132543 &   0.381256 &    -3.7581 \\
+
+      Auto &        205 &      81.95 &      58.05 &      70.73 &   5.280198 &    2.67283 &   -2.68093 \\
+
+    Breadt &        699 &      95.14 &      95.99 &      96.42 &   -0.77187 &   -1.19025 &   -0.42071 \\
+
+     Cleve &        303 &      76.24 &       83.5 &      84.49 &   -2.22859 &    -2.5563 &   -0.33234 \\
+
+    Credit &        690 &       85.8 &      77.54 &      85.07 &   3.965309 &   0.384379 &   -3.58743 \\
+
+  Diabetes &        768 &       72.4 &      75.91 &      76.82 &   -1.57114 &   -1.99002 &   -0.41974 \\
+
+    German &       1000 &       70.9 &       74.7 &       74.4 &   -1.90949 &   -1.75573 &   0.154006 \\
+
+     Glass &        214 &      67.29 &      48.59 &      59.81 &   3.918408 &   1.607633 &   -2.32944 \\
+
+     Heart &        270 &         80 &       78.8 &       83.7 &    0.34475 &   -1.11538 &   -1.45865 \\
+
+ Hepatitis &        155 &      81.94 &      83.23 &       87.1 &   -0.29945 &   -1.25584 &   -0.95849 \\
+
+     Horse &        368 &      85.33 &       78.8 &      82.61 &   2.308832 &   1.005655 &   -1.30967 \\
+
+Ionosphere &        351 &      89.17 &      82.34 &      88.89 &   2.588799 &   0.118693 &   -2.47258 \\
+
+      Iris &        150 &      94.67 &      95.33 &         96 &   -0.26226 &   -0.54617 &   -0.28493 \\
+
+    Labor  &         57 &      78.95 &      94.74 &      92.98 &   -2.49394 &   -2.15632 &   0.391391 \\
+
+      Led7 &       3200 &      73.34 &      73.16 &      73.56 &   0.162655 &   -0.19928 &   -0.36193 \\
+
+Lymphography &        148 &      77.03 &      83.11 &      86.49 &   -1.30928 &   -2.10729 &   -0.80987 \\
+
+      Pima &        768 &      74.35 &      76.04 &      76.59 &   -0.76681 &   -1.02018 &   -0.25351 \\
+
+     Sonar &        208 &      78.85 &      69.71 &      76.92 &   2.132512 &   0.474246 &   -1.66235 \\
+
+Tic-Tac-Toe &        958 &      83.72 &      70.04 &      98.33 &   7.101552 &   -11.1872 &   -16.9687 \\
+
+   Vehical &        846 &      71.04 &      45.04 &      74.94 &   10.83583 &   -1.80651 &   -12.5521 \\
+
+      Wine &        178 &      94.38 &      96.63 &      98.88 &   -1.02447 &   -2.35254 &   -1.43285 \\
+
+       Zoo &        101 &      93.07 &      93.07 &      96.04 &          0 &   -0.93017 &   -0.93017 \\
+
+\end{tabular}  
+
+
+\end{enumerate}
+\end{document}

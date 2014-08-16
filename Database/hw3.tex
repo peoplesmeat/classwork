@@ -1,0 +1,69 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\noindent Bill Davis \\
+\noindent 605.441 Problem Set 3
+
+\begin{enumerate}
+\item (6.13) %Problem 1
+A safe expression is one in which there can only be a finite number of results. An expression can be guaranteed to be safe if all the results of the expression come from the expressions domain. This prevents expressions like a tuple is not in relation r. Since there are an infinite number of relations that are not r, this expression is unsafe.  
+
+\item (6.16) %Problem 2
+  \begin{enumerate}
+  \item (c) \\
+Relational Algebra $\pi_{lname, fname}$($\sigma_{superssn=33344555}$(EMPLOYEE)) \\
+.\\
+Tuple Relational \{$t^{(2)s} | \exists(e) ($EMPLOYEE$(e)$ \^{} $e$[Super\_ssn] $=$ 33344555 \^{} t[0]=$e$[Lname] \^{} t[1] = $e$[Fname])\} \\
+.\\
+Domain Relational \{ Lname, Fname $|$ EMPLOYEE(Fname, Lname, Super\_SSN) \^{} Super\_ssn = 3344555 \} \\
+.\\
+The result of the query is (Smith, John), (Narayan, Ramesh), (English, Joyce)
+  \item (e) \\
+Relational Algebra
+$\pi_{lname, fname}$( (EMPLOYEE $\Join_{ssn = essn}$ PROJECT)  $\div$ $\pi_{Pno}$(PROJECT) ) \\
+.\\
+Tuple Relational 
+\{ $t^{(2)} | $  $\forall$(p)(PROJECTS(w) \^{} $\exists$(w)$\exists$(e)(WORKS\_ON)(w) \^{} EMPLOYEE(e) \^{} w[Pno] = p[Pnumber] \^{} w[Essn] = e[ssn] \^{} t[1] = e[Lname] \^{} t[2] = e[Fname]\} \\
+.\\
+Domain Relational \\
+\{ Lname, Fname | $\forall$(p, e) ( PROJECT(p) \^{} EMPLOYEE(e) \^{} ($\exists$(w)(WORKS\_ON(w) \^{} w = p)  \}
+
+.\\
+The result of this query is $\emptyset$
+  \item   (f) 
+Domain Relational\\ $\pi_{lname, fname}$(WORKS\_ON $\Join_{ssn=essn}$ EMPLOYEE) - $\pi_{lname,fname}$(EMPLOYEE) \\
+Tuple Relational\\
+\{ $t^{(2)} | $  $\forall$(E)(EMPLOYEE(E) \^{} $\forall$(w)(WORKS\_ON)(w) \^{} NOT(p[ssn] = w[essn]) \^{} t[1] = e[Lname] \^{} t[2] = e[Fname]\}
+.\\
+The result of this query is $\emptyset$
+  \end{enumerate}
+\item (6.22)  %Problem 3
+	\begin{enumerate}
+	\item (a) 
+\begin{tabular}{|r|r|r|r|r|r|}
+  \hline
+P&Q&R&A&B&C \\
+  \hline
+10 & a & 5 & 10 & b & 6 \\
+10 & a & 5 & 10 & b & 5 \\
+25 & a & 6 & 25 & c & 3 \\
+  \hline
+\end{tabular}
+	\item (d) 
+ \begin{tabular}{|r|r|r|r|r|r|}
+\hline
+P&Q&R&A&B&C \\
+  \hline
+15 & b & 8 & 10 & b & 6 \\
+15 & b & 8 & 10 & b & 5 \\
+  \hline
+\end{tabular}
+	\end{enumerate}
+
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,74 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+
+\noindent Bill Davis \\
+605.421 
+
+\begin{enumerate}
+\item 
+21.1-1 Given an adjancy list representation: \\
+The out degree can be computed in \O(E+V), since we need only to iterate through the vertex array
+and compute the length of each constituent adjacency list.  \\
+\\
+The in degree can be computed in $\O(V \times E + V)$ time, since we need to traverse the entire adjacency list for each vertex. 
+
+\item
+22.1-5 We can compute $G^{2}$ by following each edge in G, and adding an edge to every edge pointed to by that vertex. \\
+i.e.\\
+foreach v $\in$ V          \\
+..foreach (v,w) $\in$ E[v]   \\
+....foreach (w, y) $\in$ E[w]  \\
+......add edge (v,y) to $G^{2}$ \\
+This algorithm requires us to traverse the edges foreach edge. This can happen in \O($E^{2}$) time. \\
+\\
+Things are slightly different for an adjacency matrix since we need to interate through the whole array to determine where the edgees are. \\
+foreach v $\in$ V          \\
+..foreach (v,w) $\in$ E[v]   \\
+....if (v,w) $\ne$ 0           \\
+......foreach (w, y) $\in$ E[w]  \\ 
+........if (w,y) $\ne$ 0            \\
+..........add edge (v,y) to $G^{2}$ \\
+
+This algorithm requires us to iterate through the whole array of vertices once for each edge in the array. 
+This can be done in \O($V^{3} $) time. 
+
+
+\item
+23.1-6: Show that a graph has a minimum spanning tree if for every 
+        cut there is a unique light edge crossing it \\
+
+As a counter example
+\xymatrix{
+A \ar[drr]^9 \\
+& B \ar[r]^5 \ar[lu]^5& 
+C \ar[llu]
+} \\
+The cut between trees containing (B) and (AC) does not have a unique light edge and this clearly has two minimum spanning trees. Both BAC and BCA satisfy the requirement. \\
+
+We can show that the exists a spanning by \\
+First selecting an vertex and adding it to a subtree. By assumption there exists a light edge between the subtree containing only this vertex and the rest of the tree. \\
+Add this light edge and the vertex it connects too to the tree. This is now a MST containing these two vertices. \\
+Repeat until all vertices have been added. \\
+
+This tree is unique since there exists only 1 light edge between any subtree and the remainder of the graph. 
+
+\item 
+22.2-3 Runtime for BFS for an adjacency matrix. \\
+Since each vertex is enqueued at most 1 time, the total time for queue operations if \O(V). \\
+Also the adjacency matrix has size $V \times V$, therefore the time spent scanning the matrix for edges is \O($V^{2}$), hence the algorithm should run in \O($V^{2} + V$). 
+
+\item
+23.2-5 Runtime of Prim's Algorithm if the weights are in the range $1$ to $W$ for some constant $W$. \\
+If we can assume the weights of all the edges in the tree are in this range, then we can replace the EXTRACT-MIN operation with an array implementation. In this case we can scan for the lowest cost vertex in \O(W) and since W is a constant this time is \O(1). Also the decrease key operation simply entails removing one item from the array which can be done in \O(1). This means the whole algorithm has a runtime \O(E+V). \\
+\\
+If the weights are in the range 1 to $|V|$ then the above analysis shows that the extract min runtime will be \O($|V|$), and the that total runtime will be \O($|V|^{2}$ + E). 
+\end{enumerate}
+\end{document}

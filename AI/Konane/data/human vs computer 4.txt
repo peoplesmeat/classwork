@@ -1,0 +1,73 @@
+Welcome to Konane!
+Enter Board Size (4,6,8)
+4
+Assign Players
+Player 1: (C)omputer, (H)uman
+c
+Enter Depth:
+5
+(m)inimax or (a)lpha Beta:
+m
+Player 2: (C)omputer, (H)uman
+h
+Player1 Move (0,0) to (0,0) (with Score -2)
+Player1 has evaluated 155 total nodes
+ |W|B|W|
+W|B|W|B|
+B|W|B|W|
+W|B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 0 1
+ |W|B|W|
+ |B|W|B|
+B|W|B|W|
+W|B|W|B|
+
+Player1 Move (2,0) to (0,0) (with Score -1)
+Player1 has evaluated 225 total nodes
+B| | |W|
+ |B|W|B|
+B|W|B|W|
+W|B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 1 2 1 0
+B|W| |W|
+ | |W|B|
+B| |B|W|
+W|B|W|B|
+
+Player1 Move (0,0) to (2,0) (with Score -30)
+Player1 has evaluated 430 total nodes
+ | |B|W|
+ | |W|B|
+B| |B|W|
+W|B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 0 3 0 1
+ | |B|W|
+W| |W|B|
+ | |B|W|
+ |B|W|B|
+
+Player1 Move (3,1) to (1,1) (with Score -30)
+Player1 has evaluated 474 total nodes
+ | |B|W|
+W|B| | |
+ | |B|W|
+ |B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 3 2 1 2
+ | |B|W|
+W|B| | |
+ |W| | |
+ |B|W|B|
+
+Player1 Loses!

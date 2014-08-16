@@ -1,0 +1,69 @@
+ \documentclass{article}
+\usepackage{tikz}
+\usepackage{skak} 
+\usetikzlibrary{arrows,automata}
+\usetikzlibrary{positioning}
+
+\pagestyle{empty}
+
+\begin{document}
+Bill Davis\\
+Homework 9
+
+\begin{enumerate}
+\item[7.1.2]
+\begin{enumerate}
+\item
+The logic here is exactly the same as in the example, when taking one, two or three steps there are $a_{n-1}$ $a_{n-2}$ and $a_{n-3}$ possibilites. The recurrence relation is then $a_n=a_{n-1}+a_{n-2}+a_{n-3}$, with the initial conditions $a_1=1(1) a_2=2(11)(2) a_3=4(11)(12)(21)(3)$
+
+\item
+$a_5 = a_4+a_3+a_2 = a_1+2a_2+2a_3 = 1 + 2(2) + 2(4) = 13$
+
+\end{enumerate}
+
+\item[7.1.10]
+The recurrence relation for this is $a_n=a_{n-1}+a_{n-2}$, with the initial conditions $a_1 = 1$ and $a_2=2$. This can be seen in a diagram. 
+
+\vspace{30 mm}
+
+
+\item[7.13.a]
+Once the parallel lines have been drawn, the argument is the same as in the case where all lines intersect. That is, if you've drawn $k$ parallel lines and $m$ the next line drawn, which intersects all of the existing lines must create $k+m$ regions. This means that the number of regions must be $a_n=a_{n-1}+n$. The initial conditions differ, since $k$ parallel lines creates $k+1$ regions. 
+
+The recurrence relation is then $a_n=a_{n-1}+n$, where $a_n=n+1$ for k=n. 
+
+\item[7.1.24]
+This problem can be broken down into the following steps. To toggle the nth switch, first follow the process to toggle the n-1 switch. Then toggle the nth switch. Then follow the process again to toggle the n-1 switch. The number of steps to do this is $a_n = a_{n-1} + 1 + a_{n-1}$, with the initial condition that $a_1 = 1$. 
+
+\item[7.2.1]
+\begin{enumerate}
+\item
+Since this relation is of the form $ca_{\frac{a}{k}}+dn$ with $k=4$, $c=2$ and $d=1$, the solution is 
+\[
+An^{log_42}+\frac{kd}{k-c}n = An^{1/2} + \frac{4}{2}n = An^{1/2}+2n
+\]
+
+\item
+
+Since this relation is of the form $cA_{n/k}+d$ with $c=k$, then the solution is
+\[
+An-\frac{4}{3-1} = An-2
+\]
+\end{enumerate}
+
+\item[7.2.2]
+The recurrence relation for this is $a_n=a_{n/2}+1$, which by our handy table we know can be solved as $An-1$, and since a 2 player tournament has 1 game, $A=1$, then the solution is $a_n=sn-1$. 
+
+\item[7.2.3]
+\begin{enumerate}
+\item
+The number of different managerial levels can be expressed as the recurrence $a_n=a_{n/10}+1$, since every power of ten increases the number of managerial levels by 1. 
+\item
+The number of managers is then $a_n=10a_{n/10}+1$. 
+\end{enumerate}
+
+\item[7.2.4]
+Assuming we know the value for a given tournament if we then add a level, then we are doubling all of the existing values at each level. So if a player at a level earned 100, with an additional level, they would earn 200. At the same time there are n/2 new contestants who will lose in the first round, netting them 100. The recurrence relation that expresses this is $a_n = 2a_{n/2} + \frac{n}{2}$ with the initial condition that for $a_1 = 100$. 
+
+\end{enumerate}
+\end{document}

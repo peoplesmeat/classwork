@@ -1,0 +1,116 @@
+===========================================================================
+CSC 363H                Lecture Summary for Week  9               Fall 2005
+===========================================================================
+
+-----------
+P, NP, coNP
+-----------
+
+Examples of languages in NP:
+
+ -  CLIQUE = { <G,k> | G is an undirected graph that contains a k-clique --
+                       a subset of k vertices with all edges between them }
+    Verifier = "On input <G,k,c>:
+     1. check that c encodes a set of vertices;
+     2. check that every vertex in c belongs to G;
+     3. check that c contains k vertices;
+     4. check that G contains the edge between
+        every pair of vertices from c;
+     5. accept if all checks pass, reject otherwise."
+    Verifier runs in polytime:
+     1. checking encodings can be done in polytime,
+     2. time O(kn), where n = number of vertices of G,
+     3. time O(k),
+     4. time O(k^2 n^2) (O(k^2) pairs in c, time O(n^2) for each one).
+    If <G,k> in CLIQUE, then verifier accepts when c = a k-clique of G.
+    If <G,k> not in CLIQUE, then no value of c makes verifier accept.
+
+ -  SUBSET-SUM = { <S,t> | S = {x_1,x_2,...,x_k} and there is a set
+                           {y_1,y_2,...,y_j} such that sum y_i = t }
+    Verifier = "On input <S,t,c>:
+     1. check that c encodes a set of numbers;
+     2. check that c subset of S;
+     3. check that SUM_{y in c} y = t;
+     4. accept if all checks pass, reject otherwise."
+    Clearly runs in polytime, and accepts for some c
+    iff <S,t> in SUBSET-SUM.
+
+Notes:
+
+ -  CLIQUE^C, SUBSET-SUM^C don't appear to belong to NP: apparently, no way
+    to give a short certificate of NON-membership in CLIQUE or SUBSET-SUM.
+    (Same for HAMPATH^C.)
+
+ -  On the other hand, COMPOSITES^C = PRIMES can be shown to belong to NP
+    (using number theory).  In fact, recent research result (Agrawal,
+    Kayal, Saxena 2002) showed that PRIMES is actually in P (for more
+    details, see http://crypto.cs.mcgill.ca/~stiglic/PRIMES_P_FAQ.html).
+
+Definition: coNP = { L^C | L in NP } = { complements of languages in NP }.
+Note: coNP =/= NP^C!  L in coNP iff L^C in NP but L in NP^C iff L notin NP.
+
+[Picture: P subset of NP intersect coNP, all subset of decidable.]
+
+Open question:  P ?= NP intersect coNP  (No strong concensus.)
+
+Open question:  NP ?= coNP  (Strongly believed to be NO.)
+
+Open question:  P ?= NP  (Strongly believed to be NO.)
+
+Answering these questions is worth 1 million dollars!  (They are some of
+the "Millenium Problems" recognized by the Clay Mathematics Institute.)
+
+---------------------
+Polytime reducibility
+---------------------
+
+Defn: Language A is "polytime reducible" to language B (A <=p B) if there
+is a polytime computable function f : S* -> S* such that for all w in S*,
+w in A iff f(w) in B.
+
+Almost identical to many-one reducibility, with added constraint that f can
+be computed in polytime.
+
+Just like <=m, think of "<=p" as comparing the difficulty of deciding the
+languages.  So A <=p B intuitively says "A is no more difficult to solve
+than B" or equivalently, "B is at least as hard to solve as A".
+
+Example:  INDEPENDENT-SET <=p CLIQUE
+
+    INDEPENDENT-SET = { <G,k> | G is an undirected graph that contains
+                                an independent set of size k -- a subset of
+                                vertices with NO edge between any two }
+
+ -  On input <G,k>, construct <G',k'> as follows:
+        G' = complement of G (same vertices, edge in G' iff edge not in G)
+        k' = k
+    This construction can obviously be carried out in polytime.
+    Moreover, if G contains an IS of size k, then the same set in G' will
+    be a clique of size k; conversely, if G' contains a clique of size k,
+    the same set in G will be an IS of size k.
+
+Theorem: A <=p B and B in P (or NP) -> A in P (or NP).
+
+Corollary: A <=p B and A not in P (or NP) -> B not in P (or NP).
+
+Just like for decidability/recognizability, one example of a language not
+in P could be used to prove more, using <=p.
+Problem: such languages hard to find, and only known examples are outside
+NP...  Want to focus on NP because it contains a vast majority of problems
+from "real life" applications.
+
+Idea: try to identify "hardest" problems in NP.
+
+Defn: Language A is "NP-complete" (NPc) if
+ -  A in NP,
+ -  B <=p A for all B in NP (A is "NP-hard").
+
+Theorem: If A is NPc, then A in P iff P = NP.
+Proof:
+ -  If P = NP, then A NPc -> A in NP -> A in P.
+ -  If A in P, then A NPc -> for all B in NP, B <=p A -> B in P (because
+    A in P), i.e., NP subset of P so P = NP.
+
+Corollary: If P != NP and A is NPc, then A not in P.
+So proving NP-completeness "as good as" proving not in P.
+

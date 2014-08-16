@@ -1,0 +1,94 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent November 19th 2009 
+
+\noindent Homework 11
+
+\begin{enumerate}
+
+\item[10.3.2]
+Using the geometric distribution, the expected number of white chips selected
+would be 33.33, 53.33, 13.333 for 0, 1, 2 white chips respectively. 
+\[
+\frac{(35-33.33)^2}{33.33} + \frac{(55-53.33)^2}{53.33} +
+\frac{(10-13.33)^2}{13.33} = 0.96
+\]
+At the 0.1 level with df = 2, $\chi^2 = 4.605$. Since $0.96<4.605$ we fail to
+reject $H_0$, the geometric distribution accurately models the results. 
+
+\item[10.3.3]
+Using a binomial distribution the expected number of white chips selected
+would be 36, 48, 16, for 0, 1, 2 white chips respectively. 
+\[
+\frac{(35-36)^2}{36} + \frac{(55-48)^2}{48} +
+\frac{(10-16)^2}{16} = 3.299
+\]
+At the 0.1 level with df = 2, $\chi^2 = 4.605$. Since $3.299<4.605$ we fail to
+reject $H_0$, the binomial distribution also accurately models the results.
+
+\item[10.3.7]
+\begin{tabular}{c c c|c}
+Color & Number & Expected Number & (Num - E(color))/E(color) \\
+\hline \\
+Brown & 455 & 458.1 & 0.021 \\
+Yellow & 343 & 305.4 & 4.629 \\
+Red & 318 & 305.4 & 0.52 \\ 
+Orange & 152 & 152.7 & 0.003\\ 
+Blue & 130 & 152.7 & 3.375\\ 
+Green & 129 & 152.7 & 3.678\\
+\end{tabular}
+
+The sum is 12.266, and at df=5, the 0.95 $\chi^2=11.070$, and since $12.266>
+11.070$ we reject $H_0$, the distributions appear to be different then
+advertised. 
+\item[10.3.8]
+\begin{tabular}{c c c|c}
+Type & Number & Expected Number & (Num - E(color))/E(color) \\
+\hline
+RY & 315 & 312.75 & 0.016 \\
+RG & 108 & 104.25 & 0.135 \\
+AY & 101 & 104.25 & 0.101 \\
+AG & 32  & 34.750 & 0.218 \\
+\hline 
+\end{tabular}
+
+The sum is 0.47, and at df=3, the 0.99 $\chi^2 = 11.345$ Since $0.47<11.34$ we
+fail to reject $H_0$, the date is consistent with the probabality model.  
+\item[10.4.1]
+Using the MLE estimator for binomials yields a paramter = 0.54166
+
+
+\begin{tabular}{c c c|c}
+Type & Number & Expected Number & (Num - E(color))/E(color) \\
+\hline
+0 & 30 & 19.26 & 5.989 \\
+1 & 56 & 68.27 & 2.205 \\
+2 & 73 & 80.68 & 0.731 \\
+3 & 41 & 37.78 & 2.675 \\
+\hline
+\end{tabular}
+
+The sum is 11.6 and at df = 2, the .95  $\chi^2 = 5.991$ Since $11.6 > 5.991$
+we reject $H_0$, the binomial does not model the data collected. 
+\item[10.4.2]
+
+\item[10.5.1]
+
+\item[10.5.3]
+  
+\end{enumerate}
+
+\end{document}

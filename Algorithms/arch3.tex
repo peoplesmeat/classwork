@@ -1,0 +1,88 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+
+\noindent Bill Davis \\
+\noindent 605.411 Problem Set 4
+
+\begin{enumerate}
+\item  
+Circuit a) matches 3 A AND B \\
+  \begin{tabular}{|r|r|r|}
+  \hline
+	C & D & R \\
+  \hline
+  1 & 1 & 1 \\
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 0 \\
+  \hline
+  \end{tabular}
+\\
+.\\
+Circuit b) matches 1 A NAND B \\
+  \begin{tabular}{|r|r|r|}
+  \hline
+	C & D & R \\
+  \hline
+  1 & 1 & 0 \\
+  1 & 0 & 1 \\
+  0 & 1 & 1 \\
+  0 & 0 & 1 \\
+  \hline
+  \end{tabular}
+\\
+
+\item 
+  \begin{enumerate}
+  \item  
+  \begin{tabular}{|r|r|r|}
+  \hline
+	C & D & R \\
+  \hline
+  1 & 1 & 1 \\
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+  \hline
+  \end{tabular}
+  \item 
+  This same result could be produced from a Exclusive-NOR Gate 
+  \end{enumerate}
+
+\item 
+\begin{enumerate}
+\item 
+ The instruction cvt.w.s can produce incorrect results. For, since the range on a floating point is larger then the range of                                            integers, range errors can result when doing conversions. 
+\item 
+The instruction cvt.s.w can also produce incorrect results. Since integers can have many more significant digits then floating point numbers, loss of precision errors can occur when converting from integers to floats. For example 123456789
+
+\end{enumerate}
+
+\item 
+\begin{tabular}{|r|r|r|r|}
+\hline
+x & y & z & F\\
+\hline 
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 1 \\
+0 & 1 & 0 & 0 \\
+0 & 1 & 1 & 0 \\
+1 & 0 & 0 & 0 \\
+1 & 0 & 1 & 1 \\
+1 & 1 & 0 & 0 \\
+1 & 1 & 1 & 1 \\
+\hline
+\end{tabular}
+
+\item
+\end{enumerate}
+
+\end{document}

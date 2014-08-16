@@ -1,0 +1,88 @@
+ \documentclass{article}
+\usepackage{tikz}
+\usepackage{skak} 
+\usetikzlibrary{arrows,automata}
+\usetikzlibrary{positioning}
+
+\pagestyle{empty}
+
+\begin{document}
+Bill Davis\\
+Homework 4 and 5
+
+\begin{enumerate}
+
+\item[2.1.2]
+\begin{enumerate}
+\item 
+$K_n$ has an Euler cycle where n is odd
+\item
+Only $K_2$ has an Euler Trail but no Euler Cycle
+\item 
+$k_{r,s}$ has an Euler cycle when both r and S are odd. 
+\end{enumerate}
+\item[2.1.9]
+This is the same as asking if there is a Euler trail containing all the vertices, in which case the answer is yes because there are exactly two vertices with odd degree A and F. A possible sequence of races is AB, BC, CE, EF, FD. 
+\item[2.1.10]
+This is not possible. 
+
+              \newgame
+   \fenboard{1n6/3P4/P1P5/8/8/8/8/8
+   w - - 0 20}
+
+              \showboard
+The knight is in a position with three moves, since in order for a Euler circuit to exist all vertices must have even degree, a Euler circuit does not exist that contains all moves. 
+\item[2.2.1]
+\vspace{20 mm}
+\item[2.2.4]
+\begin{enumerate}
+\item
+A Hamilton path is CABED
+
+No Hamilton circuit is possible because b,c,d are all of degree two, and must include edges ab,be,ca,ce,da,de. But this includes all three edges at a and e, and then cannot be a hamilton circuit. 
+\item
+A hamilton path is adghebcfi. 
+\end{enumerate}
+
+\item[2.3.1]
+\begin{enumerate}
+\item[a]
+3 Colors, it cannot be fewer because it contains a triangle
+\item[c]
+2 Colors, it cannot be fewer because there is more then one vertex
+\item[o]
+3 Colors, it cannot be two because if it were then both f and j would have to be the same color, say red, since they share vertex h, but i must be another color green, therefore, but then g cannot be both red or green. There must then be three colors. 
+\end{enumerate}
+
+\item[2.3.9]
+This needs three colors. 
+
+\item[2.3.14]
+A. $p_k(G) = (k)(k-1)(k-1)(k-1)$
+
+B. $p_k(G) = (k)(k-1)(k-2)(k-2)$
+
+C. $p_k(G) = (k)(k-1)(k-1)(k-1)(k-2)$
+
+\item[2.3.14b]
+Assuming we know $P_k(G)$, then the chormatic number of G is the lowest number $n$ such that $P_n(G) > 0$. 
+
+\item[2.4.2]
+Since G has 8 vertices and 13 edges, there must be 13-8+2=7 regions. Regions must have degree $\ge$ 3. A region with degree = 3 is a triangle. For this graph to contain no triangles each region must have degree $>$ 3. But 4(7) = 28, and the sum of the regions must equal 2e = 26. Since 28 $>$ 26, there must be at least one region with degree 3, in which case this graph cannot be two colored. 
+
+\item[2.4.9]
+\begin{enumerate}
+\item
+Since the chromatic number of a graph consisting of a number of disconnected subsets is the maximum value chromatic number over the subsets, removing a single, arbitrary, vertex cannot effect the chromatic number of the whole.
+\item
+Assume there is a vertex with degree k-2. If by removing that vertex we decrease the chromatic number to k-1, then we could k-1 color G by re-adding that vertex. Since it is only connected to k-2 vertices there must be at least one color leftover to color the vertex.  
+\item
+If G can be disconnected by a vertex into two components then one of the components 
+
+\end{enumerate}
+
+\item[19]
+If we number the sum of the hours spent studying basket weaving $x_1, x_2 ... x_49$ for the 7 weeks and we have a seperate list $x_1+20, x_2+20 ... x_49+20$, we now have a list of 98 numbers, but since there were never more then 11 spent per day, there could only be 77 hours spent total, and therefore only 97 possible number selections. As a result, at least one number must appear in boths lists. 
+\end{enumerate}
+
+\end{document}

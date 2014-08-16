@@ -1,0 +1,44 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\noindent Bill Davis \\
+\noindent 605.441 Problem Set 7
+
+\begin{enumerate}
+\item (10.6) %Problem 1
+We cannot infer a functional dependency from a particular relation state because later addition of a tuple may break any dependency that we infer. This means we can only generate functional dependencies from information not contained in a relation state. 
+
+\item (10.18)
+\begin{enumerate}
+\item 
+We're given that
+$\{W \rightarrow Y, X \rightarrow Z\}  \nonumber  $ So from the augmentation rule we can say that $WX \rightarrow YX$ and from projective rule this implies that $WX \rightarrow Y $.
+
+\item (10.18e) This is false as can be seen from this instance
+\begin{tabular}{|r|r|r|}
+  \hline
+X&Y&Z\\
+  \hline
+x1 & y1 & z1 \\
+x1 & y2 & z1 \\
+  \hline
+\end{tabular}
+\item (10.18g) We're given that $\{ X \rightarrow Y , Z \rightarrow W\}$. From the augmentation rule we can determine that $\{ XZ \rightarrow YZ, YZ \rightarrow YW  \}$ and then from the transitive rule we can see that $XZ\rightarrow YW$.
+
+
+\end{enumerate}
+
+\item  (10.21) A minimal set of dependencies would be \{Ssn$\rightarrow$Ename, Ssn$\rightarrow$Bdate, Ssn$\rightarrow$Address, Ssn$\rightarrow$Dnumber, Dnumber$\rightarrow$Dname, Dnumber$\rightarrow$Dmgr\_ssn  \} 
+
+\item(10.29) AB is not a candidate key for this relation because AB only functionally determines ABC, \{AB$\rightarrow$ABC\}. \\
+ABD on the other hand would be a good candidate key because \{ABD$\rightarrow$ABCDE\}, and neither AB, AD, or BD functionally determine all of the attributes ABCDE. 
+\end{enumerate}
+
+
+
+
+\end{document}

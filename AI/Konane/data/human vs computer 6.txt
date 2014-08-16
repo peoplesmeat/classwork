@@ -1,0 +1,252 @@
+Welcome to Konane!
+Enter Board Size (4,6,8)
+6
+Assign Players
+Player 1: (C)omputer, (H)uman
+c
+Enter Depth:
+4
+(m)inimax or (a)lpha Beta:
+a
+Player 2: (C)omputer, (H)uman
+hg
+Player1 Move (2,2) to (2,2) (with Score 0)
+Player1 has evaluated 153 total nodes
+B|W|B|W|B|W|
+W|B|W|B|W|B|
+B|W| |W|B|W|
+W|B|W|B|W|B|
+B|W|B|W|B|W|
+W|B|W|B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+c
+Player2, (1,2)  (1,2)
+Player2, (2,1)  (2,1)
+Player2, (3,2)  (3,2)
+Player2, (2,3)  (2,3)
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 2 3
+B|W|B|W|B|W|
+W|B|W|B|W|B|
+B|W| |W|B|W|
+W|B| |B|W|B|
+B|W|B|W|B|W|
+W|B|W|B|W|B|
+
+Player1 Move (2,0) to (2,2) (with Score 0)
+Player1 has evaluated 545 total nodes
+B|W| |W|B|W|
+W|B| |B|W|B|
+B|W|B|W|B|W|
+W|B| |B|W|B|
+B|W|B|W|B|W|
+W|B|W|B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+c
+Player2, (0,1)  (2,1)
+Player2, (0,3)  (2,3)
+Player2, (2,5)  (2,1)
+Player2, (2,5)  (2,3)
+Player2, (4,1)  (2,1)
+Player2, (4,3)  (2,3)
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 4 3 2 3
+B|W| |W|B|W|
+W|B| |B|W|B|
+B|W|B|W|B|W|
+W|B|W| | |B|
+B|W|B|W|B|W|
+W|B|W|B|W|B|
+
+Player1 Move (1,3) to (3,3) (with Score 1)
+Player1 has evaluated 908 total nodes
+B|W| |W|B|W|
+W|B| |B|W|B|
+B|W|B|W|B|W|
+W| | |B| |B|
+B|W|B|W|B|W|
+W|B|W|B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+c
+Player2, (0,1)  (2,1)
+Player2, (2,5)  (2,1)
+Player2, (2,5)  (2,3)
+Player2, (4,1)  (2,1)
+Player2, (4,1)  (4,3)
+Player2, (4,5)  (4,3)
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 4 1 4 3
+B|W| |W|B|W|
+W|B| |B| |B|
+B|W|B|W| |W|
+W| | |B|W|B|
+B|W|B|W|B|W|
+W|B|W|B|W|B|
+
+Player1 Move (4,4) to (4,2) (with Score 3)
+Player1 has evaluated 1537 total nodes
+B|W| |W|B|W|
+W|B| |B| |B|
+B|W|B|W|B|W|
+W| | |B| |B|
+B|W|B|W| |W|
+W|B|W|B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+c
+Player2, (0,1)  (2,1)
+Player2, (0,1)  (4,1)
+Player2, (2,5)  (2,1)
+Player2, (2,5)  (2,3)
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 0 1 4 1
+B|W| |W|B|W|
+ | | | |W|B|
+B|W|B|W|B|W|
+W| | |B| |B|
+B|W|B|W| |W|
+W|B|W|B|W|B|
+
+Player1 Move (5,1) to (3,1) (with Score 3)
+Player1 has evaluated 2370 total nodes
+B|W| |W|B|W|
+ | | |B| | |
+B|W|B|W|B|W|
+W| | |B| |B|
+B|W|B|W| |W|
+W|B|W|B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+c
+Player2, (0,3)  (0,1)
+Player2, (2,5)  (2,1)
+Player2, (2,5)  (2,3)
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 2 5 2 1
+B|W| |W|B|W|
+ | |W|B| | |
+B|W| |W|B|W|
+W| | |B| |B|
+B|W| |W| |W|
+W|B| |B|W|B|
+
+Player1 Move (3,1) to (1,1) (with Score 5)
+Player1 has evaluated 2830 total nodes
+B|W| |W|B|W|
+ |B| | | | |
+B|W| |W|B|W|
+W| | |B| |B|
+B|W| |W| |W|
+W|B| |B|W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+c
+Player2, (0,3)  (0,1)
+Player2, (0,5)  (2,5)
+Player2, (4,5)  (2,5)
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 0 5 2 5
+B|W| |W|B|W|
+ |B| | | | |
+B|W| |W|B|W|
+W| | |B| |B|
+B|W| |W| |W|
+ | |W|B|W|B|
+
+Player1 Move (3,5) to (1,5) (with Score 30)
+Player1 has evaluated 3289 total nodes
+B|W| |W|B|W|
+ |B| | | | |
+B|W| |W|B|W|
+W| | |B| |B|
+B|W| |W| |W|
+ |B| | |W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+c
+Player2, (0,3)  (0,1)
+Player2, (0,3)  (0,5)
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 0 3 0 1
+B|W| |W|B|W|
+W|B| | | | |
+ |W| |W|B|W|
+ | | |B| |B|
+B|W| |W| |W|
+ |B| | |W|B|
+
+Player1 Move (4,2) to (2,2) (with Score 30)
+Player1 has evaluated 3699 total nodes
+B|W| |W|B|W|
+W|B| | | | |
+ |W|B| | |W|
+ | | |B| |B|
+B|W| |W| |W|
+ |B| | |W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+c
+Player2, (0,1)  (2,1)
+Player2, (1,2)  (3,2)
+Player2, (3,4)  (3,2)
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 3 4 3 2
+B|W| |W|B|W|
+W|B| | | | |
+ |W|B|W| |W|
+ | | | | |B|
+B|W| | | |W|
+ |B| | |W|B|
+
+Player1 Move (0,4) to (2,4) (with Score 30)
+Player1 has evaluated 3911 total nodes
+B|W| |W|B|W|
+W|B| | | | |
+ |W|B|W| |W|
+ | | | | |B|
+ | |B| | |W|
+ |B| | |W|B|
+
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+c
+Player2, (0,1)  (2,1)
+Player2's Turn
+(C)heck Moves, (M)ove Piece, (P)rint Board, (Q)uit
+m 0 1 2 1
+B|W| |W|B|W|
+ | |W| | | |
+ |W|B|W| |W|
+ | | | | |B|
+ | |B| | |W|
+ |B| | |W|B|
+
+Player1 Move (2,2) to (0,2) (with Score 30)
+Player1 has evaluated 4003 total nodes
+B|W| |W|B|W|
+ | |W| | | |
+B| | |W| |W|
+ | | | | |B|
+ | |B| | |W|
+ |B| | |W|B|
+
+Player2 Loses!

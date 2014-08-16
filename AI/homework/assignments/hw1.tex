@@ -1,0 +1,106 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+
+\noindent Bill Davis \\
+Homework 1
+
+\begin{enumerate}
+\item % Problem 1
+
+\begin{enumerate}
+\item  % Problem 1a
+For a heuristic we can use a greedy strategy and compute the closest location to drop off a package, as computed by manhatten distance, to the current position. This can be done in \O(locations) time. 
+\item  % Problem 1b
+We can change the cost function to include a factor for the time held each package, and make holding the bosses package more expensive. For example \\ 
+Cost: 1 For each Action, 1 For each package held, 2 For Holding Bosses Package
+\item  % Problem 1c
+State:\\
+\{(x,y), deliveredA, deliveredB, deliveredC,\\
+ pickedUp1, pickedUp2, pickedUp3\}
+
+\item  % Problem 1d
+An admissible heuristic for this problem could be defined as \\
+h(n) = num of packages left to pick up + num of packages left to deliver. 
+\end{enumerate}
+
+
+\item % Problem 2
+The minimum number of nodes for depth first search is $m$ \\
+The minimum number of nodes for breadth first search is 1 if m=1, or $b^{m-1}+1$ for m$>$1, this is minimum since the goal node may be the first node we search at any given level. 
+
+
+\item % Problem 3
+A heuristic $h$ is consistent if $h(n) \le c(n,a,n') + h(n')$. Therefore for any node $n$ and any successor $n'$, $h(n) - h(n')\le c(n,a,n')$. In particular if we select n' as a successor which is a goal state, then $h(n') = 0$ by the definition of a heuristic. Therefore this reduces to $h(n) \le c(n,a,goal node)$ which shows that $h$ is admissible. \\
+
+Any heuristic which may overestimate the cost of a specific action, while still underestimating the cost of the the path to the goal node is admissible and not consistent. For example if a path consists of three states A $\rightarrow$ B $\rightarrow$ GOAL, and the cost of action between any state is 5, a heuristic defined as h(A)=8 and h(B)=4 is admissible but not consistent. A consistent heuristic would require h(B) $\le$ 3. 
+
+\item % Problem 4
+$h_{1}(2)+h_{2}(2)$ is not admissible. This is because although both $h_{1}$ and $h_{2}$ underestimate the actual solution, their sum may not. \\
+
+b,c,d are all admissible. This is because for any state s the constructed $h_{3}$ will be less then or equal to either $h_{1}$ or $h_{2}$. \\
+
+The best heuristic is (c), $h_{3}(s) = $ max$\{h_{1}(s),h_{2}(s)\}$. Since both $h_{1}$ and $h_{2}$ underestimate the solution, the maximum of these values will be the one which is closest to the real solution. 
+
+
+\item % Problem 5
+Step 1. We can select from variables X1, X2, and X3 since they have the fewest values remaining (ie either 0 or 1). Since X3 is connected to the fewest number of variables we can select a value for it. 0 is ruled out by the constraint of having no leading 0's. Therefore we can set X3 = 1. Since X3 = F, set F = 1. \\
+
+Step 2. Select X1 next. Again we can select from 0 or 1. Set X1 = 0. \\
+
+Step 3. Select X2 next. Set X2 = 0. \\
+
+Step 4. Now O is the most constrained value. Forward checking rules out values 0,1. Value 0 is ruled out since O+O=R. Value 1 is ruled out because it is already taken. Therefore set O = 2 
+
+Step 5. Select R. Since R = O + O , set R = 4. 
+
+Step 6. T is now the most constrained value. Set T = 6. 
+
+Step 7. We can now select from W or U. Select U. All values are ruled out. We need to backtrack. 
+
+Step 8. Backtrack to O. Values 0,1,2,3 are now excluded. Set O = 4. 
+
+Step 9. Set R = 8. 
+
+Step 10. Set T = 7. 
+
+Step 11. We can now select from W or U. Select U. Values 1,2,3,4,5 Are excluded, set U = 6. 
+
+Step 12. Set W = 3. 
+
+The final assignments then are, F=1, O=4, R=8, T=7, U=6, W=3, X1=0, X2=0, X3=1.
+
+\item % Problem 6
+To turn this ternary constraint into 3 binary contraints we can introduce an auxillary variable AUX, which takes on values (X,Y) where X and Y are in the domains of A and B. \\
+Then we can introduce three binary constraints
+A, AUX = All pairs (A, *) 
+B, AUX = All pairs (*, B) 
+C, AUX = All Pairs (x, y), where x + y = C
+\\
+This can be extended to constraints containing an arbitrary number of variables by introducing an auxillary variable which takes as domain the cross product of the original constraint variables. For example a constraint involving 4 variables the domain of the constaint variable could be (A, B, C) where the constraints are as above. 
+\\
+All unary constraints can be eliminated by modifying the domain of the constrained variable to be only those values which are allowable. For example if variable A takes as domain the integers and is constrained to values (1, 2, 3, 4, 5) we can remove the constaint and redefine the domain of A to be \{1,2,3,4,5\}. This is possible since any value in the domain of A, which is eliminated by a unary constraint on A, can never be used to satisfy the constraint.  
+
+\item %Problem 7
+For $k$ variables with $n$ bits of accuracy, we can use $k \lceil log_{2}(10^{n}) \rceil$ bits for the encoding. For example if we wanted 4 digits of accuracy, and we were solving for 4 variables we would need 14 bits for each variable for a total of 56 bits. \\
+
+The decoding for this method is as follows. For the $i^{th}$ variable take the $i^{th}$ group of 14 bits, and interprete that as a binary integer $x_{i}'$. Then perform the calculation 
+\[
+ x_{i} = \frac{b_{i}-a_{i}}{10^{n}}x' + a_{i}
+\]
+To decode the value of the variable $x_{i}$.
+
+\item %Problem 8
+We can modify the reproductive schema growth function by modifying the probability of survival. In 1-point crossover the probability of schema survival is $1-\frac{S(H)}{l-1}$. 2-point crossover is slightly more complicated. Here a schema is maintained only if both points selected from crossover are outside of the area covered by the schema. If 1, or both, of the sites selected for crossover lie within the schema area, the schema will be disrupted. The probability of the schema being maintained then can be expressed as $[1-\frac{S(H)}{l-1}][1-\frac{S(H)}{l-1}]$ or $[1-\frac{S(H)}{l-1}]^{2}$. The remainder of the schema growth function is unchanged. 
+
+\end{enumerate}
+
+
+\end{document}

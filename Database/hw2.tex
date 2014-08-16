@@ -1,0 +1,65 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\noindent Bill Davis \\
+\noindent 605.441 Problem Set 2
+
+\begin{enumerate}
+\item (3.11) %Problem 1
+A recursive relationship occurs when the same entity participates in numerous roles in a relationship type, ie an entity associated with itself. For example an employee both has a supervisor and may in turn be a supervisor and thus have subordinates. \\
+Another example could be a parts lists. A part could be made up of numerous component parts, and it in turn, could be a component of a larger part. 
+
+\item (3.22)%Problem 2
+\pagebreak
+\item (3.25) %Problem 3
+The (min,max) constraints for textbooks could be described as follows. (0, 20) for INSTRUCTOR ADOPTS TEXTBOOK. Since Instructors don't have to use a textbook, an INSTRUCTOR may adopt 0 textbooks. Alternatively, they may adopt up to 5 textbooks per course, and since each INSTRUCTOR may teach up to 4 courses, the may adopt a total of 20 TEXTBOOKS. \\
+For the reverse the constraint could be (1,n), meaning that for each textbook, at least 1 professor has adopted it. This assumes that textbooks which are not being used by any professor be dropped from the database. And, depending on the number the number of instructors, and number of them could have adopted a particular textbook. 
+
+\item (5.17) %Problem 4
+The foreign keys here are Serial\_No, used in the CAR, OPTION and SALE tables. This assumes that the Serial Number is unique across cars. Also Salesperson\_id, used in the SALE and SALESPERSON tables, assuming again that the Salesperson\_id is unique across sales people. \\
+Car\\
+\begin{tabular}{|r|r|r|r|}
+  \hline
+	Serial\_no & Model & Manufacturer & Price \\
+  \hline
+     5    & Honda & Civic & 15,000\\
+     8    & Honda & Accord & 23,000 \\
+	\hline
+  \end{tabular}
+.\\
+Option\\
+\begin{tabular}{|r|r|r|}
+  \hline
+	Serial\_no & Option\_name & Price\\
+	\hline
+	5 & Spoiler &  350\\
+  \hline
+  \end{tabular}
+\\
+Sale\\
+\begin{tabular}{|r|r|r|r|}
+  \hline
+	Salesperson\_id & Serial\_no & Date & Sale\_price\\
+	\hline
+    2   & 8 & Oct 7 & 21,000\\
+  \hline
+  \end{tabular}
+\\
+Salesperson\\
+\begin{tabular}{|r|r|r|}
+  \hline
+	Salesperson\_id & name & phone \\
+  \hline
+	1 &Betty Jane & 301-555-9832 \\
+   2 & Jane Betty & 301-555-9833 \\
+	\hline
+  \end{tabular}
+\end{enumerate}
+If we tried to enter in a new row in the sale table with values (3, 5, Oct 7, 21,000) this would violate referential integrity because there is no Salesperson with Salesperson\_id 3.\\ 
+On the other hand if we entered in a new row into the sales table with values (1, 5, Oct 7, 21000) then this abides by referential integrity. 
+
+\end{document}

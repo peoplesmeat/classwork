@@ -1,0 +1,206 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent September 17th 2009 
+
+\noindent Homework 2
+
+\begin{enumerate} 
+
+\item[2.5.1]
+\begin{enumerate}
+\item 
+Since $P(A \cap B) \neq 0 $, $A$ and $B$ are not mutually exclusive.
+\item
+Since $P(A) \cdot P(B) = 0.12$, $A$ and $B$ are not independent.
+\item
+$P(A^{C} \cup B^{C}) = 1 - P(A \cap B) = 1-0.2 = 0.8$
+
+\end{enumerate}
+
+\item[2.5.4]
+If the event that both chips have same color is labeled $A$ then
+\begin{eqnarray}
+ P(A) &=& P(R_1 \cap R_2) + P(B_1 \cap B_2) + P(W_1 
+\cap W_2) \\
+&=& \frac{3}{10} \cdot \frac{2}{9} + \frac{2}{10} \cdot \frac{4}{9} +
+\frac{5}{10} \cdot \frac{3}{9}\\
+&=&\frac{29}{90}
+\end{eqnarray}
+
+\item[2.5.7]
+\begin{enumerate}
+  \item
+  \begin{enumerate}
+      \item 
+      If $A$ and $B$ are mutually exclusive then $P(A \cup B) =
+      \frac{1}{4} + \frac{1}{8} = \frac{3}{8}$
+      \item 
+      If $A$ and $B$ are independant then $P(A \cup B) = \frac{1}{4} +
+      \frac{1}{8} - \frac{1}{4} \cdot \frac{1}{8} = \frac{11}{32}$
+  \end{enumerate}
+  \item
+  \begin{enumerate}
+      \item 
+      If $A$ and $B$ are mutually exclusive then $P(A \mid B) =
+      \dfrac{0}{\frac{1}{8}} = 0 $
+      \item
+      If $A$ and $B$ are independent then $P(A \mid B) =
+      \dfrac{\frac{1}{32}}{\frac{1}{8}} = \frac{8}{32}$
+  \end{enumerate}
+\end{enumerate}
+
+\item[3.2.4] 
+\begin{enumerate}
+  \item
+Probabality that 4 will need rework 
+\[
+{ 12 \choose 4 }(0.15)^4 \cdot (0.85)^{8} = 0.0682844
+\]
+\item
+Probabality that at least 1 needs rework = 
+\[
+1-P(All Work) = 1- 0.85^{12} = 1 - 0.1422 = 0.8578
+\]
+\end{enumerate}
+\item[3.2.5]
+Probabality of being able to work = probabality that 0, 1, or 2 machines are
+broken. 
+\[
+\sum_{n=0}^{2} {10 \choose n}(0.05)^n(0.95)^{10-n} = 0.598 + 0.315 + 0.0746 =
+0.9885
+\]
+\item[3.2.18]
+Probabality of choosing a 5 person committee with 2 accountants is 
+\[
+\frac{ {4 \choose 2} \cdot {8 \choose 3} } { {12 \choose 5} } = \frac{14}{33} =
+0.\bar{42}
+\]
+
+\item[3.2.25]
+Probability that the last gem stolen is the second real diamond, is the same as
+saying that in the first three there is one real diamond times the P(last one
+is a diamond $\mid$ 1 real and 2 fakes are stolen)
+
+\[
+\frac{ {10 \choose 1 } \cdot {25 \choose 2} } {{35 \choose 3}} \cdot
+\frac{10-1}{35-3} = \frac{600}{1309} \cdot \frac{9}{32} = \frac{675}{5236} =
+0.1289
+\]
+\item[3.3.5]
+\begin{tabular}{l c r | c}
+Coin 1 & Coin 2 & Coin 3 & Head - Tails \\
+\hline
+H & H & H & 3 \\
+H & H & T & 1 \\
+H & T & H & 1 \\
+H & T & T & -1 \\
+T & H & H & 1 \\
+T & H & T & -1 \\
+T & T & H & -1 \\
+T & T & T & -3 \\
+\hline
+\end{tabular} 
+
+Therefore the probabality distribution is 
+
+\begin{tabular}{c c} 
+Heads - Tails & P(k) \\
+\hline
+3 & $\tabfrac{1}{8}$ \\
+1 & $\tabfrac{3}{8}$ \\
+-1 & $\tabfrac{3}{8}$ \\ 
+-3 & $\tabfrac{1}{8}$\\
+\hline
+\end{tabular}
+
+\item[3.3.6]
+The table below shows the sum of the two dice when rolled 
+
+\begin{tabular}{c | c c c c c c |}
+ & 1 & 3 & 4  & 5 & 6 & 8 \\
+ \hline
+ 1 & 2 & 4 & 5 & 6 & 7 & 9 \\
+ 2 & 3 & 5 & 6 & 7 & 8 & 10 \\
+ 2 & 3 & 5 & 6 & 7 & 8 & 10 \\
+ 3 & 4 & 6 & 7 & 8 & 9 & 11 \\
+ 3 & 4 & 6 & 7 & 8 & 9 & 11 \\
+ 4 & 5 & 7 & 8 & 9 & 10 & 12 \\
+ \hline
+\end{tabular}
+
+Where the table for the sum of two ordinary dice is 
+
+\begin{tabular}{c | c c c c c c |}
+ & 1 & 2 & 3  & 4 & 5 & 6 \\
+ \hline
+ 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+ 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+ 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+ 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+ 5 & 6 & 7 & 8 & 9 & 10 & 11 \\
+ 6 & 7 & 8 & 9 & 10 & 11 & 12 \\
+ \hline
+\end{tabular}
+
+
+The probabality distribution derived from both of these tables is the same
+and is shown below
+
+\begin{tabular} {c c}
+Sum Of Dice & P(sum) \\
+\hline
+2 & $\tabfrac{1}{36}$ \\
+3 & $\tabfrac{2}{36}$ \\
+4 & $\tabfrac{3}{36}$ \\
+5 & $\tabfrac{4}{36}$ \\
+6 & $\tabfrac{5}{36}$ \\
+7 & $\tabfrac{6}{36}$ \\
+8 & $\tabfrac{5}{36}$ \\
+9 & $\tabfrac{4}{36}$ \\
+10 &$ \tabfrac{3}{36}$ \\
+11 &$ \tabfrac{2}{36}$ \\
+12 &$ \tabfrac{1}{36}$ \\
+\end{tabular}
+
+\item[3.3.11]
+Using the equation for binomial probabality the PDF of X is shown below
+
+\begin{tabular} {c c}
+X & P(x) \\
+\hline
+0 & $\tabfrac{16}{81}$ \\
+1 & $\tabfrac{32}{81}$ \\
+2 & $\tabfrac{24}{81}$ \\
+3 & $\tabfrac{8}{81}$ \\
+4 & $\tabfrac{1}{81}$ \\
+\end{tabular}
+
+It follows that the PDF of 2X+1 is
+
+\begin{tabular} {c c}
+X & P(x) \\
+\hline
+1 & $\tabfrac{16}{81}$ \\
+3 & $\tabfrac{32}{81}$ \\
+5 & $\tabfrac{24}{81}$ \\
+7 & $\tabfrac{8}{81}$ \\
+9 & $\tabfrac{1}{81}$ \\
+\end{tabular}
+ 
+and 0 elsewhere. 
+
+\end{enumerate}
+\end{document}

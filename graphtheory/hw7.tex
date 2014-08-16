@@ -1,0 +1,89 @@
+ \documentclass{article}
+\usepackage{tikz}
+\usepackage{skak} 
+\usetikzlibrary{arrows,automata}
+\usetikzlibrary{positioning}
+
+\pagestyle{empty}
+
+\begin{document}
+Bill Davis\\
+Homework 7
+
+\begin{enumerate}
+
+\item[5.1.1]
+\begin{enumerate}  
+    \item (5)(4) = 20
+    \item (8)(7) = 56
+\end{enumerate}
+
+\item[5.1.5]
+There are $26^4$ four letter words. And $\frac{26!}{22!}$ words without repetition.
+
+\item[5.1.9]
+\begin{enumerate}
+\item (4 aces)(47 none queens - 1 ace) = 188
+\item (1 queen of spades)(48) + (12 other spades)(47) = 612
+\end{enumerate}
+
+\item[5.1.18]
+\begin{enumerate}
+\item 
+$(26^3)(10^3) + (10^3)(26^3) = 35152000$
+\item
+\[
+\sum_{x=1}^{26}\sum_{y=1}^{26} (x+1)(10^x)(26^y) = 78960960
+\]
+
+\end{enumerate}
+
+\item[5.1.26]
+There are 12 arrangments of 8 and 9 into the 4 available spots and 8 non-8/9 numbers. The total number then is $8^2(12)=768$ and the probabality is $\frac{768}{10000} = 0.0768$. 
+
+\item[5.1.36]
+Not sure about this one. 
+\item[5.2.2]
+\[
+\frac{26!}{16!} = 19275223968000
+\]
+
+\item[5.2.4]
+There are 10! ways to choose the seats for 10 peoples. And if boys and girls alternate seats there are (10)(5)(4)(4)(3)(3)(2)(2)(1)(1) = 28800 ways. 
+
+\item[5.2.17]
+\begin{enumerate}
+\item
+\[
+{4 \choose 2}\left( {6 \choose 4} + {6 \choose 5} + {6 \choose 6}\right) + {4 \choose 3} {6 \choose 6} 
+\]
+
+\item
+\[ 
+{9 \choose 5} + {9 \choose 4}  + {9 \choose 3} 
+\]
+
+\item
+Number of ways to choose 5 people from 10 - number where three specific peoples are choosen. Since this equals the number of ways to choose 2 people from the remaining 7, then this equals
+\[
+{10 \choose 5} - {7 \choose 2} 
+\]
+\end{enumerate}
+
+\item[5.2.19]
+There are 6 different ways to arrange the languages, and for each n books in a language it can be ordered n! ways, therefore the answer is 
+\[
+(6)(6!)(8!)(5!)
+\]
+
+\item[5.2.27]
+Since ${11 \choose 4} = 330$ and ${12 \choose 4} = 495$ he must have 12 friends. 
+
+\item[5.2.38]
+This is the number of ways to choose 8 months from 12 times the number of ways to choose a day from 30. 
+\[
+\frac{(30^8){12 \choose 8}}{{360 \choose 8}} = \frac{7217100000000}{143771059536281} = 0.050198558898279
+\]
+\end{enumerate}
+
+\end{document}

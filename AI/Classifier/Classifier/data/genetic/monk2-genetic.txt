@@ -1,0 +1,60 @@
+Beginning Sample 169 examples, 6 attributes
+Using 5-fold validation
+Using Test/Training Set #0 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.485294117647059
+
+Using Test/Training Set #0 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.602941176470588
+
+
+Using Test/Training Set #1 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.617647058823529
+
+Using Test/Training Set #1 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.522058823529412
+
+
+Using Test/Training Set #2 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.617647058823529
+
+Using Test/Training Set #2 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.551470588235294
+
+
+Using Test/Training Set #3 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.602941176470588
+
+Using Test/Training Set #3 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.602941176470588
+
+
+Using Test/Training Set #4 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.411764705882353
+
+Using Test/Training Set #4 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.485294117647059
+
+
+Node Count Tournament 77.8,  Node Count Fitness 37.6
+Avg Accuracy Fitness: 0.547058823529412, Tournament: 0.552941176470588
+Avg Nodes Compared Fitness: 2.76911764705882, Tournament: 3.09705882352941

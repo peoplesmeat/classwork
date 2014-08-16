@@ -1,0 +1,94 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent October 22nd 2009 
+
+\noindent Homework 7
+
+\begin{enumerate}
+ 
+\item[6.2.1]
+\begin{enumerate}
+  \item If the z score is less then -1.40507 then we should reject $H_0$. In
+  this case 
+  \[
+  \displaystyle\frac{45.1-42.9}{\frac{3.2}{\sqrt{16}}} = -1.6667
+  \]
+  Where $P(Z<-1.667) = 0.04778$. We should then reject $H_0$ in favor of $H_1$.
+  
+    \item If the z score is outside of  -2.57583 then we should reject
+    $H_0$. In this case 
+  \[
+  \displaystyle\frac{114-120}{\frac{18}{\sqrt{25}}} = 2.75
+  \]
+  Where $P(Z<2.75) = 0.99702$. We should then reject $H_0$ in favor of $H_1$.
+  
+      \item If the z score is greater then 1.12639 then we should reject $H_0$.
+      In this case 
+  \[
+  \displaystyle\frac{15.8-14.2}{\frac{4.1}{\sqrt{9}}} = 1.1707
+  \]
+  Where $P(Z<1.1707) = 0.8791$. We should then reject $H_0$ in favor of $H_1$.
+\end{enumerate}
+\item[6.2.2]
+Here Z values outside of +-1.88079 would cause $H_0$ to be rejected. In this
+case 
+\[
+\frac{X-95}{\frac{15}{\sqrt{22}}} < -1.88079
+\]
+Then $X<88.9852$ or $X>101.015$ causes $H_0$ to be rejected.
+
+\item[6.2.5]
+No, it will not neccessarily be rejected because a two sided parameter it more
+stringent then a single sided parameter. 
+
+\item[6.2.7]
+\begin{enumerate}
+  \item
+  For this sample the average is 12.75666667. Assuming 0.4
+two-sided confidence interval the average means we should reject if the z score is outside of
++-1.95996.
+\[
+\frac{12.7566-12.6}{\frac{0.4}{\sqrt{30}}} < 2.1443
+\]
+Since the probabality that $P(X>2.1443) = 0.0160044 $ we should reject $H_0$
+and have the machine be readjusted.
+\item
+Their is an assumption that the data is normally distributed around the mean,
+it in fact does not have the characterstics of a normal distribution, this can
+be seen from a histogram of the data. 
+\end{enumerate} 
+\item[6.3.1]
+(a) We can compute the Z score for this test
+\[
+\frac{24-52(0.40)}{\sqrt{52(0.4)(0.6)}} = 0.905822
+\]
+Since this is less the the required Z score of  1.64, $H_0$ is not rejected. It
+cannot be argued that the sound is any more effective for clearing fishing
+waters. 
+
+(b) 
+The Z score 0.905822 corresponds to a P-value of 0.817485, which means that any
+$\alpha$ value above 0.19 would cause the rejection of $H_0$
+\item[6.3.3]
+  The score can be computed as 
+  \[
+  \frac{72-0.65(120)}{\sqrt{120(0.65)(0.35)}} = -1.14834
+  \]
+  Where the one-sided 0.05 level of significance is -1.64485. Therefor thee
+  null hypothesis is not rejected. 
+\end{enumerate}
+
+\end{document}

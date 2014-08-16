@@ -1,0 +1,60 @@
+Beginning Sample 124 examples, 6 attributes
+Using 5-fold validation
+Using Test/Training Set #0 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.56
+
+Using Test/Training Set #0 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.47
+
+
+Using Test/Training Set #1 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.47
+
+Using Test/Training Set #1 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.47
+
+
+Using Test/Training Set #2 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.53
+
+Using Test/Training Set #2 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.55
+
+
+Using Test/Training Set #3 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.47
+
+Using Test/Training Set #3 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.51
+
+
+Using Test/Training Set #4 Fitness Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.47
+
+Using Test/Training Set #4 Tournament Select
+Beginning Genetic Algorithm
+Population: 75, Chance Of Mutation: 0.05, Evolutions: 20
+Testing accuracy using test set: 0.47
+
+
+Node Count Tournament 31,  Node Count Fitness 29
+Avg Accuracy Fitness: 0.5, Tournament: 0.494
+Avg Nodes Compared Fitness: 2.91, Tournament: 2.366

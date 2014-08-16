@@ -1,0 +1,419 @@
+Beginning Sample 124 examples, 6 attributes
+Using 5-fold validation
+Using Test/Training Set #0
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 4 with Gain 0.116234536417411
+Exploring attribute value 3
+DTL...6 examples, 5 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...8 examples, 5 attributes
+Selecting Maximum Attribute 2 with Gain 0.173794940695399
+Exploring attribute value 1
+DTL...5 examples, 4 attributes
+Selecting Maximum Attribute 3 with Gain 0.107309364962454
+Exploring attribute value 1
+DTL...1 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 3
+DTL...4 examples, 3 attributes
+Selecting Maximum Attribute 0 with Gain 0.103759374819711
+Exploring attribute value 1
+DTL...1 examples, 2 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...1 examples, 2 attributes
+  All Examples Have 1 classification
+Exploring attribute value 3
+DTL...2 examples, 2 attributes
+Selecting Maximum Attribute 1 with Gain 0.333333333333333
+Exploring attribute value 1
+DTL...1 examples, 1 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...0 examples, 1 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 3
+DTL...1 examples, 1 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...0 examples, 3 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 2
+DTL...3 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 4
+DTL...4 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.270426041486378
+Exploring attribute value 1
+DTL...3 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...0 examples, 4 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 3
+DTL...1 examples, 4 attributes
+  All Examples Have 1 classification
+Exploring attribute value 1
+DTL...6 examples, 5 attributes
+  All Examples Have 1 classification
+Created Entropy Tree  (pruning=False) in -1 milliseconds containing 19 nodes
+Classified 100 examples, using an average of 3.72 examined nodes
+Acheived 0.61 Accurracy in 0 Milliseconds
+
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 4 with Gain 0.116234536417411
+Node has Chi Squared 12.1875
+Exploring attribute value 3
+DTL...6 examples, 5 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...8 examples, 5 attributes
+Selecting Maximum Attribute 2 with Gain 0.173794940695399
+Node has Chi Squared 2.88
+Pruning Attribute, returning 0
+Exploring attribute value 4
+DTL...4 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.270426041486378
+Node has Chi Squared 4
+Pruning Attribute, returning 0
+Exploring attribute value 1
+DTL...6 examples, 5 attributes
+  All Examples Have 1 classification
+Created Entropy Tree  (pruning=True) in 0 milliseconds containing 5 nodes
+Classified 100 examples, using an average of 2.52 examined nodes
+Acheived 0.63 Accurracy in 0 Milliseconds
+
+
+Using Test/Training Set #1
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 4 with Gain 0.0997365267770583
+Exploring attribute value 3
+DTL...5 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.107309364962454
+Exploring attribute value 1
+DTL...2 examples, 4 attributes
+Selecting Maximum Attribute 1 with Gain 0.333333333333333
+Exploring attribute value 1
+DTL...1 examples, 3 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...1 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 3
+DTL...0 examples, 3 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 2
+DTL...2 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 3
+DTL...1 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...4 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.166666666666667
+Exploring attribute value 1
+DTL...1 examples, 4 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...1 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 3
+DTL...2 examples, 4 attributes
+Selecting Maximum Attribute 2 with Gain 0.5
+Exploring attribute value 1
+DTL...1 examples, 3 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...1 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 4
+DTL...5 examples, 5 attributes
+Selecting Maximum Attribute 5 with Gain 0.485475297227334
+Exploring attribute value 1
+DTL...2 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...3 examples, 4 attributes
+  All Examples Have 1 classification
+Exploring attribute value 1
+DTL...10 examples, 5 attributes
+  All Examples Have 1 classification
+Created Entropy Tree  (pruning=False) in 0 milliseconds containing 18 nodes
+Classified 100 examples, using an average of 4.13 examined nodes
+Acheived 0.57 Accurracy in 0 Milliseconds
+
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 4 with Gain 0.0997365267770583
+Node has Chi Squared 10.5
+Exploring attribute value 3
+DTL...5 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.107309364962454
+Node has Chi Squared 1.875
+Pruning Attribute, returning 0
+Exploring attribute value 2
+DTL...4 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.166666666666667
+Node has Chi Squared 2
+Pruning Attribute, returning 0
+Exploring attribute value 4
+DTL...5 examples, 5 attributes
+Selecting Maximum Attribute 5 with Gain 0.485475297227334
+Node has Chi Squared 5
+Pruning Attribute, returning 1
+Exploring attribute value 1
+DTL...10 examples, 5 attributes
+  All Examples Have 1 classification
+Created Entropy Tree  (pruning=True) in 0 milliseconds containing 5 nodes
+Classified 100 examples, using an average of 2.42 examined nodes
+Acheived 0.6 Accurracy in 0 Milliseconds
+
+
+Using Test/Training Set #2
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 4 with Gain 0.0976395671852782
+Exploring attribute value 3
+DTL...5 examples, 5 attributes
+Selecting Maximum Attribute 1 with Gain 0.240642698295787
+Exploring attribute value 1
+DTL...1 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...1 examples, 4 attributes
+  All Examples Have 1 classification
+Exploring attribute value 3
+DTL...3 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...5 examples, 5 attributes
+Selecting Maximum Attribute 5 with Gain 0.160964047443681
+Exploring attribute value 1
+DTL...1 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...4 examples, 4 attributes
+Selecting Maximum Attribute 0 with Gain 0.103759374819711
+Exploring attribute value 1
+DTL...1 examples, 3 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...2 examples, 3 attributes
+Selecting Maximum Attribute 2 with Gain 0.5
+Exploring attribute value 1
+DTL...1 examples, 2 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...1 examples, 2 attributes
+  All Examples Have 0 classification
+Exploring attribute value 3
+DTL...1 examples, 3 attributes
+  All Examples Have 1 classification
+Exploring attribute value 4
+DTL...7 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.156521737038236
+Exploring attribute value 1
+DTL...2 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...3 examples, 4 attributes
+Selecting Maximum Attribute 1 with Gain 0.306098611351497
+Exploring attribute value 1
+DTL...0 examples, 3 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 2
+DTL...2 examples, 3 attributes
+  All Examples Have 1 classification
+Exploring attribute value 3
+DTL...1 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 3
+DTL...2 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 1
+DTL...7 examples, 5 attributes
+  All Examples Have 1 classification
+Created Entropy Tree  (pruning=False) in 0 milliseconds containing 21 nodes
+Classified 100 examples, using an average of 4.25 examined nodes
+Acheived 0.56 Accurracy in 0 Milliseconds
+
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 4 with Gain 0.0976395671852782
+Node has Chi Squared 10.1898101898102
+Exploring attribute value 3
+DTL...5 examples, 5 attributes
+Selecting Maximum Attribute 1 with Gain 0.240642698295787
+Node has Chi Squared 5
+Pruning Attribute, returning 0
+Exploring attribute value 2
+DTL...5 examples, 5 attributes
+Selecting Maximum Attribute 5 with Gain 0.160964047443681
+Node has Chi Squared 1.875
+Pruning Attribute, returning 1
+Exploring attribute value 4
+DTL...7 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.156521737038236
+Node has Chi Squared 3.73333333333333
+Pruning Attribute, returning 0
+Exploring attribute value 1
+DTL...7 examples, 5 attributes
+  All Examples Have 1 classification
+Created Entropy Tree  (pruning=True) in -1 milliseconds containing 5 nodes
+Classified 100 examples, using an average of 2.46 examined nodes
+Acheived 0.63 Accurracy in 0 Milliseconds
+
+
+Using Test/Training Set #3
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 0 with Gain 0.0789117666112249
+Exploring attribute value 1
+DTL...10 examples, 5 attributes
+Selecting Maximum Attribute 1 with Gain 0.15633186452976
+Exploring attribute value 1
+DTL...1 examples, 4 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...6 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 3
+DTL...3 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...8 examples, 5 attributes
+Selecting Maximum Attribute 1 with Gain 0.203357688384844
+Exploring attribute value 1
+DTL...3 examples, 4 attributes
+Selecting Maximum Attribute 4 with Gain 0.229573958513622
+Exploring attribute value 3
+DTL...1 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...0 examples, 3 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 4
+DTL...1 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 1
+DTL...1 examples, 3 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...4 examples, 4 attributes
+  All Examples Have 1 classification
+Exploring attribute value 3
+DTL...1 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 3
+DTL...6 examples, 5 attributes
+Selecting Maximum Attribute 4 with Gain 0.229573958513622
+Exploring attribute value 3
+DTL...0 examples, 4 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 2
+DTL...2 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 4
+DTL...2 examples, 4 attributes
+  All Examples Have 1 classification
+Exploring attribute value 1
+DTL...2 examples, 4 attributes
+  All Examples Have 1 classification
+Created Entropy Tree  (pruning=False) in 0 milliseconds containing 18 nodes
+Classified 100 examples, using an average of 4.54 examined nodes
+Acheived 0.81 Accurracy in 0 Milliseconds
+
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 0 with Gain 0.0789117666112249
+Node has Chi Squared 7.09714285714286
+Pruning Attribute, returning 0
+Created Entropy Tree  (pruning=True) in 0 milliseconds containing 1 nodes
+Classified 100 examples, using an average of 0 examined nodes
+Acheived 0.48 Accurracy in 0 Milliseconds
+
+
+Using Test/Training Set #4
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 5 with Gain 0.0650379901751682
+Exploring attribute value 1
+DTL...13 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.0661520230898398
+Exploring attribute value 1
+DTL...5 examples, 4 attributes
+Selecting Maximum Attribute 2 with Gain 0.209986547010987
+Exploring attribute value 1
+DTL...2 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...3 examples, 3 attributes
+Selecting Maximum Attribute 1 with Gain 0.0838763891292743
+Exploring attribute value 1
+DTL...1 examples, 2 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...0 examples, 2 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 3
+DTL...2 examples, 2 attributes
+Selecting Maximum Attribute 4 with Gain 0.25
+Exploring attribute value 3
+DTL...0 examples, 1 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 2
+DTL...0 examples, 1 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 4
+DTL...1 examples, 1 attributes
+  All Examples Have 0 classification
+Exploring attribute value 1
+DTL...1 examples, 1 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...6 examples, 4 attributes
+Selecting Maximum Attribute 1 with Gain 0.306098611351497
+Exploring attribute value 1
+DTL...3 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...2 examples, 3 attributes
+  All Examples Have 1 classification
+Exploring attribute value 3
+DTL...1 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 3
+DTL...2 examples, 4 attributes
+  All Examples Have 1 classification
+Exploring attribute value 2
+DTL...11 examples, 5 attributes
+Selecting Maximum Attribute 0 with Gain 0.0481622532818217
+Exploring attribute value 1
+DTL...5 examples, 4 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...4 examples, 4 attributes
+Selecting Maximum Attribute 1 with Gain 0.270426041486378
+Exploring attribute value 1
+DTL...3 examples, 3 attributes
+  All Examples Have 0 classification
+Exploring attribute value 2
+DTL...1 examples, 3 attributes
+  All Examples Have 1 classification
+Exploring attribute value 3
+DTL...0 examples, 3 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value 3
+DTL...2 examples, 4 attributes
+  All Examples Have 0 classification
+Created Entropy Tree  (pruning=False) in 0 milliseconds containing 24 nodes
+Classified 100 examples, using an average of 4.59 examined nodes
+Acheived 0.63 Accurracy in 0 Milliseconds
+
+DTL...24 examples, 6 attributes
+Selecting Maximum Attribute 5 with Gain 0.0650379901751682
+Node has Chi Squared 3.96168537345008
+Pruning Attribute, returning 0
+Created Entropy Tree  (pruning=True) in 0 milliseconds containing 1 nodes
+Classified 100 examples, using an average of 0 examined nodes
+Acheived 0.45 Accurracy in 0 Milliseconds
+
+
+Avg Nodes Pruned: 3.4, Unpruned: 20
+Avg Accuracy Pruned: 0.558, Unpruned: 0.636
+Avg Nodes Compared Pruned: 1.48, Unpruned: 4.246

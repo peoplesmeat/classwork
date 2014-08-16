@@ -1,0 +1,447 @@
+Beginning Sample 435 examples, 16 attributes
+Using 5-fold validation
+Using Test/Training Set #0
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.218522849780984
+Exploring attribute value y
+DTL...32 examples, 15 attributes
+Selecting Maximum Attribute 11 with Gain 0.0922280066126042
+Exploring attribute value y
+DTL...25 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...6 examples, 14 attributes
+Selecting Maximum Attribute 12 with Gain 0.194987500240385
+Exploring attribute value y
+DTL...2 examples, 13 attributes
+Selecting Maximum Attribute 2 with Gain 0.333333333333333
+Exploring attribute value n
+DTL...1 examples, 12 attributes
+  All Examples Have republican classification
+Exploring attribute value y
+DTL...1 examples, 12 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...0 examples, 12 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value ?
+DTL...1 examples, 13 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...3 examples, 13 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...1 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...4 examples, 15 attributes
+Selecting Maximum Attribute 1 with Gain 0.270426041486378
+Exploring attribute value y
+DTL...3 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...0 examples, 14 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value ?
+DTL...1 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...51 examples, 15 attributes
+Selecting Maximum Attribute 11 with Gain 0.0252011140782582
+Exploring attribute value y
+DTL...3 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...44 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...4 examples, 14 attributes
+Selecting Maximum Attribute 2 with Gain 0.270426041486378
+Exploring attribute value n
+DTL...1 examples, 13 attributes
+  All Examples Have republican classification
+Exploring attribute value y
+DTL...3 examples, 13 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...0 examples, 13 attributes
+  There are no examples in this set, returning default value
+Created Entropy Tree  (pruning=False) in 0 milliseconds containing 22 nodes
+Classified 348 examples, using an average of 4.01724137931035 examined nodes
+Acheived 0.922413793103448 Accurracy in -1 Milliseconds
+
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.218522849780984
+Node has Chi Squared 67.6016376812822
+Exploring attribute value y
+DTL...32 examples, 15 attributes
+Selecting Maximum Attribute 11 with Gain 0.0922280066126042
+Node has Chi Squared 16.3065134099617
+Exploring attribute value y
+DTL...25 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...6 examples, 14 attributes
+Selecting Maximum Attribute 12 with Gain 0.194987500240385
+Node has Chi Squared 3.75
+Pruning Attribute, returning republican
+Exploring attribute value ?
+DTL...1 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...4 examples, 15 attributes
+Selecting Maximum Attribute 1 with Gain 0.270426041486378
+Node has Chi Squared 4
+Pruning Attribute, returning democrat
+Exploring attribute value n
+DTL...51 examples, 15 attributes
+Selecting Maximum Attribute 11 with Gain 0.0252011140782582
+Node has Chi Squared 11.985
+Exploring attribute value y
+DTL...3 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...44 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...4 examples, 14 attributes
+Selecting Maximum Attribute 2 with Gain 0.270426041486378
+Node has Chi Squared 4
+Pruning Attribute, returning democrat
+Created Entropy Tree  (pruning=True) in 0 milliseconds containing 10 nodes
+Classified 348 examples, using an average of 3.76149425287356 examined nodes
+Acheived 0.931034482758621 Accurracy in 0 Milliseconds
+
+
+Using Test/Training Set #1
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.269046123972307
+Exploring attribute value y
+DTL...40 examples, 15 attributes
+Selecting Maximum Attribute 12 with Gain 0.0655223896727745
+Exploring attribute value y
+DTL...32 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...2 examples, 14 attributes
+Selecting Maximum Attribute 0 with Gain 0.333333333333333
+Exploring attribute value n
+DTL...1 examples, 13 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...0 examples, 13 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value y
+DTL...1 examples, 13 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...6 examples, 14 attributes
+Selecting Maximum Attribute 1 with Gain 0.306098611351497
+Exploring attribute value y
+DTL...2 examples, 13 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...4 examples, 13 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...0 examples, 13 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value ?
+DTL...1 examples, 15 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...46 examples, 15 attributes
+  All Examples Have democrat classification
+Created Entropy Tree  (pruning=False) in -1 milliseconds containing 13 nodes
+Classified 348 examples, using an average of 2.81896551724138 examined nodes
+Acheived 0.939655172413793 Accurracy in 0 Milliseconds
+
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.269046123972307
+Node has Chi Squared 75.6465
+Exploring attribute value y
+DTL...40 examples, 15 attributes
+Selecting Maximum Attribute 12 with Gain 0.0655223896727745
+Node has Chi Squared 13.5735735735736
+Exploring attribute value y
+DTL...32 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...2 examples, 14 attributes
+Selecting Maximum Attribute 0 with Gain 0.333333333333333
+Node has Chi Squared 2
+Pruning Attribute, returning republican
+Exploring attribute value n
+DTL...6 examples, 14 attributes
+Selecting Maximum Attribute 1 with Gain 0.306098611351497
+Node has Chi Squared 6
+Pruning Attribute, returning republican
+Exploring attribute value ?
+DTL...1 examples, 15 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...46 examples, 15 attributes
+  All Examples Have democrat classification
+Created Entropy Tree  (pruning=True) in -1 milliseconds containing 7 nodes
+Classified 348 examples, using an average of 2.69252873563218 examined nodes
+Acheived 0.954022988505747 Accurracy in 0 Milliseconds
+
+
+Using Test/Training Set #2
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.264067019448214
+Exploring attribute value y
+DTL...33 examples, 15 attributes
+Selecting Maximum Attribute 9 with Gain 0.0262777920877095
+Exploring attribute value y
+DTL...19 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...14 examples, 14 attributes
+Selecting Maximum Attribute 15 with Gain 0.0340158554256962
+Exploring attribute value y
+DTL...5 examples, 13 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...4 examples, 13 attributes
+Selecting Maximum Attribute 11 with Gain 0.270426041486378
+Exploring attribute value y
+DTL...1 examples, 12 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...1 examples, 12 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...2 examples, 12 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...5 examples, 13 attributes
+Selecting Maximum Attribute 10 with Gain 0.107309364962454
+Exploring attribute value ?
+DTL...0 examples, 12 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value n
+DTL...3 examples, 12 attributes
+  All Examples Have republican classification
+Exploring attribute value y
+DTL...2 examples, 12 attributes
+Selecting Maximum Attribute 0 with Gain 0.333333333333333
+Exploring attribute value n
+DTL...1 examples, 11 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...0 examples, 11 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value y
+DTL...1 examples, 11 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...0 examples, 14 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value ?
+DTL...3 examples, 15 attributes
+Selecting Maximum Attribute 10 with Gain 0.306098611351497
+Exploring attribute value ?
+DTL...1 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...1 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value y
+DTL...1 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...51 examples, 15 attributes
+  All Examples Have democrat classification
+Created Entropy Tree  (pruning=False) in 0 milliseconds containing 22 nodes
+Classified 348 examples, using an average of 3.39942528735632 examined nodes
+Acheived 0.939655172413793 Accurracy in -1 Milliseconds
+
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.264067019448214
+Node has Chi Squared 76.0530991735537
+Exploring attribute value y
+DTL...33 examples, 15 attributes
+Selecting Maximum Attribute 9 with Gain 0.0262777920877095
+Node has Chi Squared 2.88940092165899
+Pruning Attribute, returning republican
+Exploring attribute value ?
+DTL...3 examples, 15 attributes
+Selecting Maximum Attribute 10 with Gain 0.306098611351497
+Node has Chi Squared 3
+Pruning Attribute, returning democrat
+Exploring attribute value n
+DTL...51 examples, 15 attributes
+  All Examples Have democrat classification
+Created Entropy Tree  (pruning=True) in 0 milliseconds containing 4 nodes
+Classified 348 examples, using an average of 2.14942528735632 examined nodes
+Acheived 0.954022988505747 Accurracy in 0 Milliseconds
+
+
+Using Test/Training Set #3
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.231490646081464
+Exploring attribute value y
+DTL...42 examples, 15 attributes
+Selecting Maximum Attribute 10 with Gain 0.0877467162369181
+Exploring attribute value ?
+DTL...2 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...32 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value y
+DTL...8 examples, 14 attributes
+Selecting Maximum Attribute 2 with Gain 0.182931646898466
+Exploring attribute value n
+DTL...5 examples, 13 attributes
+Selecting Maximum Attribute 4 with Gain 0.240642698295787
+Exploring attribute value y
+DTL...4 examples, 12 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...0 examples, 12 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value n
+DTL...1 examples, 12 attributes
+  All Examples Have democrat classification
+Exploring attribute value y
+DTL...3 examples, 13 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...0 examples, 13 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value ?
+DTL...2 examples, 15 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...43 examples, 15 attributes
+Selecting Maximum Attribute 2 with Gain 0.0210104127550852
+Exploring attribute value n
+DTL...7 examples, 14 attributes
+Selecting Maximum Attribute 0 with Gain 0.0660391403768011
+Exploring attribute value n
+DTL...3 examples, 13 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...1 examples, 13 attributes
+  All Examples Have democrat classification
+Exploring attribute value y
+DTL...3 examples, 13 attributes
+Selecting Maximum Attribute 4 with Gain 0.306098611351497
+Exploring attribute value y
+DTL...2 examples, 12 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...0 examples, 12 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value n
+DTL...1 examples, 12 attributes
+  All Examples Have republican classification
+Exploring attribute value y
+DTL...35 examples, 14 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...1 examples, 14 attributes
+  All Examples Have democrat classification
+Created Entropy Tree  (pruning=False) in -1 milliseconds containing 22 nodes
+Classified 348 examples, using an average of 4.44827586206897 examined nodes
+Acheived 0.948275862068966 Accurracy in 0 Milliseconds
+
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.231490646081464
+Node has Chi Squared 68.4179764034415
+Exploring attribute value y
+DTL...42 examples, 15 attributes
+Selecting Maximum Attribute 10 with Gain 0.0877467162369181
+Node has Chi Squared 18.7894736842105
+Exploring attribute value ?
+DTL...2 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...32 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value y
+DTL...8 examples, 14 attributes
+Selecting Maximum Attribute 2 with Gain 0.182931646898466
+Node has Chi Squared 4.8
+Pruning Attribute, returning republican
+Exploring attribute value ?
+DTL...2 examples, 15 attributes
+  All Examples Have democrat classification
+Exploring attribute value n
+DTL...43 examples, 15 attributes
+Selecting Maximum Attribute 2 with Gain 0.0210104127550852
+Node has Chi Squared 5.26530612244898
+Pruning Attribute, returning democrat
+Created Entropy Tree  (pruning=True) in 0 milliseconds containing 7 nodes
+Classified 348 examples, using an average of 3.02873563218391 examined nodes
+Acheived 0.959770114942529 Accurracy in -1 Milliseconds
+
+
+Using Test/Training Set #4
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.265482595831793
+Exploring attribute value y
+DTL...30 examples, 15 attributes
+Selecting Maximum Attribute 15 with Gain 0.0638447453152144
+Exploring attribute value y
+DTL...16 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...5 examples, 14 attributes
+Selecting Maximum Attribute 11 with Gain 0.323650198151556
+Exploring attribute value y
+DTL...2 examples, 13 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...2 examples, 13 attributes
+  All Examples Have democrat classification
+Exploring attribute value ?
+DTL...1 examples, 13 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...9 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...1 examples, 15 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...56 examples, 15 attributes
+  All Examples Have democrat classification
+Created Entropy Tree  (pruning=False) in 0 milliseconds containing 10 nodes
+Classified 348 examples, using an average of 2.94827586206897 examined nodes
+Acheived 0.933908045977011 Accurracy in 0 Milliseconds
+
+DTL...87 examples, 16 attributes
+Selecting Maximum Attribute 3 with Gain 0.265482595831793
+Node has Chi Squared 78.6
+Exploring attribute value y
+DTL...30 examples, 15 attributes
+Selecting Maximum Attribute 15 with Gain 0.0638447453152144
+Node has Chi Squared 10.7142857142857
+Exploring attribute value y
+DTL...16 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...5 examples, 14 attributes
+Selecting Maximum Attribute 11 with Gain 0.323650198151556
+Node has Chi Squared 5
+Pruning Attribute, returning republican
+Exploring attribute value n
+DTL...9 examples, 14 attributes
+  All Examples Have republican classification
+Exploring attribute value ?
+DTL...1 examples, 15 attributes
+  All Examples Have republican classification
+Exploring attribute value n
+DTL...56 examples, 15 attributes
+  All Examples Have democrat classification
+Created Entropy Tree  (pruning=True) in -1 milliseconds containing 7 nodes
+Classified 348 examples, using an average of 2.86781609195402 examined nodes
+Acheived 0.936781609195402 Accurracy in 0 Milliseconds
+
+
+Avg Nodes Pruned: 7, Unpruned: 17.8
+Avg Accuracy Pruned: 0.947126436781609, Unpruned: 0.936781609195402
+Avg Nodes Compared Pruned: 2.9, Unpruned: 3.5264367816092

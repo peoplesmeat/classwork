@@ -1,0 +1,1021 @@
+Beginning Sample 8124 examples, 22 attributes
+Using 5-fold validation
+Using Test/Training Set #0
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.884208454203476
+Exploring attribute value p
+DTL...55 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...77 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...87 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...723 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.155096623459694
+Exploring attribute value k
+DTL...265 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...262 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...8 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...144 examples, 20 attributes
+Selecting Maximum Attribute 21 with Gain 0.410533622580193
+Exploring attribute value u
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value g
+DTL...60 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value m
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value d
+DTL...15 examples, 19 attributes
+Selecting Maximum Attribute 1 with Gain 0.353359335021421
+Exploring attribute value s
+DTL...1 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...7 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value f
+DTL...7 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value g
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value p
+DTL...14 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...42 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...13 examples, 19 attributes
+Selecting Maximum Attribute 2 with Gain 0.619382194678764
+Exploring attribute value n
+DTL...5 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...1 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value w
+DTL...1 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value g
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value e
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value p
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value b
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value u
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value c
+DTL...6 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value r
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value r
+DTL...15 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...13 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...7 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...405 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...37 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...123 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...108 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...9 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=False) in -18 milliseconds containing 40 nodes
+Classified 6500 examples, using an average of 6.01584615384615 examined nodes
+Acheived 0.999384615384615 Accurracy in -4 Milliseconds
+
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.884208454203476
+Node has Chi Squared 1504.96722562618
+Exploring attribute value p
+DTL...55 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...77 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...87 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...723 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.155096623459694
+Node has Chi Squared 376.44173037479
+Exploring attribute value k
+DTL...265 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...262 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...8 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...144 examples, 20 attributes
+Selecting Maximum Attribute 21 with Gain 0.410533622580193
+Node has Chi Squared 117.415384615385
+Exploring attribute value u
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value g
+DTL...60 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value m
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value d
+DTL...15 examples, 19 attributes
+Selecting Maximum Attribute 1 with Gain 0.353359335021421
+Node has Chi Squared 15
+Exploring attribute value s
+DTL...1 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...7 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value f
+DTL...7 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value g
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value p
+DTL...14 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...42 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...13 examples, 19 attributes
+Selecting Maximum Attribute 2 with Gain 0.619382194678764
+Node has Chi Squared 13
+Pruning Attribute, returning e
+Exploring attribute value r
+DTL...15 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...13 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...7 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...405 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...37 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...123 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...108 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...9 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=True) in -26 milliseconds containing 30 nodes
+Classified 6500 examples, using an average of 5.98261538461538 examined nodes
+Acheived 0.997230769230769 Accurracy in -4 Milliseconds
+
+
+Using Test/Training Set #1
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.90968091572184
+Exploring attribute value p
+DTL...58 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...93 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...84 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...686 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.158292196071082
+Exploring attribute value k
+DTL...252 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...274 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...101 examples, 20 attributes
+Selecting Maximum Attribute 14 with Gain 0.279196838094421
+Exploring attribute value w
+DTL...63 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value p
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value g
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value b
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value n
+DTL...15 examples, 19 attributes
+Selecting Maximum Attribute 10 with Gain 0.566509506552905
+Exploring attribute value e
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value c
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value b
+DTL...13 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value r
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value ?
+DTL...2 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value e
+DTL...18 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...5 examples, 19 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value c
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value r
+DTL...16 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...11 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...14 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...418 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...40 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...116 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...121 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...8 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=False) in -20 milliseconds containing 33 nodes
+Classified 6500 examples, using an average of 5.92892307692308 examined nodes
+Acheived 0.998769230769231 Accurracy in -4 Milliseconds
+
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.90968091572184
+Node has Chi Squared 1534.97869637651
+Exploring attribute value p
+DTL...58 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...93 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...84 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...686 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.158292196071082
+Node has Chi Squared 484.946616204017
+Exploring attribute value k
+DTL...252 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...274 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...101 examples, 20 attributes
+Selecting Maximum Attribute 14 with Gain 0.279196838094421
+Node has Chi Squared 74.1280648429585
+Exploring attribute value w
+DTL...63 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value p
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value g
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value b
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value n
+DTL...15 examples, 19 attributes
+Selecting Maximum Attribute 10 with Gain 0.566509506552905
+Node has Chi Squared 15
+Exploring attribute value e
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value c
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value b
+DTL...13 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value r
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value ?
+DTL...2 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value e
+DTL...18 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...5 examples, 19 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value c
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value r
+DTL...16 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...11 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...14 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...418 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...40 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...116 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...121 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...8 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=True) in -18 milliseconds containing 33 nodes
+Classified 6500 examples, using an average of 5.92892307692308 examined nodes
+Acheived 0.998769230769231 Accurracy in -4 Milliseconds
+
+
+Using Test/Training Set #2
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.908523376664971
+Exploring attribute value p
+DTL...51 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...84 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...81 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...706 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.147098490928385
+Exploring attribute value k
+DTL...266 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...268 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...8 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...120 examples, 20 attributes
+Selecting Maximum Attribute 21 with Gain 0.231449414328999
+Exploring attribute value u
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value g
+DTL...69 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value m
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value d
+DTL...5 examples, 19 attributes
+Selecting Maximum Attribute 7 with Gain 0.721928094887362
+Exploring attribute value n
+DTL...4 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value b
+DTL...1 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value p
+DTL...4 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...30 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...12 examples, 19 attributes
+Selecting Maximum Attribute 2 with Gain 0.91829583405449
+Exploring attribute value n
+DTL...5 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...2 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value w
+DTL...2 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value g
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value e
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value p
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value b
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value u
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value c
+DTL...3 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value r
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value r
+DTL...15 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...8 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...12 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...441 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...36 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...108 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...110 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...7 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=False) in -18 milliseconds containing 38 nodes
+Classified 6500 examples, using an average of 6.05738461538462 examined nodes
+Acheived 1 Accurracy in -4 Milliseconds
+
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.908523376664971
+Node has Chi Squared 1534.82187951331
+Exploring attribute value p
+DTL...51 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...84 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...81 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...706 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.147098490928385
+Node has Chi Squared 469.087690708087
+Exploring attribute value k
+DTL...266 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...268 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...8 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...120 examples, 20 attributes
+Selecting Maximum Attribute 21 with Gain 0.231449414328999
+Node has Chi Squared 64.2857142857143
+Exploring attribute value u
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value g
+DTL...69 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value m
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value d
+DTL...5 examples, 19 attributes
+Selecting Maximum Attribute 7 with Gain 0.721928094887362
+Node has Chi Squared 5
+Pruning Attribute, returning p
+Exploring attribute value p
+DTL...4 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...30 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...12 examples, 19 attributes
+Selecting Maximum Attribute 2 with Gain 0.91829583405449
+Node has Chi Squared 12
+Pruning Attribute, returning e
+Exploring attribute value r
+DTL...15 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...8 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...12 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...441 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...36 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...108 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...110 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...7 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=True) in -19 milliseconds containing 26 nodes
+Classified 6500 examples, using an average of 6.01430769230769 examined nodes
+Acheived 0.997076923076923 Accurracy in -5 Milliseconds
+
+
+Using Test/Training Set #3
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.90771571544564
+Exploring attribute value p
+DTL...44 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...74 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...63 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...734 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.136885799938155
+Exploring attribute value k
+DTL...264 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...293 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...13 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...129 examples, 20 attributes
+Selecting Maximum Attribute 7 with Gain 0.211136669642175
+Exploring attribute value n
+DTL...20 examples, 19 attributes
+Selecting Maximum Attribute 2 with Gain 0.785688981483994
+Exploring attribute value n
+DTL...7 examples, 18 attributes
+Selecting Maximum Attribute 6 with Gain 0.591672778582327
+Exploring attribute value c
+DTL...1 examples, 17 attributes
+  All Examples Have p classification
+Exploring attribute value w
+DTL...6 examples, 17 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...4 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value w
+DTL...4 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value g
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value e
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value p
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value b
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value u
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value c
+DTL...5 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value r
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value b
+DTL...109 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value r
+DTL...14 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...10 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...5 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...6 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...433 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...38 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...115 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...116 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...7 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=False) in -18 milliseconds containing 33 nodes
+Classified 6500 examples, using an average of 5.85907692307692 examined nodes
+Acheived 1 Accurracy in -4 Milliseconds
+
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.90771571544564
+Node has Chi Squared 1534.70732098686
+Exploring attribute value p
+DTL...44 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...74 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...63 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...734 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.136885799938155
+Node has Chi Squared 458.178111121066
+Exploring attribute value k
+DTL...264 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...293 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...13 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...129 examples, 20 attributes
+Selecting Maximum Attribute 7 with Gain 0.211136669642175
+Node has Chi Squared 52.72875
+Exploring attribute value n
+DTL...20 examples, 19 attributes
+Selecting Maximum Attribute 2 with Gain 0.785688981483994
+Node has Chi Squared 16.5367965367965
+Pruning Attribute, returning e
+Exploring attribute value b
+DTL...109 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value r
+DTL...14 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...10 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...5 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...6 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...433 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...38 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...115 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...116 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...7 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=True) in -20 milliseconds containing 21 nodes
+Classified 6500 examples, using an average of 5.81184615384615 examined nodes
+Acheived 0.994 Accurracy in -5 Milliseconds
+
+
+Using Test/Training Set #4
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.919918581397744
+Exploring attribute value p
+DTL...48 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...72 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...85 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...677 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.128046169009938
+Exploring attribute value k
+DTL...247 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...247 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...10 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...130 examples, 20 attributes
+Selecting Maximum Attribute 21 with Gain 0.21206750163467
+Exploring attribute value u
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value g
+DTL...59 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value m
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value d
+DTL...9 examples, 19 attributes
+Selecting Maximum Attribute 7 with Gain 0.91829583405449
+Exploring attribute value n
+DTL...6 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value b
+DTL...3 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value p
+DTL...7 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...44 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...11 examples, 19 attributes
+Selecting Maximum Attribute 0 with Gain 0.684038435639042
+Exploring attribute value x
+DTL...3 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...1 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...0 examples, 18 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value f
+DTL...4 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value k
+DTL...2 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value c
+DTL...1 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value r
+DTL...12 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...11 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...11 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...461 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...41 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...114 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...121 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...5 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=False) in -17 milliseconds containing 34 nodes
+Classified 6500 examples, using an average of 6.02015384615385 examined nodes
+Acheived 0.998769230769231 Accurracy in -4 Milliseconds
+
+DTL...1624 examples, 22 attributes
+Selecting Maximum Attribute 4 with Gain 0.919918581397744
+Node has Chi Squared 1546.36289680307
+Exploring attribute value p
+DTL...48 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value a
+DTL...72 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...85 examples, 21 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...677 examples, 21 attributes
+Selecting Maximum Attribute 19 with Gain 0.128046169009938
+Node has Chi Squared 415.128378410022
+Exploring attribute value k
+DTL...247 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value n
+DTL...247 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value u
+DTL...0 examples, 20 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value h
+DTL...10 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...130 examples, 20 attributes
+Selecting Maximum Attribute 21 with Gain 0.21206750163467
+Node has Chi Squared 67.0342771982116
+Exploring attribute value u
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value g
+DTL...59 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value m
+DTL...0 examples, 19 attributes
+  There are no examples in this set, returning default value
+Exploring attribute value d
+DTL...9 examples, 19 attributes
+Selecting Maximum Attribute 7 with Gain 0.91829583405449
+Node has Chi Squared 9
+Exploring attribute value n
+DTL...6 examples, 18 attributes
+  All Examples Have p classification
+Exploring attribute value b
+DTL...3 examples, 18 attributes
+  All Examples Have e classification
+Exploring attribute value p
+DTL...7 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value w
+DTL...44 examples, 19 attributes
+  All Examples Have e classification
+Exploring attribute value l
+DTL...11 examples, 19 attributes
+Selecting Maximum Attribute 0 with Gain 0.684038435639042
+Node has Chi Squared 11
+Pruning Attribute, returning e
+Exploring attribute value r
+DTL...12 examples, 20 attributes
+  All Examples Have p classification
+Exploring attribute value o
+DTL...11 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value y
+DTL...11 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value b
+DTL...9 examples, 20 attributes
+  All Examples Have e classification
+Exploring attribute value f
+DTL...461 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value c
+DTL...41 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value y
+DTL...114 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value s
+DTL...121 examples, 21 attributes
+  All Examples Have p classification
+Exploring attribute value m
+DTL...5 examples, 21 attributes
+  All Examples Have p classification
+Created Entropy Tree  (pruning=True) in -19 milliseconds containing 28 nodes
+Classified 6500 examples, using an average of 5.99076923076923 examined nodes
+Acheived 0.997846153846154 Accurracy in -4 Milliseconds
+
+
+Avg Nodes Pruned: 27.6, Unpruned: 35.6
+Avg Accuracy Pruned: 0.996984615384615, Unpruned: 0.999384615384615
+Avg Nodes Compared Pruned: 5.94569230769231, Unpruned: 5.97627692307692

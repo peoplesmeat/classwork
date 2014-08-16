@@ -1,0 +1,84 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+
+\noindent Bill Davis \\
+\noindent 605.411 Problem Set 6
+
+\begin{enumerate}
+\item %Problem 1
+lwc1 \$f2, x  \\
+lwc1 \$f4, y  \\
+c.lt.s \$f2, \$f4 //Set condition if f2 $<$ f4 \\
+movt.s \$f3, \$f4 //If condition is set mov f4 into f3\\ 
+movf.s \$f3, \$f2 //If condition is not set mov f2 into f3\\
+swc1 \$f3, z //f3 now contains either x or y, mov that into z\\
+
+
+\item %Problem 2
+This suffers from resource conflicts, since both instructions use the same register operands, and use the ALU. 
+\item %Problem 3
+  \begin{enumerate}
+  \item There are 4! = 24 possible orders. 
+  \item It would require 2 bits to identify which of the 4 ways is the least recently used.
+  \item This could be done with five bits
+  \item A Pseudo-LRU could be done with only three bits. 
+
+\end{enumerate}
+\item %Problem 4
+\begin{enumerate}
+\item 
+Fully Associative \\
+$|$25 Bit Tag $|$ 7 Bit Offset $|$ \\
+The tag is used to see if any line in cache has already stored that line in memory. The offset identifies the byte we are interested in. \\
+\\
+Direct Mapped\\
+$|$20 Bit Tag$|$ 5 Bit Line $|$ 7 Bit Offset $|$ \\
+Here we have a match if the line number identified by the middle 5 bits matches the tags on one of the lines in the cache. If it does we can use the 7 bit offset to get the byte we are interested in. \\
+\\
+Set Associative \\
+$|$ 22 Bit Tag $|$ 3 Bit Set $|$ 7 Bit Offset $|$ \\
+We try to match on of the 4 lines in the set identified by the middle 3 bits 
+to see if any of them match the 22 bit tag. If they do we use the 7 bit offset to obtain the byte of interest. 
+\item 
+Fully Associative \\
+2 Matches (293824 and 293764) (3072 and 3184) \\
+\\
+Direct Mapped  \\
+1 Match (3072 and 2184)
+\\
+Set Associative \\
+2 Matches (293824 and 293764) (3072 and 3184)
+
+\item
+Fully Associative - No line replacements neccessary \\
+Direct Mapped - 2 Line replacements 2948 replaces 293824, then 293764 replaces 2948 \\
+Set Associative - 1 Line replacement, 4088 replaces 2948. \\
+
+\item 
+Fully Associative
+25 bit Tag for 32 lines = 800 bits \\
+1 bit modify per line = 32 bits \\
+832 Bits of overhead \\
+\\
+Direct Mapping
+20 bit tag for 32 lins = 640 bits \\
+1 bit modify per line = 32 bits \\
+672 bits \\
+\\
+Set Asssociative \\
+3 bit psuedo lru for 8 sets = 24 bits \\
+22 bit tag for 32 lines = 704 \\
+1 bit modify per line = 32 bits \\
+760 bits
+\end{enumerate}
+\end{enumerate}
+
+\end{document}

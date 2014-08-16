@@ -1,0 +1,686 @@
+\documentstyle[12pt]{article}
+
+\input amssymb.sty
+%\input amssym.def
+%\input amssym.tex
+
+
+\newcommand{\arrows}{\longrightarrow}
+\newcommand{\initial}{{\vartrianglelefteq}}
+
+\newcommand{\seq}[1]{\buildrel\rightharpoonup\over{#1}}
+\newcommand{\eop}{\bigstar}  % end-of-proof
+\newcommand{\kap}{K_{\rm ap}}
+\newcommand{\complB}{<\!\!\!\circ}
+\newcommand{\card}[1]{{\vert #1 \vert} }
+\newcommand{\norm}[1]{{\card{\card{#1}}}}
+\newcommand{\otp}[1]{\hbox{otp($#1$)}}
+\newcommand{\forces}{\Vdash}
+\newcommand{\decides}{\parallel}
+\newcommand{\ndecides}{\nparallel}
+%\newcommand{\models}{\vDash}
+\newcommand{\lessB}{<\!\!\!\circ}
+
+\newcommand{\ap}{{\rm ap}}
+\newcommand{\dom}{{\rm dom}}
+\newcommand{\Dom}{{\rm Dom}}
+\newcommand{\Ev}{{\rm Ev}}
+\newcommand{\id}{{\rm id}}
+\newcommand{\llg}{{l\rm g}}
+\newcommand{\Rang}{{\rm Rang}}
+\newcommand{\rge}{{\rm rge}}
+\newcommand{\crit}{{\rm crit}}
+\newcommand{\supp}{{\rm supp}}
+\newcommand{\support}{{\rm support}}
+\newcommand{\cf}{{\rm cf}}
+\newcommand{\lenght}{{\rm lg}}
+\newcommand{\md}{{\rm md}}
+
+
+\newcommand{\implies}{\Longrightarrow}
+\newcommand{\vtl}{\vartriangleleft}
+
+\newenvironment{proof}{\noindent{\bf Proof.}}{\par\bigskip}
+
+\newenvironment{Proof}{\noindent{\bf Proof.}}{\par\bigskip} 
+
+\newtheorem{THEOREM}{Theorem}[section]
+\newenvironment{theorems}{\begin{THEOREM}}
+{\end{THEOREM}}
+
+\newtheorem{Conclusion}[THEOREM]{Conclusion}
+\newenvironment{conclusion}{\begin{Conclusion}}{\end{Conclusion}}
+
+\newtheorem{LEMMA}[THEOREM]{Lemma}
+\newenvironment{lemmas}{\begin{LEMMA}}{\end{LEMMA}}
+
+\newtheorem{Main Theorem}[THEOREM]{Main Theorem}
+\newenvironment{main Theorem}{\begin{Main Theorem}} 
+{\end{Main Theorem}}
+
+\newtheorem{Theorem}[THEOREM]{Theorem}
+\newenvironment{theorem}{\begin{Theorem}}{\end{Theorem}}
+
+\newtheorem{Definition}[THEOREM]{Definition}
+\newenvironment{definition}{\begin{Definition}}{\end{Definition}}
+
+\newtheorem{Conventions}[THEOREM]{Conventions}
+\newenvironment{conventions}{\begin{Conventions}}{\end{Conventions}}
+
+
+\newtheorem{Main Definition}[THEOREM]{Main Definition}
+\newenvironment{main definition}{\begin{Main Definition}}
+{\end{Main Definition}}
+
+\newtheorem{Lemma}[THEOREM]{Lemma}
+\newenvironment{lemma}{\begin{Lemma}}{\end{Lemma}}
+
+\newtheorem{Notation}[THEOREM]{Notation}
+\newenvironment{notation}{\begin{Notation}}{\end{Notation}}
+
+\newtheorem{Convention}[THEOREM]{Convention}
+\newenvironment{convention}{\begin{Convention}}{\end{Convention}}
+
+\newtheorem{Note}[THEOREM]{Note}
+\newenvironment{note}{\begin{Note}}{\end{Note}}
+
+\newtheorem{Observation}[THEOREM]{Observation}
+\newenvironment{observation}{\begin{Observation}}
+{\end{Observation}}
+
+\newtheorem{Remark}[THEOREM]{Remark}
+\newenvironment{remark}{\begin{Remark}}{\end{Remark}}
+
+\newtheorem{Main Fact}[THEOREM]{Main Fact}
+\newenvironment{main Fact}{\begin{Main Fact}}{\end{Main Fact}}
+
+\newtheorem{Fact}[THEOREM]{Fact}
+\newenvironment{fact}{\begin{Fact}}{\end{Fact}}
+
+\newtheorem{Subfact}[THEOREM]{Subfact}
+\newenvironment{subfact}{\begin{Subfact}}{\end{Subfact}}
+
+\newtheorem{Claim}[THEOREM]{Claim}
+\newenvironment{claim}{\begin{Claim}}{\end{Claim}}
+
+\newtheorem{Main Claim}[THEOREM]{Main Claim}
+\newenvironment{main claim}{\begin{Main Claim}}{\end{Main Claim}}
+
+\newtheorem{Corrolary}[THEOREM]{Corrolary}
+\newenvironment{corrolary}{\begin{Corrolary}} 
+{\end{Corrolary}}
+
+\newtheorem{Subclaim}[THEOREM]{Subclaim}
+\newenvironment{subclaim}{\begin{Subclaim}}{\end{Subclaim}}
+
+\newtheorem{Corollary}[THEOREM]{Corollary}
+\newenvironment{corollary}{\begin{Corollary}}{\end{Corollary}}
+
+\newtheorem{Example}[THEOREM]{Example}
+\newenvironment{example}{\begin{Example}}{\end{Example}}
+
+
+\newtheorem{Proposition}[THEOREM]{Proposition}
+\newenvironment{proposition}{\begin{Proposition}}{\end{Proposition}}
+
+\newtheorem{Discussion}[THEOREM]{Discussion}
+\newenvironment{discussion}{\begin{Discussion}}{\end{Discussion}}
+
+%{\nopagebreak\mbox{}\newline
+%\makebox[\textwidth]{\hfill\eop}\par\bigskip}
+
+\newenvironment{Proof of the Subfact}
+{\noindent{\bf Proof of the Subfact.}}{\par\bigskip}
+
+\newenvironment{Proof of the Theorem}
+{\noindent{\bf Proof of the Theorem.}}{\par\bigskip}
+
+\newenvironment{Proof of the Conclusion}
+{\noindent{\bf Proof of the Conclusion.}}{\par\bigskip}
+
+\newenvironment{Proof of the Observation}
+{\noindent{\bf Proof of the Observation.}}{\par\bigskip}
+
+\newenvironment{Proof of the Fact}
+{\noindent{\bf Proof of the Fact.}}{\par\bigskip}
+
+\newenvironment{Proof of the Lemma}
+{\noindent{\bf Proof of the Lemma.}}{\par\bigskip}
+
+\newenvironment{Proof of the Claim}
+{\noindent{\bf Proof of the Claim.}}{\par\bigskip}
+
+\newenvironment{Proof of the Subclaim}
+{\noindent{\bf Proof of the Subclaim.}}{\par\medskip}
+
+\newenvironment{Proof of the Main Claim}
+{\noindent{\bf Proof of the Main Claim.}}{\par\bigskip}
+
+%{\nopagebreak\mbox{}\newline
+%\makebox[\textwidth]{\hfill\eop}\par\bigskip}
+
+% 16 April: changed font in environments made by newtheorem to roman
+% (Kids don't try this at home!)
+% 20 April: put . after theorem number
+\catcode`\@=11
+\def\@begintheorem#1#2{\rm \trivlist \item[\hskip \labelsep{\bf #1\ #2.}]}
+\def\@opargbegintheorem#1#2#3{\rm \trivlist
+      \item[\hskip \labelsep{\bf #1\ #2\ (#3).}]}
+\catcode`\@=12
+
+
+\newcommand{\andm}{{\,\,\&\,\,}}
+
+\newcommand{\stick}
+{\mbox{{\hspace{0.4ex}$\hbox{\raisebox{1ex}{$\bullet$}}
+\hspace*{-0.94ex}|$\hspace{0.6ex}}}}
+
+\newcommand{\height}{{\rm ht}}
+\newcommand{\lev}{{\rm lev}}
+\newcommand{\Suc}{{\rm Suc}}
+\newcommand{\pr}{{\rm pr}}
+\newcommand{\apr}{{\rm apr}}
+
+% more fonts
+\font\bigbold = cmb10 scaled \magstep2
+\font\bigtenrm = cmr10 scaled \magstep1
+
+\newcommand{\elementary}{\prec}
+
+\newcommand{\Bbf}{\Bbb}
+\newcommand{\vartrianglelefteq}{\trianglelefteq}
+\newcommand{\bwedge}{\bigwedge}
+\newcommand{\cwedge}{\bigwedge}
+\newcommand{\bvee}{\bigvee}
+\newcommand{\symmdif}{\bigtriangleup}
+\newcommand{\tensor}{\otimes}
+
+\newcommand{\TV}{{\rm TV}}
+\newcommand{\Club}{{\rm Club}}
+\newcommand{\Con}{{\rm Con}}
+\newcommand{\Max}{{\rm Max}}
+\newcommand{\Sk}{{\rm Sk}}
+
+\newcommand{\order}{\prec}
+\newcommand{\club}{\clubsuit}
+\newcommand{\bd}{{\rm bd}}                      %bounded ideal
+\newcommand{\into}{\rightarrow}
+
+\newcommand{\rest}{\upharpoonright}  % restriction
+\newcommand{\for}{\forall}
+\newcommand{\nacc}{\mathop{\rm nacc}}
+\newcommand{\acc}{\mathop{\rm acc}}
+\newcommand{\cl}{\mathop{\rm cl}}
+\newcommand{\cov}{\mathop{\rm cov}}
+\newcommand{\gl}{\mathop{\rm gl}}
+\newcommand{\scl}{\mathop{\rm scl}}
+\newcommand{\satisfies}{\vDash}
+\newcommand{\deq}{\buildrel{\rm def}\over =}
+\newcommand{\Min}{\mathop{\rm Min}}% minimum
+\newcommand{\mod}{\mathop{\rm mod}}
+
+% caligraphic letters
+\newcommand{\AAA}{{\cal A}}
+\newcommand{\BB}{{\cal B}}
+\newcommand{\CC}{{\cal C}}
+\newcommand{\DD}{{\cal D}}
+\newcommand{\EE}{{\cal E}}
+\newcommand{\FF}{{\cal F}}
+\newcommand{\GG}{{\cal G}}
+\newcommand{\HH}{{\cal H}}
+\newcommand{\II}{{\cal I}}
+\newcommand{\JJ}{{\cal J}}
+\newcommand{\KK}{{\cal K}}
+\newcommand{\PP}{{\cal P}}
+\newcommand{\TT}{{\cal T}}
+
+% projection functions
+\newcommand{\Piba}{\Pi^\beta_\alpha}
+\newcommand{\piba}{\pi_\alpha^\beta}  % from 2^beta to 2^alpha
+
+%\input name.tex
+\title{On uniform Eberlein compacta and c-algebras}
+\author{Mirna D\v zamonja\\
+School of Mathematics\\
+University of East Anglia\\
+Norwich, NR4 7TJ, UK\\
+\scriptsize{M.Dzamonja@uea.ac.uk}}
+
+\begin{document}
+
+
+\baselineskip=16pt
+\binoppenalty=10000
+\relpenalty=10000
+\raggedbottom
+
+\maketitle
+
+\begin{abstract} We investigate a question of Y. Benyamini, M.~E. Rudin and
+M. Wage, on the existence of universal uniform Eberlein compacta of a
+given weight, more exactly the related question of the
+existence of a universal c-algebra of a given size. We show that for any
+regular $\lambda>\aleph_1$ with
+$2^{\aleph_0}>\lambda$, there is no
+c-algebra of size $\lambda$ universal under c-embeddings.
+In fact, under these circumstances, for no $\mu<2^{\aleph_0}$
+are there $\mu$ c-algebras of size $\lambda$ such that
+every c-algebra of size $\lambda$ c-embeds into
+one of the $\mu$ given ones.
+{\footnote{The author thanks Saharon Shelah for bringing M. Bells' \cite{Bell}
+to her attention.
+This paper is dedicated to the memory of Amer Be\v slagi\'c.}
+}
+\end{abstract} 
+
+\section{Introduction.}
+We investigate the question of the existence of
+universal uniform Eberlein compacta. 
+The question of the existence of universal uniform Eberlein
+compacta of a given size was asked by Y. Benyamini, M.E. Rudin and
+M. Wage as Problem 3 in their 1977 paper \cite{Rudin}.
+In his recent paper \cite{Bell},
+M. Bell showed that this is equivalent to the existence of universal
+c-algebras under ordinary embeddings. He showed in \cite{Bell}
+that if $\lambda=2^{<\lambda}$, then there is a c-algebra
+of size $\lambda$ which is universal not just under ordinary embeddings,
+but also under a stronger notion of a c-embedding.
+We are interested in the question of the existence of such an algebra
+when the relevant instances of $GCH$ fail.
+We show that for any  regular cardinal $\lambda>\aleph_1$
+with $2^{\aleph_0}>\lambda$, there can be no c-algebra
+of size $\lambda$ into which every c-algebra of size $\lambda$ c-embeds.
+In fact, under these circumstances, for no $\mu<2^{\aleph_0}$
+are there $\mu$ c-algebras of size $\lambda$ such that every
+c-algebra of size $\lambda$ embeds into
+one of the $\mu$ given ones.
+The niceness property of the c-algebras is not used in the above.
+We also show that $\clubsuit + \neg CH$ implies that there is no c-algebra
+of size $\aleph_1$ into which every c-algebra of size $\aleph_1$ c-embeds,
+in fact, there are no $\mu<2^{\aleph_0}$ c-algebras of
+size $\aleph_1$ such that every c-algebra of size $\aleph_1$ c-embeds
+into one of them. 
+In fact, $\clubsuit_{{\rm club}}$
+suffices in the place of $\clubsuit$.
+It is a result of M. Bell from \cite{Bell} that adding
+$\aleph_2$ Cohen reals suffices to have a model in which there is no
+universal uniform Eberlein compact of weight $\aleph_1$, hence also
+no c-algebra of size $\aleph_1$ universal even under ordinary embeddings.
+
+A uniform Eberlein compact, abbreviated UEC, is
+a topological space homeomorphic to a
+weakly compact subspace of a Hilbert space.
+A UEC $X^\ast$ is said to be
+{\em universal}
+of weight $\lambda$ iff every UEC of weight $\le\lambda$ is a continuous image of it.
+The intuition suggesting
+that a universal object is the one into which all other objects of that
+kind embed is justified when one passes to the objects roughly dual to the
+UEC, so called c-algebras. Calling a c-algebra $B^\ast$ universal iff every
+other c-algebra of the same size embeds into $B^\ast$, it turns out that
+there is a universal UEC of weight $\lambda$ iff there is a universal
+c-algebra of size $\lambda$ (M. Bell in \cite{Bell}).
+Note that this result does not follow immediately from the Stone duality
+theorem, as not every UEC is 0-dimensional.
+
+For a history and further references on UEC, see papers
+\cite{Rudin} and \cite{Bell}. 
+The method
+of invariants used in this paper was developed in the context of linear orders
+by M. Kojman and S. Shelah in \cite{KjSh 409}, and they have used it in other
+contexts elsewhere.
+
+
+\section{Preliminaries.}\label{basics}
+
+\begin{Notation} For $\alpha>\theta=\cf(\theta)$, we let
+\[
+S^\alpha_\theta\deq\{\beta<\alpha:\,\cf(\beta)=\theta\}.
+\]
+\end{Notation}
+
+\begin{Definition}(1) A 
+boolean algebra $B$ is a c-{\em algebra} iff there is
+a family $\{ B_n:\,n<\omega\}$ of subsets of $B$ such that
+\begin{description}
+\item{(i)} $n\neq m\implies B_n\cap B_m=\emptyset$,
+\item{(ii)} Each $B_n$ consists of pairwise disjoint elements,
+\item{(iii)} $\bigcup_{n<\omega} B_n$ generates $B$,
+\item{(iv)} $\bigcup_{n<\omega} B_n$ has {\em the nice property}, meaning
+that for no finite $F\subseteq \bigcup_{n<\omega} B_n$ do we have $\bigvee F=1$.
+\end{description}
+We say that $\langle B_n:\,n<\omega\rangle$ witnesses that $B$ is a
+c-algebra. When discussing c-algebras, we always have in mind a fixed sequence
+witnessing this, although we may omit to mention it. We may refer to it as
+$\langle B_n(B):\,n<\omega\rangle$.
+
+\medskip
+
+{\noindent (2)} If $B_l^\ast$ for $l\in \{0,1\}$ are c-algebras,
+then a 1-1 boolean 
+homomorphism $f:\,B_0^\ast\into B^\ast_1$ is a c-{\em embedding} iff
+$f``B_n(B_0^\ast)\subseteq B_n(B_1^\ast)$ for all $n<\omega$. If there is
+such an embedding from $B^\ast_0$ to $B^\ast_1$, we write 
+\[
+B_0^\ast<B^\ast_1.
+\]
+
+{\noindent (3)} A c-algebra $B^\ast$
+of size $\lambda$ is {\em universal}
+$\lambda$ iff for any c-algebra $B$ of size $\le\lambda$, there is an
+embedding $f:\,B\into B^\ast$.
+
+{\noindent (4)} A c-algebra $B^\ast$
+of size $\lambda$ is {\em c-universal}
+$\lambda$ iff for any c-algebra $B$ of size $\le\lambda$, there is a
+c-embedding $f:\,B\into B^\ast$.
+
+{\noindent (5)} A boolean algebra is {\em almost c} iff it satisfies
+all the properties of c-algebras, except possibly for (iv) in (1) above.
+
+\end{Definition}
+
+\begin{Fact}\label{Bell1} (M. Bell, \cite{Bell}) (1) There is a universal UEC
+of size $\lambda$ iff there is a universal c-algebra of size $\lambda$.
+
+{\noindent (2)} If $\lambda=2^{<\lambda}$, then there is a c-universal
+c-algebra of size $\lambda$.
+\end{Fact}
+
+\begin{Definition} Let $\lambda=\cf(\lambda)>\aleph_0$. 
+
+{\noindent (1)} A sequence $\langle c_\delta:\,\delta\in S\rangle$
+is called a {\em club-sequence} iff $S$ is a stationary set of limit ordinals
+$<\lambda$, and for each $\delta\in S$, the set $c_\delta$ is a club subset
+of $\delta$.
+
+{\noindent (2)} A club sequence $\langle c_\delta:\,\delta\in S\rangle$
+is called {\em a club-guessing sequence} iff for every club $E$ of $\lambda$
+there is a stationary set of $\delta\in S$ such that $c_\delta
+\subseteq E$.
+\end{Definition}
+
+The following fact is a result of S. Shelah from \cite{Sh e} [III 7.8], see
+also \cite{Sh g}, and a proof is also in M. Kojman and
+S. Shelah's \cite{KjSh 409}.
+
+\begin{Fact}\label{guessing} (S. Shelah, \cite{Sh e}) Suppose $\lambda=
+\cf(\lambda)>\aleph_1$.
+
+\underline{Then} there is a club guessing sequence
+$\langle c_\delta:\,\delta\in S\subseteq S^\lambda_{\aleph_0}\rangle$.
+\end{Fact}
+
+\begin{Definition}(1) $\clubsuit$ is the statement that there is a
+sequence
+\[
+\langle c_\delta:\,\delta\mbox{ limit }<\omega_1\rangle
+\]
+with
+$c_\delta\subseteq\delta=\sup(c_\delta)$ such that for every
+$A\subseteq \omega_1$ unbounded,
+\[
+\{\delta:\,c_\delta\subseteq A\}
+\]
+is stationary.
+
+{\noindent (2)} $\clubsuit_{{\rm club}}$ is the statement obtained
+from $\clubsuit$ by replacing above in
+``every
+$A\subseteq \omega_1$ unbounded", the word ``unbounded" by ``club".
+\end{Definition}
+
+
+\section{Non-existence of c-universal c-algebras.}
+
+\begin{Theorem}\label{theorem} Suppose that $\lambda=\cf(\lambda)>\aleph_1$
+satisfies $2^{\aleph_0}>\lambda$. 
+
+\underline{Then} there is no c-universal c-algebra of size $\lambda$,
+moreover for no $\mu<2^{\aleph_0}$ are there $\mu$ c-algebras
+of size $\lambda$ such that every c-algebra of size
+$\le\lambda$ c-embeds into one of them.
+\end{Theorem}
+
+\begin{Proof} Fix $\lambda$ as in the hypothesis, and a club guessing
+sequence
+\[
+\bar{c}=\langle c_\delta:\,\delta\in S\subseteq S^\lambda_{\aleph_0}\rangle
+\]
+as guaranteed by Fact \ref{guessing}.
+
+\begin{Definition}\label{defa}
+(1) Suppose that $B$ is a boolean algebra of size $\lambda$.
+A sequence $\bar{B}=\langle B^\alpha:\,\alpha<\lambda\rangle$ is a
+{\em filtration of} $B$ iff
+\begin{description}
+\item{(i)} $B^\alpha\subseteq B^{\alpha+1}$ and $B^0=\emptyset$.
+\item{(ii)} $B^\delta=\bigcup_{\alpha<\delta} B^\alpha$ for $\delta$ limit,
+\item{(iii)} $\card{B^\alpha}<\lambda$,
+\item{(iv)} $\bigcup_{\alpha<\lambda} B^\alpha=B$.
+\end{description}
+
+{\noindent (2)} Suppose that $B$ is a c-algebra of size $\lambda$ with
+a filtration $\bar{B}$, while $\delta\in S$ and
+$b\in B\setminus B^\delta$. We define
+\[
+{\rm Inv}_{\bar{B}}(b,c_\delta)\deq\left\{
+\alpha\in c_\delta:(\exists m\ge 1)
+(\exists y\in B_m(B)\cap B^{\min(c_\delta\setminus (\alpha+1))}\setminus B^\alpha)
+\,[y\ge b]\right\}.
+\]
+If $\alpha\in {\rm Inv}_{\bar{B}}(b,c_\delta)$ because $m\ge 1$ is such that
+for some $y\ge b$ we have $y\in B_m(B)\cap 
+B^{\min(c_\delta\setminus (\alpha+1))}\setminus B^\alpha$,
+we say
+that $\alpha
+\in {\rm Inv}_{\bar{B}}(b,c_\delta)$ by virtue of $m$.
+\end{Definition}
+
+\begin{Note}\label{observe} With the notation of Definition \ref{defa}:
+
+{\noindent (1)} For every $m\ge 1$, there is at most one $\alpha\in
+{\rm Inv}_{\bar{B}}(b,c_\delta)$ which is there by virtue of $m$
+(unless $b=0$).
+
+[Why? As elements of $B_m(B)$ are pairwise disjoint.]
+
+{\noindent (2)}
+$\card{\{A:\,(\exists b\in B)(\exists\delta\in S) {\rm Inv}_{\bar{B}}(b,c_\delta)
+=A\}}\le\lambda$.
+\end{Note}
+
+\begin{Main Claim}\label{main} Suppose that
+for $\delta\in S$ we are given $A_\delta\subseteq c_\delta$
+with $\sup(A_\delta)=\delta$ and $\otp{A_\delta}=\omega$.
+
+\underline{Then} there is a c-algebra $B$ and filtration $\bar{B}$ of $B$ such that
+for all $\delta\in S$
+there is $b^0_\delta\in B\setminus B^\delta$
+such that ${\rm Inv}_{\bar{B}}(b^0_\delta,c_\delta)=A_\delta$.
+\end{Main Claim}
+
+\begin{Proof of the Main Claim} Let $f_\delta:\,\omega\into A_\delta$ be the
+increasing enumeration of $A_\delta$.
+We shall use $\alpha^\delta_m$ to stand for $f_\delta(m)$.
+
+For $n<\omega$, let $X_n$ be the boolean algebra
+generated by $\{a_\eta:\,\eta\in {}^{\le n}\lambda\}$ freely except for the
+equations
+\begin{description}
+\item{(1)} $a_{\langle\rangle}=1$,
+\item{(2)} $[\eta\neq\varepsilon\,\,\&\,\,\lg(\eta)=\lg(\varepsilon)]
+\implies a_\eta\wedge a_\varepsilon=0$,
+\item{(2)} $\eta\initial\varepsilon\implies a_\eta\ge a_\varepsilon$.
+\end{description}
+
+Let ${\cal B}^\ast$ be the product algebra $\langle
+X_n:\, n<\omega\rangle$. Let $I$ be the ideal of eventually 0 elements
+of ${\cal B}^\ast$, and let ${\cal B}\deq{\cal B}^\ast/I$. 
+
+For $\delta\in S$ let:
+\[
+b^0_\delta\deq[\langle a_{f_\delta\rest 0}, a_{f_\delta\rest 1},\ldots
+a_{f_\delta\rest n},\ldots\rangle]
+\]
+and for $m\ge 1$ let $b^m_\delta$ be the class of the function in ${\BB}^\ast$
+which is constantly equal to $a_{f_\delta\rest m}$.
+Note that $b^m_\delta\ge b^0_\delta$ for all $m\ge 1$.
+Also note that $b^0_{\delta}$ are pairwise disjoint, as for $\delta_1\neq\delta_2$
+both in $S$, we have that $A_{\delta_1}\cap A_{\delta_2}$ is finite.
+
+For $n<\omega$ let $B_n\deq\{b^n_\delta:\,\delta\in S\}$.
+Our algebra $B$ is given by
+\[
+B\deq\langle \bigcup_{n<\omega}B_n\rangle_{\BB}.
+\]
+It is easily seen
+that $B$ is a c-algebra of size $\lambda$.
+
+Next we define the filtration $\bar{B}=\langle B^\alpha:\,\alpha<\lambda\rangle$
+of $B$ by letting $B^0=\emptyset$ and for $\alpha<\lambda$
+\[
+B^{\alpha+1}\deq\left\langle \bigcup_{n<\omega} B_n\cap\{[\bar{b}]:\,(\forall n)
+(\exists \eta\in {}^{\le n}\alpha)\,[(b(n)=a_\eta\mbox{ or } b(n)=0]\}
+\right\rangle_B,
+\]
+while $B^\alpha\deq\bigcup_{\beta<\alpha}B^\beta$ for $\alpha$ limit.
+
+Clearly, $\bar{B}$ is a filtration of $B$, and
+$b^0_\delta\in B\setminus B^\delta$. The proof will be finished
+once we prove:
+
+\begin{Subclaim}\label{exact}
+For $\delta\in S$ we have ${\rm Inv}_{\bar{B}}(b^0_{\delta},
+c_\delta)=A_\delta$.
+\end{Subclaim}
+
+\begin{Proof of the Subclaim} Note that for $\delta\in S$ and $m\ge 1$
+we have
+$b^m_\delta\in B^{\min(c_\delta\setminus (\alpha^\delta_{m-1}+1))}
+\setminus B^{\alpha^\delta_{m-1}}$, hence
+$\alpha^\delta_{m-1}\in {\rm Inv}_{\bar{B}}(b_\delta^0)$ by virtue of $m$.
+Now use Note \ref{observe}(1).
+$\eop_{\ref{exact}}$ $\eop_{\ref{main}}$
+\end{Proof of the Subclaim}
+\end{Proof of the Main Claim}
+
+\begin{Claim}\label{preservation} Suppose that $\bar{A}=\langle A_\delta:\,\delta
+\in S\rangle$ is as in the statement of the Main Claim, and $B=B[\bar{A}]$ and
+$\bar{B}$ are obtained as in the Main Claim. Further
+suppose that $f:\,B\into B^\ast$ is a
+c-embedding,while
+$\bar{B}^\ast=\langle B^\alpha_\ast:\,\alpha<\lambda\rangle$
+is a filtration of $B^\ast$ (so $\card{B^\ast}=\lambda$).
+
+\underline{Then} there is a club $E$ of $\lambda$ such that for every
+$\delta\in S$ with the property $c_\delta\subseteq E$
+we have
+\[
+A_\delta={\rm Inv}_{\bar{B}}(b^0_\delta,c_\delta)={\rm Inv}_{\bar{B}^\ast}(
+f(b^0_\delta),c_\delta).
+\]
+\end{Claim}
+
+\begin{Proof of the Claim} Let
+\[
+E\deq\{\alpha<\lambda:\,
+B_\ast^\alpha\cap f``B=f``B^\alpha\}.
+\]
+Hence $E$ is a club of $\lambda$.
+
+Suppose now that $\delta\in S$ and $c_\delta\subseteq E$. Clearly
+\[
+f(b^m_\delta)\in B^{\min(c_\delta\setminus (\alpha^\delta_{m-1}+1))}_\ast
+\setminus B^{\alpha^\delta_{m-1}}_\ast,
+\]
+by the definition of $E$,
+and the rest follows as in the proof of $A_\delta=
+{\rm Inv}_{\bar{B}}(b^0_\delta,c_\delta)$.
+$\eop_{\ref{preservation}}$
+\end{Proof of the Claim}
+
+{\em Proof of the Theorem finished.}
+Suppose that $B^\ast$ is a c-algebra of size $\lambda$
+and $\bar{B}^\ast$ any filtration of $B^\ast$. As $\lambda<2^{\aleph_0}$,
+we can choose for each $\delta\in S$ an unbounded $A_\delta\subseteq c_\delta$
+of order type $\omega$,
+such that for
+no $b\in B^\ast\setminus B_\ast^\delta$
+do we have
+${\rm Inv}_{\bar{B}^\ast}
+(b,c_\delta)=A_\delta$.
+Let $\bar{A}\deq\langle A_\delta:\,\delta\in S\rangle$ and $B\deq B[\bar{A}]$.
+
+Suppose $f:\,B\into B^\ast$ is a c-embedding. Let $E$ be
+a club of $\lambda$ guaranteed by Claim \ref{preservation}, and
+let $\delta\in S$ be such that $c_\delta\subseteq E$. Hence
+${\rm Inv}_{\bar{B}^\ast}
+(f(b^0_\delta),c_\delta)=A_\delta$, a contradiction.
+
+The part of the theorem involving $\mu<2^{\aleph_0}$ is proved similarly.
+$\eop_{\ref{theorem}}$
+\end{Proof}
+
+\begin{Theorem}\label{mali} (1) Suppose that $\clubsuit_{\rm club}+\neg CH$
+holds.
+
+\underline{Then} there is no c-universal c-algebra of size $\aleph_1$.
+Moreover for no $\mu<2^{\aleph_0}$ are there $\mu$ c-algebras
+of size $\aleph_1$ such that every c-algebra of size
+$\le\aleph_1$ c-embeds into one of them.
+
+{\noindent (2)} Suppose that either $\lambda=\cf(\lambda)>\aleph_1$
+satisfies $2^{\aleph_0}>\lambda$, or $\lambda=\aleph_1$ and
+$\clubsuit_{\rm club}+\neg CH$
+holds.
+
+\underline{Then} there is no almost c-algebra of size $\lambda$
+which is c-universal for almost c-algebras of size $\le \lambda$, or even for
+c-algebras of size $\le \lambda$.
+Moreover no $\mu<2^{\aleph_0}$ almost c-algebras
+of size $\lambda$ taken together have that property.
+$\eop_{\ref{mali}}$
+\end{Theorem}
+
+\begin{Proof} The same proof as that of Theorem \ref{theorem}.
+\end{Proof}
+%\input axioms.tex
+%\input conventions.tex
+\eject
+
+\begin{thebibliography}{xxxxxxx}
+
+\bibitem[Be]{Bell} M. Bell, {\em Universal Uniform Eberlein Compact Spaces},
+submitted.
+
+\bibitem[BeRuWa]{Rudin} Y. Benyamini, M.E. Rudin and M. Wage, {\em Continuous
+Images of Weakly Compact Subsets of Banach Spaces}, Pacific Journal of
+Mathematics, vol. 70, No. 2, 1977, pg. 309-324.
+
+\bibitem[KjSh 409]{KjSh 409} M. Kojman and S. Shelah, {\em Nonexistence of universal
+orders in many cardinals}, Journal of Symbolic Logic 57 (1992), 875-891.
+
+\bibitem[KjSh 455]{KjSh 455} M. Kojman and S. Shelah, {\em Universal Abelian
+Groups}, Israel Journal of Mathematics, 1995.
+
+\bibitem[Sh g]{Sh g} S. Shelah, {\em Cardinal Arithmetic}, Oxford University
+Press 1994.
+
+\bibitem[Sh e]{Sh e} S. Shelah, {\em Universal classes}, in preparation.
+
+\bibitem[Sh 175]{Sh 175} S. Shelah, {\em Universal graphs without instances of
+$CH$}, Annals of Pure and Applied Logic vol. 26 (1984), pg. 75-87.
+
+\bibitem[Sh 175A]{Sh 175A} S. Shelah, {\em Universal graphs without instances of
+$CH$: Revisited}, Israel Journal of Math, vol. 70, No.1 (1990), pg. 69-81.
+
+\end{thebibliography}
+%\eject
+%\input private.tex
+\end{document}
+
+
+
+
+

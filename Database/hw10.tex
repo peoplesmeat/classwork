@@ -1,0 +1,23 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\noindent Bill Davis \\
+\noindent 605.441 Problem Set 8
+\begin{enumerate}
+\item 17.9 %Problem 1 
+A serial schedule is one in which operations are completed in consecutive order, without and task switching. That is, no two operations are taking place in an interleaved fasion. A serializable schedule is a schedule, that perhaps interleaves operations, that can be transformed into a serial schedule through a series of conflict equivalent transactions. \\
+A serial schedule is considered correct because any set of operations are designed to move the database from one correct state to another. It follows that these operations are correct. A serializable schedule is correct because it is equivalent to a serial schedule. 
+
+\item  17.22 
+c. This is conflict serializable. The equivalent serial schedule is $r_{2}(X), r_{3}(X), w_{3}(X) ,r_{1}(X), w_{1}(X)$ \\
+d. This schedule is not serializable. 
+
+\item 18.1 A two-phase locking protocol is a method of guaranteeing serializability. A transaction supports this protocol if all lock operations precede any unlock operations. This divides a transaction into two phases, one in which any necessary locks are gathered, and a second where all the locks are released. This ensures serializability because a transaction will not release any resources it has gathered until it has completed all of its operations. 
+
+
+\end{enumerate}
+\end{document}

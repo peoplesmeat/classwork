@@ -1,0 +1,123 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent December 3rd 2009 
+
+\noindent Homework 12
+
+\begin{enumerate}
+  \item[12.2.1]
+ $\bar{Y} = 26.5$
+ \[
+ SSTR = 2(24-26.5^2) + 3(27-26.5)^2 + 3(29.66-26.5)^2 + 2(23.5-26.5)^2 = 61.21 
+ \]
+ \[
+ MSE = 31.17
+ \]
+ \[
+ F = \frac{\frac{61.21}{3}}{\frac{31.17}{6}} = 3.9275
+ \]
+ 
+ Since at $\alpha=0.1, F_{6,3} = 3.29$, $H_0$ is rejected at the 0.1 level.
+ At $\alpha=0.05, F_{6,3} = 4.76$, in which case $H_0$ is not rejected at the
+ 0.05 level. 
+  \item[12.2.2]
+  $\bar{Y} = 55.7$
+  \[
+  SSTR = 3(59.43-55.7)^2 + 3(55.97-55.7)^2 + 3(51.7-55.7)^2 = 89.9574
+  \]
+  \[
+  MSE = 17.67
+  \]
+  \[
+  F = \frac{\frac{89.9574}{2}}{\frac{17.67}{6}} = 15.27
+  \]
+  
+  At $\alpha = 0.05, F_{6,2} = 5.14$, since $5.14<15.27$ we can reject $H_0$,
+  the Earths magnetic field did shift. 
+  \item[12.2.3]
+  
+ $\bar{Y} = 14.1$
+ SSTR = 185.953 , 92.97, 3.447 
+ 27, 728.2, 26.97
+ 28, 914.153
+ 
+  \item[12.2.7]
+  \begin{eqnarray}
+  F &=& \frac{MSTR}{MSE}  \\
+  6.40 &=& \frac{MSTR}{10.60} \\
+  MSTR &=& 67.84
+  \end{eqnarray}
+
+	\begin{eqnarray}
+	MSTR &=& \frac{SSTR}{k-1} \\
+	SSTR &=& (67.84){4} \\
+	SSTR &=&  271.36
+ 	\end{eqnarray}
+
+	\begin{eqnarray}
+	SSTOT &=& SSE + SSTR \\
+	SSE &=& 377.36 - 271.36 \\
+	SSE &=& 106
+	\end{eqnarray}
+
+	\begin{eqnarray}
+    MSE &=& \frac{SSE}{n-k} \\
+    10.60 &=& \frac{106}{n-5} \\
+    n &=& 15
+    \end{eqnarray}
+
+We can now construct the whole table
+
+\begin{tabular}{c c c c c}
+\hline \\
+Source & df & SS & MS & F \\
+\hline \\
+Treatment & 4 & 271.36 & 67.84 & 6.4 \\
+Error & 10 & 106 & 10.60 &  \\
+Total & 14 & 377.36 & & \\
+\hline\\
+\end{tabular}
+  \item[12.3.1]
+  For this problem, SSE = 1594.833, MSE = 79.74165, n-k=24-4 =20. The cutoff
+  then is $Q_{0.05,4,20}$ = 3.96. $D = \frac{3.96}{\sqrt{6}} = 1.616$ and
+  $D\sqrt{MSE} = 1.616\sqrt{79.741} = 14.43$
+  
+  \begin{tabular}{c c c c}
+  \hline \\
+  Pairwise Difference & $Y_{.i}-Y_{.j}$ & Tukey Interval & Conclusion \\
+  \hline
+  Non - Light & -0.9 & (-15.33, 13.53) & NS \\
+  Non - Moderate & -9.4 & (-23.83, 5.03) & NS  \\
+  Non - Heavy & -19.4 & (-33.83, -4.97) & REJECT \\
+  Light - Moderate & -8.5 & ( -22.93, 5.93) & NS \\
+  Light - Heavy & -18.5 & (-32.93, -4.07) & REJECT \\
+  Moderate - Heavy & -10 & (-24.43 , 4.43) & NS  \\
+  \hline \\
+  
+  \end{tabular}
+  \item[12.3.2]
+  
+  \item[12.3.3]
+  
+  \item[12.3.6]
+  No, if $\mu_2$ and $\mu_3$ are close together, but seperated from $\mu_1$ we
+  might reject $\mu_1=\mu_2$ and $\mu_1=\mu_3$, but not neccessarily reject
+  $\mu_2=\mu_3$.
+  \item[12.3.7]
+  
+\end{enumerate}
+
+\end{document}

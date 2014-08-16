@@ -1,0 +1,132 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent September 24th 2009 
+
+\noindent Homework 3
+
+\begin{enumerate} 
+  
+\item[3.6.14]
+$f_Y(y) = (3(1-y)^2) $
+\[
+E(Y) = \int_0^1 3y(1-y)^2 \,dy =1.5y^2 - 2y^3 + .75y^4 |_0^1  = 1.5-2+.75 =
+0.25
+\]
+\[ 
+E(Y^2) = \int_0^1 3y^2(1-y)^2 \,dy =y^3-1.5y^4+0.6y^5 |_0^1 = 1-1.5+.6 = .1
+\]
+\[
+E(Y^2) - E^2(Y) = \frac{1}{10} - \frac{1}{16} = \frac{3}{80}
+\]
+
+Then the variance of W if W = $-5Y+12$ is $(-5)^2(\frac{3}{80}) = \frac{75}{80}$
+\item[3.7.1]
+
+If $p_{X,Y}(x,y) = cxy$ at points (1,1),(2,1),(2,2),(3,1) then $p(1,1) = c$ and
+$p(2,1) = 2c$ and $p(2,2) = 4c$ and $p(3,1) = c$. In which case 
+\[
+c + 2c + 3c + 4c = 1 = 10c
+\] 
+
+It follows that $c=\frac{1}{10}$.
+
+\item[3.7.2]
+\[
+\int_{-1}^1 \int_{-1}^1 cx^2+cy^2\,dy\,dx = \int_{-1}^{1} 2cx^2 +
+\frac{2}{3}{c} \, dx = \frac{2}{3}cx + \frac{2}{3}cx^3 \, |_0^1 = \frac{8}{3}c
+\]
+
+And since $\frac{8}{3}c = 1$ then	 $c = \frac{3}{8}$.
+
+\item[3.7.10]
+\begin{enumerate}
+  \item
+	In this case 
+	\[
+	\int_0^1\int_0^1 c \,dy\,dx = c
+	\]
+	Therefore $c=1$
+  \item
+  \[
+  	\int_0^{0.5}\int_0^{0.25} 1 \,dy\,dx = \int_0^{0.5} 0.25 \,dx = 0.125
+ \]
+\end{enumerate}
+\item[3.7.20]
+
+\begin{enumerate}
+  \item
+\[
+f_{X,Y}(x,y) = \frac{1}{2}
+\]
+\[
+f_X(x) = \int_0,2 \frac{1}{2}\,dy = \frac{1}{2}y |_0^2 = 1
+\]
+\[
+f_Y(y) = \int_0,2 \frac{1}{2}\,dx = \frac{1}{2}x |_0^2 = 1
+\]
+
+\items
+\[
+f_{X,Y}(x,y) =  \frac{1}{x}
+\]
+\[
+f_X(x) = \int_0,1 \frac{1}{x}\,dy = \frac{1}{x}y |_0^1 = \frac{2}{x}
+\]
+\[
+f_Y(y) = \int_0,1 \frac{1}{x}\,dx = ln(x)|_0^2 = 1
+\]
+\end{enumerate}
+
+\item[4.2.3]
+The probabality that at most 1 person was born on Poisson's birthday is
+\[
+\sum_n=0^1 \frac{e^{\frac{-500n}{365}}(\frac{n}{365})^k} {0!}
+\]
+
+Where n=0 
+\[
+e^{ \frac{-500}{365}  } = 0.25414
+\]
+
+Where n=1
+\[
+\frac{ e^{\frac{-500}{365}}(\frac{500}{365})  }{ 1!  } = 0.3481
+\]
+ 
+So, $0.25414 + 0.3481 = 0.60224$.
+
+\item[4.2.21]
+\begin{enumerate}
+
+\item
+The probabality that there will be 2 accidents is
+
+\[
+\frac{e^{0.5}(0.5)^{2}}{2!} = 0.2061
+\]
+  
+\item
+The probabality that there will be 4 accidents over the next 10 days is
+\[
+\frac{e^1(1)^4}{4!} = 0.11326
+\]
+
+\end{enumerate}
+
+
+\end{enumerate}
+
+\end{document}

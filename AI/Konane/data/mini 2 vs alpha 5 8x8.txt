@@ -1,0 +1,533 @@
+Welcome to Konane!
+Enter Board Size (4,6,8)
+8
+Assign Players
+Player 1: (C)omputer, (H)uman
+c
+Enter Depth: 
+5
+(m)inimax or (a)lpha Beta: 
+a
+Player 2: (C)omputer, (H)uman
+c
+Enter Depth: 
+2
+(M)inimax or (A)lpha Beta: 
+Player1 Move (7,7) to (7,7) (with Score -1)
+Player1 has evaluated 144 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W| |
+
+Player2 Move (7,6) to (7,6) (with Score 1)
+Player2 has evaluated 5 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B| |
+W|B|W|B|W|B|W| |
+
+Player1 Move (5,7) to (7,7) (with Score -2)
+Player1 has evaluated 307 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B| |
+W|B|W|B|W| | |B|
+
+Player2 Move (6,5) to (6,7) (with Score 1)
+Player2 has evaluated 19 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B| |B|
+B|W|B|W|B|W| | |
+W|B|W|B|W| |W|B|
+
+Player1 Move (5,5) to (5,7) (with Score -2)
+Player1 has evaluated 1488 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W| | |B|
+B|W|B|W|B| | | |
+W|B|W|B|W|B|W|B|
+
+Player2 Move (7,4) to (7,6) (with Score 2)
+Player2 has evaluated 34 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B| |
+W|B|W|B|W| | | |
+B|W|B|W|B| | |W|
+W|B|W|B|W|B|W|B|
+
+Player1 Move (7,7) to (7,5) (with Score 0)
+Player1 has evaluated 4284 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B| |
+W|B|W|B|W| | |B|
+B|W|B|W|B| | | |
+W|B|W|B|W|B|W| |
+
+Player2 Move (5,4) to (7,4) (with Score 1)
+Player2 has evaluated 62 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B| | |W|
+W|B|W|B|W| | |B|
+B|W|B|W|B| | | |
+W|B|W|B|W|B|W| |
+
+Player1 Move (5,7) to (7,7) (with Score 0)
+Player1 has evaluated 7711 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B| | |W|
+W|B|W|B|W| | |B|
+B|W|B|W|B| | | |
+W|B|W|B|W| | |B|
+
+Player2 Move (7,4) to (7,6) (with Score 0)
+Player2 has evaluated 87 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B| | | |
+W|B|W|B|W| | | |
+B|W|B|W|B| | |W|
+W|B|W|B|W| | |B|
+
+Player1 Move (3,5) to (5,5) (with Score -1)
+Player1 has evaluated 12075 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B| | | |
+W|B|W| | |B| | |
+B|W|B|W|B| | |W|
+W|B|W|B|W| | |B|
+
+Player2 Move (3,6) to (5,6) (with Score 1)
+Player2 has evaluated 151 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B| | | |
+W|B|W| | |B| | |
+B|W|B| | |W| |W|
+W|B|W|B|W| | |B|
+
+Player1 Move (3,3) to (3,5) (with Score -1)
+Player1 has evaluated 21464 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B|W|
+W|B|W| |W|B|W|B|
+B|W|B| |B| | | |
+W|B|W|B| |B| | |
+B|W|B| | |W| |W|
+W|B|W|B|W| | |B|
+
+Player2 Move (7,2) to (7,4) (with Score 2)
+Player2 has evaluated 240 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B| |
+W|B|W| |W|B|W| |
+B|W|B| |B| | |W|
+W|B|W|B| |B| | |
+B|W|B| | |W| |W|
+W|B|W|B|W| | |B|
+
+Player1 Move (3,7) to (5,7) (with Score -2)
+Player1 has evaluated 43617 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B| |
+W|B|W| |W|B|W| |
+B|W|B| |B| | |W|
+W|B|W|B| |B| | |
+B|W|B| | |W| |W|
+W|B|W| | |B| |B|
+
+Player2 Move (4,3) to (4,5) (with Score 1)
+Player2 has evaluated 352 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W|B| |
+W|B|W| | |B|W| |
+B|W|B| | | | |W|
+W|B|W|B|W|B| | |
+B|W|B| | |W| |W|
+W|B|W| | |B| |B|
+
+Player1 Move (6,2) to (6,4) (with Score -1)
+Player1 has evaluated 54500 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W| | |
+W|B|W| | |B| | |
+B|W|B| | | |B|W|
+W|B|W|B|W|B| | |
+B|W|B| | |W| |W|
+W|B|W| | |B| |B|
+
+Player2 Move (1,4) to (3,4) (with Score 1)
+Player2 has evaluated 431 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W|B|W|B|W| | |
+W|B|W| | |B| | |
+B| | |W| | |B|W|
+W|B|W|B|W|B| | |
+B|W|B| | |W| |W|
+W|B|W| | |B| |B|
+
+Player1 Move (2,2) to (2,4) (with Score -1)
+Player1 has evaluated 74781 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W| |W|B|W| | |
+W|B| | | |B| | |
+B| |B|W| | |B|W|
+W|B|W|B|W|B| | |
+B|W|B| | |W| |W|
+W|B|W| | |B| |B|
+
+Player2 Move (5,2) to (5,4) (with Score 0)
+Player2 has evaluated 606 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W| |W|B| | | |
+W|B| | | | | | |
+B| |B|W| |W|B|W|
+W|B|W|B|W|B| | |
+B|W|B| | |W| |W|
+W|B|W| | |B| |B|
+
+Player1 Move (5,5) to (5,3) (with Score 1)
+Player1 has evaluated 123577 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W| |W|B| | | |
+W|B| | | |B| | |
+B| |B|W| | |B|W|
+W|B|W|B|W| | | |
+B|W|B| | |W| |W|
+W|B|W| | |B| |B|
+
+Player2 Move (1,6) to (3,6) (with Score -1)
+Player2 has evaluated 795 total nodes
+B|W|B|W|B|W|B|W|
+W|B|W|B|W|B|W|B|
+B|W| |W|B| | | |
+W|B| | | |B| | |
+B| |B|W| | |B|W|
+W|B|W|B|W| | | |
+B| | |W| |W| |W|
+W|B|W| | |B| |B|
+
+Player1 Move (6,0) to (6,2) (with Score 2)
+Player1 has evaluated 179803 total nodes
+B|W|B|W|B|W| |W|
+W|B|W|B|W|B| |B|
+B|W| |W|B| |B| |
+W|B| | | |B| | |
+B| |B|W| | |B|W|
+W|B|W|B|W| | | |
+B| | |W| |W| |W|
+W|B|W| | |B| |B|
+
+Player2 Move (3,2) to (5,2) (with Score -1)
+Player2 has evaluated 1004 total nodes
+B|W|B|W|B|W| |W|
+W|B|W|B|W|B| |B|
+B|W| | | |W|B| |
+W|B| | | |B| | |
+B| |B|W| | |B|W|
+W|B|W|B|W| | | |
+B| | |W| |W| |W|
+W|B|W| | |B| |B|
+
+Player1 Move (1,7) to (3,7) (with Score 2)
+Player1 has evaluated 223185 total nodes
+B|W|B|W|B|W| |W|
+W|B|W|B|W|B| |B|
+B|W| | | |W|B| |
+W|B| | | |B| | |
+B| |B|W| | |B|W|
+W|B|W|B|W| | | |
+B| | |W| |W| |W|
+W| | |B| |B| |B|
+
+Player2 Move (3,4) to (1,4) (with Score -1)
+Player2 has evaluated 1162 total nodes
+B|W|B|W|B|W| |W|
+W|B|W|B|W|B| |B|
+B|W| | | |W|B| |
+W|B| | | |B| | |
+B|W| | | | |B|W|
+W|B|W|B|W| | | |
+B| | |W| |W| |W|
+W| | |B| |B| |B|
+
+Player1 Move (0,4) to (2,4) (with Score 2)
+Player1 has evaluated 238219 total nodes
+B|W|B|W|B|W| |W|
+W|B|W|B|W|B| |B|
+B|W| | | |W|B| |
+W|B| | | |B| | |
+ | |B| | | |B|W|
+W|B|W|B|W| | | |
+B| | |W| |W| |W|
+W| | |B| |B| |B|
+
+Player2 Move (3,6) to (3,4) (with Score -2)
+Player2 has evaluated 1323 total nodes
+B|W|B|W|B|W| |W|
+W|B|W|B|W|B| |B|
+B|W| | | |W|B| |
+W|B| | | |B| | |
+ | |B|W| | |B|W|
+W|B|W| |W| | | |
+B| | | | |W| |W|
+W| | |B| |B| |B|
+
+Player1 Move (4,0) to (6,0) (with Score 2)
+Player1 has evaluated 268432 total nodes
+B|W|B|W| | |B|W|
+W|B|W|B|W|B| |B|
+B|W| | | |W|B| |
+W|B| | | |B| | |
+ | |B|W| | |B|W|
+W|B|W| |W| | | |
+B| | | | |W| |W|
+W| | |B| |B| |B|
+
+Player2 Move (1,2) to (1,6) (with Score -2)
+Player2 has evaluated 1513 total nodes
+B|W|B|W| | |B|W|
+W|B|W|B|W|B| |B|
+B| | | | |W|B| |
+W| | | | |B| | |
+ | |B|W| | |B|W|
+W| |W| |W| | | |
+B|W| | | |W| |W|
+W| | |B| |B| |B|
+
+Player1 Move (2,4) to (4,4) (with Score 3)
+Player1 has evaluated 282946 total nodes
+B|W|B|W| | |B|W|
+W|B|W|B|W|B| |B|
+B| | | | |W|B| |
+W| | | | |B| | |
+ | | | |B| |B|W|
+W| |W| |W| | | |
+B|W| | | |W| |W|
+W| | |B| |B| |B|
+
+Player2 Move (3,0) to (3,2) (with Score -2)
+Player2 has evaluated 1644 total nodes
+B|W|B| | | |B|W|
+W|B|W| |W|B| |B|
+B| | |W| |W|B| |
+W| | | | |B| | |
+ | | | |B| |B|W|
+W| |W| |W| | | |
+B|W| | | |W| |W|
+W| | |B| |B| |B|
+
+Player1 Move (2,0) to (2,2) (with Score 3)
+Player1 has evaluated 300498 total nodes
+B|W| | | | |B|W|
+W|B| | |W|B| |B|
+B| |B|W| |W|B| |
+W| | | | |B| | |
+ | | | |B| |B|W|
+W| |W| |W| | | |
+B|W| | | |W| |W|
+W| | |B| |B| |B|
+
+Player2 Move (4,1) to (6,1) (with Score -1)
+Player2 has evaluated 1792 total nodes
+B|W| | | | |B|W|
+W|B| | | | |W|B|
+B| |B|W| |W|B| |
+W| | | | |B| | |
+ | | | |B| |B|W|
+W| |W| |W| | | |
+B|W| | | |W| |W|
+W| | |B| |B| |B|
+
+Player1 Move (4,4) to (4,6) (with Score 3)
+Player1 has evaluated 310498 total nodes
+B|W| | | | |B|W|
+W|B| | | | |W|B|
+B| |B|W| |W|B| |
+W| | | | |B| | |
+ | | | | | |B|W|
+W| |W| | | | | |
+B|W| | |B|W| |W|
+W| | |B| |B| |B|
+
+Player2 Move (0,1) to (2,1) (with Score -3)
+Player2 has evaluated 1939 total nodes
+B|W| | | | |B|W|
+ | |W| | | |W|B|
+B| |B|W| |W|B| |
+W| | | | |B| | |
+ | | | | | |B|W|
+W| |W| | | | | |
+B|W| | |B|W| |W|
+W| | |B| |B| |B|
+
+Player1 Move (6,2) to (4,2) (with Score 3)
+Player1 has evaluated 334008 total nodes
+B|W| | | | |B|W|
+ | |W| | | |W|B|
+B| |B|W|B| | | |
+W| | | | |B| | |
+ | | | | | |B|W|
+W| |W| | | | | |
+B|W| | |B|W| |W|
+W| | |B| |B| |B|
+
+Player2 Move (7,4) to (5,4) (with Score -3)
+Player2 has evaluated 2036 total nodes
+B|W| | | | |B|W|
+ | |W| | | |W|B|
+B| |B|W|B| | | |
+W| | | | |B| | |
+ | | | | |W| | |
+W| |W| | | | | |
+B|W| | |B|W| |W|
+W| | |B| |B| |B|
+
+Player1 Move (7,7) to (7,5) (with Score 4)
+Player1 has evaluated 341555 total nodes
+B|W| | | | |B|W|
+ | |W| | | |W|B|
+B| |B|W|B| | | |
+W| | | | |B| | |
+ | | | | |W| | |
+W| |W| | | | |B|
+B|W| | |B|W| | |
+W| | |B| |B| | |
+
+Player2 Move (7,0) to (7,2) (with Score -3)
+Player2 has evaluated 2124 total nodes
+B|W| | | | |B| |
+ | |W| | | |W| |
+B| |B|W|B| | |W|
+W| | | | |B| | |
+ | | | | |W| | |
+W| |W| | | | |B|
+B|W| | |B|W| | |
+W| | |B| |B| | |
+
+Player1 Move (4,6) to (6,6) (with Score 4)
+Player1 has evaluated 344864 total nodes
+B|W| | | | |B| |
+ | |W| | | |W| |
+B| |B|W|B| | |W|
+W| | | | |B| | |
+ | | | | |W| | |
+W| |W| | | | |B|
+B|W| | | | |B| |
+W| | |B| |B| | |
+
+Player2 Move (0,3) to (0,1) (with Score -3)
+Player2 has evaluated 2166 total nodes
+B|W| | | | |B| |
+W| |W| | | |W| |
+ | |B|W|B| | |W|
+ | | | | |B| | |
+ | | | | |W| | |
+W| |W| | | | |B|
+B|W| | | | |B| |
+W| | |B| |B| | |
+
+Player1 Move (6,0) to (6,2) (with Score 30)
+Player1 has evaluated 345988 total nodes
+B|W| | | | | | |
+W| |W| | | | | |
+ | |B|W|B| |B|W|
+ | | | | |B| | |
+ | | | | |W| | |
+W| |W| | | | |B|
+B|W| | | | |B| |
+W| | |B| |B| | |
+
+Player2 Move (3,2) to (1,2) (with Score -2)
+Player2 has evaluated 2204 total nodes
+B|W| | | | | | |
+W| |W| | | | | |
+ |W| | |B| |B|W|
+ | | | | |B| | |
+ | | | | |W| | |
+W| |W| | | | |B|
+B|W| | | | |B| |
+W| | |B| |B| | |
+
+Player1 Move (5,3) to (5,5) (with Score 30)
+Player1 has evaluated 346133 total nodes
+B|W| | | | | | |
+W| |W| | | | | |
+ |W| | |B| |B|W|
+ | | | | | | | |
+ | | | | | | | |
+W| |W| | |B| |B|
+B|W| | | | |B| |
+W| | |B| |B| | |
+
+Player2 Move (7,2) to (3,2) (with Score -30)
+Player2 has evaluated 2216 total nodes
+B|W| | | | | | |
+W| |W| | | | | |
+ |W| |W| | | | |
+ | | | | | | | |
+ | | | | | | | |
+W| |W| | |B| |B|
+B|W| | | | |B| |
+W| | |B| |B| | |
+
+Player1 Move (0,6) to (0,4) (with Score 30)
+Player1 has evaluated 346157 total nodes
+B|W| | | | | | |
+W| |W| | | | | |
+ |W| |W| | | | |
+ | | | | | | | |
+B| | | | | | | |
+ | |W| | |B| |B|
+ |W| | | | |B| |
+W| | |B| |B| | |
+
+Player2 Loses!

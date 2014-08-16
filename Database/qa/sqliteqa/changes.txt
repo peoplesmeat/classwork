@@ -1,0 +1,29 @@
+Version 1.4.1 - 2005.04.25
+---------------------------------------------------------------------
+- Supports multiple result sets in a query.  Will load a data grid or
+  text area for each table returned in the query.
+- Fixed a SQL editor refresh bug
+- Added a MRU (Recent Files) menu item.
+- Will only execute the highlighted statement in the query window.
+  Similar to the SQL Server Query Analyzer.
+- The collapsible splitter bars maintain state.  
+
+Version 1.3.1 - 2005.04.08
+---------------------------------------------------------------------
+- Released under GNU GPL.
+- New SQL Editor based on the ICSharpCode Text Editor.
+- Online Help added, defualts to http://www.sqlite.org/lang.html. This can be changed in the option file.
+	Sample:
+		<section name = "Help">
+			<entry name="Online"> http://www.sqlite.org/lang.html</entry>
+		</section>
+- Refresh option to reload the database and table changes. This is done manually.
+- Opens and edits SQLite 2 & 3.
+- Creates new databases of Version 3 only.
+- Improved query saving. Added "Save As" button and the "Save" button is a little less annoying.
+- Right click tables in the "Database Objects" list for some quick table options (select, insert, etc...).
+
+
+2004.03.18
+---------------------------------------------------------------------
+Released

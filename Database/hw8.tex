@@ -1,0 +1,48 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym,epsf,epsfig}
+\usepackage{amsmath,amsthm}
+\usepackage{xy}
+\input xy
+\xyoption{all}
+\begin{document}
+\noindent Bill Davis \\
+\noindent 605.441 Problem Set 8
+\begin{enumerate}
+\item 11.6 %Problem 1 
+The property of losslessness must be preserved in a functional decomposition. This is because if a decomposition is lossless, spurious tuples will be generated, possibly adding data to the database which was never added. If a decomposition lacks dependency preservation, then the database will still be able to check the constaint that the dependency enforces, it will just require one or more join operation be completed. While this may take computational time, it does not introduce any invalid tuples to the relations. 
+\item 11.27 \\
+A key for R could be $\{$Room\_no, Days\_hours, Semester, Year$\}$. \\
+To find the 3NF Decomposition of R we need to first calculate a minimal cover. \\
+Course\_no $\rightarrow$ offering\_dept \\
+Course\_no $\rightarrow$ credit\_hours \\ 
+Course\_no $\rightarrow$ course\_level \\
+Room\_no, days\_hours, semester, year $\rightarrow$ instructor \\
+Room\_no, days\_hours, semester, year $\rightarrow$ course\_no \\
+Room\_no, days\_hours, semester, year $\rightarrow$ sec\_no \\
+Room\_no, days\_hours, semester, year $\rightarrow$ numofstudents \\
+Then the 3NF Decomposition would be \\
+$\{$Course\_no, offering\_dept, credit\_hours, course\_level$\}$ \\
+$\{$Room\_no, days\_hours, semester, year,instructor, course\_no, sec\_no,,  numstudents$\}$. \\
+The BNCF Decomposition would be the same. 
+\item 11.29(a) \\
+This decomposition has the dependency preservation property, since the projection of all the dependencies onto the decomposition are contained in the relation schemas. \\
+\begin{tabular}{|r|r|r|r|r|r|r|r|r|r|r|}
+  \hline
+&a&b&c&d&e&f&g&h&i&j \\
+\hline
+ABC & a1 & a2 & a3&a4&a5&a6&a7&a8&a9&a10\\
+ADE & a1 &&&a4&a5&&&&a9&a10\\
+BF &&a2&&&a6&a7&a8&&\\
+FGH & &&&&a6&a7&a8&&\\
+DIJ&&&a4&&&&a9&a10\\
+  \hline
+
+\end{tabular}
+\\
+So this decomposition is not lossless. 
+\item 
+13.7 %Problem 4
+Accessing a disk block is expensive because it requires movement of mechanical parts. When accessing a disk block the read/write head must be moved into the correct position and the the platters must be rotated so that the correct sectore is located directly beneath the read/write head. Only then can the block be read off of the disk and into memory. This whole operation will take several milliseconds to complete, which is an eternity in computer time, especially when thousands of block may need to be read and written at the same time. 
+\end{enumerate}
+
+\end{document}

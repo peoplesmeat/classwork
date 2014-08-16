@@ -1,0 +1,3 @@
+; Field definition file for table: GenericDataProvider
+LNAME	string	255	osenxpsuite
+FNAME	string	255	osenxpsuite

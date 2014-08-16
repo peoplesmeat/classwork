@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<profile>
+  <section name="database">
+    <entry name="LastDatabase">C:\Documents and Settings\BDavis\Desktop\qa\company.sqlite</entry>
+  </section>
+  <section name="Layout">
+    <entry name="FormLeft">622</entry>
+    <entry name="FormTop">159</entry>
+    <entry name="FormWidth">963</entry>
+    <entry name="FormHeight">828</entry>
+    <entry name="FormWindowState">Normal</entry>
+    <entry name="SideWidth">200</entry>
+    <entry name="SideHeight">213</entry>
+    <entry name="SideBarCollapsed">False</entry>
+    <entry name="MainQueryHeight">405</entry>
+    <entry name="MainMsgHeight">100</entry>
+    <entry name="BottomBarCollapsed">False</entry>
+  </section>
+  <section name="Options">
+    <entry name="DataType">sql</entry>
+  </section>
+  <section name="mru">
+    <entry name="File0">C:\Documents and Settings\BDavis\Desktop\qa\company.sqlite</entry>
+  </section>
+</profile>

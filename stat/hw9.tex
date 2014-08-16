@@ -1,0 +1,101 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent November 5th 2009 
+
+\noindent Homework 9
+
+\begin{enumerate}
+  
+  \item[9.2.5]
+  The two sample variances are 
+  \[
+  	S_{carpeted}^2 = \frac{8(1053.70) - 89.6^2}{8(7)} = 7.168571429
+  \]
+    \[
+  	S_{non-carpeted}^2 = \frac{8(838.49) - 78.3^2}{8(7)} = 10.304107143
+  \]
+  The combined variance is
+  \[
+  	\S_p =\sqrt{ \frac{7(7.168) + 7(10.304)}{8+8-2} } = 2.9556
+  \]
+  The t-score is 
+  \[
+  \frac{11.2-9.787}{2.9556\sqrt{\frac{1}{8}+\frac{1}{8}}} =  0.95615
+  \]
+  $T_{5,14} = 1.7613 > 0.956$, this sample does not imply that the means are
+  different and we should not reject $H_0$.
+  
+  \item[9.2.6]
+  \[
+  S_p = \sqrt{\frac{30(1.469)^2+56(1.350)^2}{31+57-2}} = 1.39266
+  \]
+  The t-score is 
+  \[
+\frac{3.10-2.43}{1.39266\sqrt{\frac{1}{31}+\frac{1}{57}}} = 2.1557
+  \]
+    $T_{5,86} = 1.6288 < 2.1557$ we reject $H_0$ and say that the means are
+  different
+  \item[9.2.13]
+In order to show that $S_p$ is an unbiased estimator we need to compute the
+expected value of $S_p$. 
+\[
+E(S_p) = \frac{(n-1)\sigma_x^2 + (m-1)\sigma_y^2}{n+m-2}
+\]
+where $E(S_x) = \sigma_x$ and $E(S_y) = \sigma_y$, and since $\sigma_x =
+\sigma_y$
+\[
+\frac{(n-1)\sigma_x^2 + (m-1)\sigma^2}{n+m-2} =\frac{(n-1 +
+m-1)\sigma^2}{n+m-2}  = \sigma^2
+\]
+Therefore $S_p$ is an unbiased estimator. 
+
+  \item[9.2.15]
+  \[
+  t = \frac{545.45 - 241.81}{\sqrt{\frac{428^2}{11}+\frac{183^2}{11}}} =
+  \frac{303.64}{140.34} = 2.1636
+  \]
+  To find the degrees of freedom
+  \[
+  \frac{(\frac{428^2}{11}+\frac{183^2}{11})^2}{\frac{\frac{428}{11}^2}{10} +
+  \frac{\frac{183}{11}^2}{10}} = \frac{387993296}{28659414} = 13.53
+  \]
+
+	For a one-sided interval $t_{13,0.5}  = 1.7709 < 2.1636$. We therefore reject
+	$H_0$, the data does support different means for the two samples. 
+  \item[9.5.2]
+  In this problem $\mu_x = 6.7$ and $\mu_y = 5.6$. Then $\mu_x-\mu_y = 1.1$.
+  and 
+  \[
+  s_p = \sqrt{\frac{9(0.54)^2+7(0.36)^2}{9+7-2}} = 0.5022
+  \]
+  And $T_{12,0.5} = 1.7823$ The interval is then plus/minus 
+  \[
+1.7823(0.5022)\sqrt{\frac{1}{9}+\frac{1}{7}} = 0.4510  
+  \]
+  The interval is then (0.065,1.55). Since this interval does not include 0
+  the data does imply a difference in the silver content of the two samples. 
+  
+  \item[9.5.3]
+  In this problem $\mu_x = 83.96$ and $\mu_y = 84.84$. Then $\mu_x - \mu_y =
+  -0.88$. Where $T_{10,2.5} = 2.2281$. The interval will then be plus/minus 
+  \[
+  2.2281(11.2)\sqrt{\frac{1}{5} + \frac{1}{7}} = 14.611
+  \]
+  The interval is then (-15.49, 13.73). Which includes 0, therefore the data
+  does not suggest that there is a difference between the two groups. 
+\end{enumerate}
+
+\end{document}

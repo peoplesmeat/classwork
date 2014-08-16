@@ -1,0 +1,113 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent October 22nd 2009 
+
+\noindent Homework 7
+
+\begin{enumerate}
+
+\item[6.4.3]
+To compute $\beta$ we need to compute the bounds for $H_0$ at $\alpha=0.06$
+assuming a two sided bound. This means we will reject $H_0$ if the sample mean
+is less then 88.9852 or greater then 101.015. The Z score for a sample
+mean being greater then 88.9852 if the the mean is 90 is 
+\[
+\frac{88.9852 - 90}{\frac{15}{\sqrt{22}}} = -0.317322. 
+\]
+Which corresponds to a probabality of 0.6245. Then 1 - $\beta$ is 0.3755.
+\item[6.4.5]
+If $H_0$ is that $\mu=240$ at 0.01 with 25 samples, $H_0$ is rejected if the
+sample mean is below 216.737. The z score for 216.737 if the sample mean is 220
+\[
+\frac{216.737 - 220.0}{\frac{50}{\sqrt{25}}} = -0.3263. 
+\]
+Then the probabality of not detecting that the mean has reduced to 220
+corresponds to a probabality of 0.6279.
+\item[7.3.4]
+Since the variance of a chi-square random variable with k degrees of freedom is
+2k, 
+\[
+\mathrm{Var}(\frac{(n-1)S^2}{\sigma^2}) = 2(n-1)
+\]
+and since $\mathrm{Var}(aw) = a^2\mathrm{Var}(w)$
+\[
+\mathrm{Var}(\frac{(n-1)S^2}{\sigma^2}) = \frac{(n-1)^2
+\mathrm{Var}(S^2)}{\sigma^4}
+\]
+Then 
+\[
+\frac{(n-1)^2 \mathrm{Var}(S^2)}{\sigma^4}= 2(n-1) 
+\]
+and solving for $\mathrm{Var}(S^2)$
+\[
+\mathrm{Var}(S^2) = \frac{2\sigma^4}{n-1}
+\]
+\item[7.3.9]
+\begin{enumerate}
+  \item $F^{-1}_{4,6}(0.975) = 6.23$
+  DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMOOOOOOOOOOOOOOOOOORRRRRRRR
+\end{enumerate}
+\item[7.4.1]
+\begin{enumerate}
+  \item 0.15
+  \item 1-0.20.80
+  \item 0.85
+  \item 0.99-0.15= 0.84
+\end{enumerate}
+\item[7.4.7]
+The P(T>3.24984) = 0.995, which will give us a 99 percent confidence interval.
+We need to solve the equation 
+\[
+\frac{x-0.484}{\frac{0.239}{\sqrt{10}}} = 3.24984
+\]
+X = 0.729617, therefore the 99\% interval is $0.246<X<0.729$.
+\item[7.4.16]
+This would not be reasonable, it doesn't make sense to extrapolate from these
+cities to all of the United States. For example geographic distribution and
+population size play a huge role in median home prices and there is no
+evidence that these cities represent a good cross section of these parameters.
+There are also only 16 cities, which won't even provide a city for each state.
+At the minimum the population of these cities needs to be taken into account
+when constructing a median home resale value. 
+\item[7.5.3]
+\begin{enumerate}
+  \item 2.088
+  \item 7.261
+  \item 14.041
+  \item 17.539
+\end{enumerate}
+\item[7.5.9]
+The sample variance for this problem is 26.4860. 
+\begin{enumerate}
+  \item
+  The 95\% confidence interval for 18-1 degrees of freedom is 7.564, 30.191. 
+  $\sqrt{\displaystyle\frac{17(26.4860)}{30.191}} = 3.8619$ and
+  $\sqrt{\displaystyle\frac{17(26.4860)}{7.564}} = 7.7155$. 
+  
+  The bounds are therefore (3.862, 7.16). 
+  \item
+  Two one-sided bounds are  
+  $\sqrt{\displaystyle\frac{17(26.4860)}{27.587}} = 4.040$ and
+  $\sqrt{\displaystyle\frac{17(26.4860)}{8.672}} = 7.205$
+  
+  The bounds are therefore X<7.205 and X>4.040. 
+\end{enumerate}
+\item[7.5.15] 
+
+ 
+\end{enumerate}
+
+\end{document}

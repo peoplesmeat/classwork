@@ -1,0 +1,128 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent October 15th 2009 
+
+\noindent Homework 6
+
+\begin{enumerate}
+  
+  \item[5.2.1]
+  For binomials the parameter $k$ can be determined by 
+  \[
+  k = \left(\frac{1}{n}\right)\sum_{u=1}^n x_i = \frac{5}{8}
+  \]
+  \item[5.2.3]
+  Here $f_Y(y;\lambda) = \lambda e^{-\lambda y}$ 
+  \[
+  L(\lambda) = \displaystyle\prod_{i=1}^n \lambda e^{-\lambda y_i} = \lambda^n
+  e^{-\left(\lambda \sum_{i=1}^n y_i)\right)}
+  \]
+  \[
+  $ln$\, L(\lambda) = n $ln$\, \lambda - \lambda \displaystyle\sum_{i=1}^n y_i
+  \]
+  Taking the derivative
+  \[
+  \frac{d ln\, L(\lambda)}{d\lambda} = \frac{n}{\lambda} -
+  \displaystyle\sum_{i=1}^n y_i
+  \]
+  And setting this to 0 
+  \[
+  \lambda = \frac{n}{\displaystyle\sum_{i=1}^{n} y_i} =
+  \frac{4}{8.2+9.1+10.6+4.9}  = 0.098039
+  \]
+  \item[5.2.21]
+  In this case there is only a single parameter to estimate so we only need one
+  equation. The sample moment,  $E(y_1)$ is $\frac{1}{5}(1+1) = \frac{2}{5}$.
+  \[
+  E(y_1) = \theta^1(1-\theta)^0 = \frac{2}{5} = \theta
+  \]
+  Then $\theta = \frac{2}{5}$
+  \item[5.3.1]
+  
+  The 95\% confidence interval for this problem is 
+  \[
+  0.8 - \frac{1.96\cdot0.09}{\sqrt{19}}, 0.8 + \frac{1.96\cdot0.09}{\sqrt{19}} 
+  \]
+  \[
+  (0.759531,0.840869)
+  \]
+  Where the mean of the samples is $\frac{14.56}{19} = 0.766315$. Since this is
+  inside the range the hypothesis that the bacteria has no effect is confirmed. 
+  \item[5.3.4]
+  \begin{enumerate}
+      \item 
+      	0.9900 - 0.0505 = 0.939594
+      \item
+      	0.99506 - 0 = 0.99506
+      \item 
+      	0.5 - 0.0505026 = 0.449497
+  \end{enumerate}
+  \item[5.3.5]
+  The confidence interval for this experiment is 0.8554 - 0.1685 = 0.6869. The
+  probabality that at least 4 of the intervals will contain the unknown mean is 
+  \[
+  0.6869^5 + (0.6869^4)(0.3131) = 0.222625
+  \]
+  \item[5.3.6]
+  This interval is the only 95\% interval that is symmetric, that is the real
+  value has an equal probabality of being below the estimator as above it.
+  
+  \item[5.4.1]
+  In order for $| \hat{\theta} -3 | > 1 $ , the sum of the 2 chips must be
+  greater then 8 or less then 4. The chips which deliver this total are
+  (5,5),(5,4),(4,5),(1,1),(1,2),(2,1). Then the probabality of drawing these
+  cards is $\frac{6}{25}$
+  \item[5.4.2]
+  \begin{enumerate}
+      \item
+      	In this case the probabality that the $\hat{\theta}$ is within 0.2 of 3
+      	is the case where at least one sample is greater then or equal to 2.8.
+      	That is 1 - P(All Samples $<$ 2.8), Where the probabality that a sample
+      	is less then 2.8 is
+      	\[
+      		\int_0^{2.8} \frac{1}{3}\,dy = \frac{y}{3}|_0^{2.8} = \frac{28}{30}
+      	\]
+      	\[
+      	1 - \left(\frac{28}{30}\right)^6 = 1 - 0.661029 = 0.338971
+      	\]
+      \item 
+      	Where there are only 3 samples the probabality is
+      	\[
+      	1 - \left(\frac{28}{30}\right)^3 = 1 - 0.813037 = 0.186963 
+      	\]
+  \end{enumerate}
+  \item[5.4.4]
+  We can construct a confidence interval for the sample 
+  \[
+  	\frac{19 - 20}{\frac{10}{\sqrt{16}}} = -0.4
+  \]
+  Then the probabality that the estimator will be between 19 and 21 can be
+  computed by 
+  \[
+  	P(19<\bar{X}<21) = P(-0.4 < Z < 0.4) = 0.655422 - 0.344578 = 0.310843
+  \]
+  \item[5.4.5]
+  Theorem 4.2.2 states that for a random variable X with Poisson distribution,
+  $E(X) = \lambda$. Therefore the $E(\bar{X})$ of k samples will be
+  $\frac{1}{k}\displaystyle\sum_{n=1}^{k} E(X)$ , it follows that the estimator
+  $\hat{X} = \frac{kE(X)}{k} = E(X) = \lambda$ and is therefore unbiased. 
+  
+  Anytime the expected value of a parameter equals the expected value of
+  probabality function the parameter is in, the sample mean will be an unbiased
+  estimator. 
+\end{enumerate}
+
+\end{document}

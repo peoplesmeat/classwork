@@ -1,0 +1,110 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{latexsym}
+\usepackage{amsmath,amsthm}
+
+\begin{document}
+\newcommand{\mbf}[1]{\mbox{{\bfseries #1}}}
+\newcommand{\N}{\mbf{N}}
+\renewcommand{\O}{\mbf{O}}
+\newcommand{\tabfrac}[2]{%
+	\setlength{\fboxrule}{0pt}%
+	\fbox{$\frac{#1}{#2}$}%
+}
+
+\noindent Bill Davis 
+
+\noindent November 12th 2009 
+
+\noindent Homework 10
+
+\begin{enumerate}
+  \item[9.2.3] 
+  \[
+  s_p = \sqrt{\frac{5(167.568)+11(52.07)}{12+6-2}} = 9.3895
+  \]
+    \[
+  t = \frac{28.6-12.75}{9.3895\sqrt{\frac{1}{6}+\frac{1}{12}}} = 3.3761
+  \]
+  Where for the two-sided interval $t_{0.005, 16} = 2.9208 < 3.3761$ so we
+  reject $H_0$, and can say that there is a difference between the two groups. 
+  \item[9.3.2]
+  \[
+   F = \frac{0.122^2}{0.209^2} = 0.3407
+  \]
+  $F_{(9,9),0.025} = 0.248 $ and 4.03. Since $0.3407> 0.248$ and $0.3047<4.03$
+  we fail to reject $H_0$, there is not enough evidence to say that the
+  variability is different between the two groups. 
+  \item[9.3.4]
+  \[
+  \frac{5.67^2}{3.18^2} = 3.179
+  \]
+   $F_{(9,9),0.025} = 0.248 $ and 4.03. Since $3.179> 0.248$ and $3.179<4.03$
+  we fail to reject $H_0$.
+  \item[9.3.5]
+  \[
+  \frac{0.37^2}{0.2^2} = 3.4225
+  \]
+   $F_{(9,9),0.025} = 0.248 $ and 4.03. Since $3.4225> 0.248$ and $3.4225<4.03$
+  we fail to reject $H_0$. 
+  \item[9.4.3]
+  5 of the witched wells succeeded or 0.1724. 5 of nonwitched wells succeeded
+  or 0.15625. The average of succeeded wells between the two is $\frac{10}{61} =
+  .1639$
+  \[
+  \frac{0.1724-0.15625}{ \sqrt{\frac{(0.1639)(0.8361)}{29} +
+  \frac{(0.1639)(0.8361)}{32}} } = \frac{.01615}{0.0949} = .1701 
+  \]
+  And since $0.1701 < 1.96$ we fail to reject $H_0$ and conclude witching has no
+  effect on the success of wells. 
+  \item[9.4.4]
+  \[
+  \frac{0.5824 - 0.6311}{\sqrt{\frac{(0.627)(0.3725)}{91} +
+  \frac{(0.627)(0.3725)}{1117}}} = \frac{-0.0487}{0.05426} = -0.8975
+  \]
+  Since $-0.8975 > -2.57$ we fail to reject $H_0$
+  \item[9.4.8]
+  \[
+  \frac{0.260 - 0.250}{\sqrt{\frac{0.256(0.744)}{300} +
+  \frac{0.256(0.744)}{200}}} = \frac{0.01}{0.03983} = 0.251
+  \]
+  Which at an $\alpha=0.05$, $0.251<1.76$, showing that the player is correct
+  his performance between the two seasons are significantly the same. 
+  \item[9.5.4]
+  $T_{28,0.005} = 2.7633$
+  \[
+  S_p = \sqrt{\frac{14(0.35) + 14(9.08)}{15+15-2}} = \sqrt{4.715} = 2.17
+  \]
+  Interval will be $1.96+- 2.17(2.7633)\sqrt{\frac{1}{15}+\frac{1}{15}}$ =
+  1.96 +- 2.18 = (-0.22, 4.14)
+  At the 0.01 level of significance the interval includes 0, which shows that
+  the average preening time could be the same between males and females, and
+  $H_0$ should not be rejected. 
+  \item[9.5.10]
+  \[
+  0.343 - 0.312 +- 1.29\sqrt{\frac{0.343(0.657)}{160} +
+  \frac{0.312(0.688))}{192}} = 0.031 +- 1.29(0.050)
+  \]
+  The interval is then (-0.0335, 0.0955)
+  \item[9.5.11]
+  If 
+  \[
+  \sqrt{\frac{\frac{X}{n}(1-\frac{X}{n})}{n} +
+  \frac{\frac{Y}{m}(1-\frac{Y}{m})}{m}} = \Lambda
+  \]
+  Then
+  \[
+  P(\frac{\frac{X}{n}-\frac{Y}{m} - (p_x-p_y)}{\Lambda} < Z_\alpha) = 1 - \alpha 
+  \]
+  and
+  \[
+  P(\frac{X}{n}-\frac{Y}{m} - (p_x-p_y) < \Lambda Z_\alpha)
+  \]
+  and
+  \[
+  P(\frac{X}{n}-\frac{Y}{m} - \Lambda Z_\alpha < p_x - p_y) < 1-\alpha
+  \]
+  Which proves one side of the interval. The other side could be shown in an
+  identical way. 
+\end{enumerate}
+
+\end{document}
